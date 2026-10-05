@@ -1,2 +1,46 @@
-# Add only verified information; no production events have been supplied yet.
-events: []
+# Upcoming meaningful events verified against official sources on 2026-10-05.
+events:
+- id: path-of-exile-2-full-release
+  game_id: path-of-exile-2
+  title: Full Release 1.0
+  type: release
+  date: '2026-12-11'
+  source_url: https://store.steampowered.com/news/app/2694490/view/714536220261090882
+  notes: Leaves Early Access and becomes free-to-play, introducing the Duelist. The publisher announces
+    December 11 in Pacific Time; an exact launch hour was not verified, so this all-day entry uses the
+    announced date.
+  status: confirmed
+  updated_at: '2026-10-05T18:38:49Z'
+- id: gray-zone-warfare-rogue-ops-supporter-preview
+  game_id: gray-zone-warfare
+  title: Rogue Ops 0.5 Supporter Preview
+  type: early_access
+  date: '2026-10-19'
+  source_url: https://www.grayzonewarfare.com/news/update-05-teaser
+  notes: Early preview of the major Rogue Ops update, available to Supporter Edition owners only. This
+    is a preview milestone, not the public update release or a new base-game launch. Launch time has not
+    been announced in this source.
+  status: confirmed
+  updated_at: '2026-10-05T18:38:49Z'
+- id: gray-zone-warfare-rogue-ops
+  game_id: gray-zone-warfare
+  title: Rogue Ops 0.5
+  type: major_update
+  date: '2026-10-22'
+  source_url: https://www.grayzonewarfare.com/news/update-05-teaser
+  notes: Major content update and transition from pre-alpha to alpha, with Hideout building, crafting,
+    smuggling activities, new locations and weapons. A soft wipe retains rank, apparel, vendor levels
+    and completed tasks, but resets lockers and money. Launch time has not been announced in this source.
+  status: confirmed
+  updated_at: '2026-10-05T18:38:49Z'
+- id: crimson-desert-charting-the-unknown
+  game_id: crimson-desert
+  title: Charting the Unknown
+  type: dlc
+  date: '2026-10-29'
+  source_url: https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=134
+  notes: 'Revised release date replaces the original October 15 announcement after a two-week delay. Official
+    release time: October 29, 2026 at 22:00 UTC, or 23:00 Europe/Prague (CET). This calendar remains all-day;
+    the publisher notice incorrectly labels the European timezone CEST for this date.'
+  status: confirmed
+  updated_at: '2026-10-05T18:38:49Z'
