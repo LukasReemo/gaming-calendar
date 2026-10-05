@@ -4,4 +4,87 @@ PRODID:-//Gaming Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Gaming Calendar
+BEGIN:VEVENT
+UID:crimson-desert-charting-the-unknown@gaming-calendar
+DTSTAMP:20261005T183849Z
+LAST-MODIFIED:20261005T183849Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:🧩 Crimson Desert · Charting the Unknown
+DESCRIPTION:Game: Crimson Desert\nType: Dlc\nStatus: Confirmed\n\nRevised r
+ elease date replaces the original October 15 announcement after a two-week
+  delay. Official release time: October 29\, 2026 at 22:00 UTC\, or 23:00 E
+ urope/Prague (CET). This calendar remains all-day\; the publisher notice i
+ ncorrectly labels the European timezone CEST for this date.\n\nLatest news
+ :\nPearl Abyss delayed the Charting the Unknown DLC by two weeks to Octobe
+ r 29\, 2026\, to improve polish and stability. The revised release time is
+  22:00 UTC\, which is 23:00 in Prague.\n\nNews source:\nhttps://crimsondes
+ ert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=134\n\nEvent source:\
+ nhttps://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=13
+ 4
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gray-zone-warfare-rogue-ops@gaming-calendar
+DTSTAMP:20261005T183849Z
+LAST-MODIFIED:20261005T183849Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:🔄 Gray Zone Warfare · Rogue Ops 0.5
+DESCRIPTION:Game: Gray Zone Warfare\nType: Major Update\nStatus: Confirmed\
+ n\nMajor content update and transition from pre-alpha to alpha\, with Hide
+ out building\, crafting\, smuggling activities\, new locations and weapons
+ . A soft wipe retains rank\, apparel\, vendor levels and completed tasks\,
+  but resets lockers and money. Launch time has not been announced in this 
+ source.\n\nLatest news:\nRogue Ops brings Hideout and crafting systems\, m
+ ultiple playable characters\, and major gameplay improvements as the game 
+ enters alpha. The update uses a soft wipe that retains progression but res
+ ets lockers and money. Supporter Preview begins October 19\, followed by t
+ he public update on October 22\, 2026.\n\nNews source:\nhttps://www.grayzo
+ newarfare.com/news/player-driven-improvements-rogue-ops\n\nEvent source:\n
+ https://www.grayzonewarfare.com/news/update-05-teaser
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gray-zone-warfare-rogue-ops-supporter-preview@gaming-calendar
+DTSTAMP:20261005T183849Z
+LAST-MODIFIED:20261005T183849Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:🚀 Gray Zone Warfare · Rogue Ops 0.5 Supporter Preview
+DESCRIPTION:Game: Gray Zone Warfare\nType: Early Access\nStatus: Confirmed\
+ n\nEarly preview of the major Rogue Ops update\, available to Supporter Ed
+ ition owners only. This is a preview milestone\, not the public update rel
+ ease or a new base-game launch. Launch time has not been announced in this
+  source.\n\nLatest news:\nRogue Ops brings Hideout and crafting systems\, 
+ multiple playable characters\, and major gameplay improvements as the game
+  enters alpha. The update uses a soft wipe that retains progression but re
+ sets lockers and money. Supporter Preview begins October 19\, followed by 
+ the public update on October 22\, 2026.\n\nNews source:\nhttps://www.grayz
+ onewarfare.com/news/player-driven-improvements-rogue-ops\n\nEvent source:\
+ nhttps://www.grayzonewarfare.com/news/update-05-teaser
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:path-of-exile-2-full-release@gaming-calendar
+DTSTAMP:20261005T183849Z
+LAST-MODIFIED:20261005T183849Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:🎮 Path of Exile 2 · Full Release 1.0
+DESCRIPTION:Game: Path of Exile 2\nType: Release\nStatus: Confirmed\n\nLeav
+ es Early Access and becomes free-to-play\, introducing the Duelist. The pu
+ blisher announces December 11 in Pacific Time\; an exact launch hour was n
+ ot verified\, so this all-day entry uses the announced date.\n\nLatest new
+ s:\nGrinding Gear Games announced that Path of Exile 2 will leave Early Ac
+ cess and launch free-to-play on December 11\, 2026. The full release intro
+ duces the Duelist class.\n\nNews source:\nhttps://store.steampowered.com/n
+ ews/app/2694490/view/714536220261090882\n\nEvent source:\nhttps://store.st
+ eampowered.com/news/app/2694490/view/714536220261090882
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR
