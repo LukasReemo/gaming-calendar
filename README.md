@@ -2,7 +2,7 @@
 
 A personal, all-day iCalendar feed for Apple Calendar. Git-tracked YAML is the source of truth; Python generates the feed, and GitHub Actions publishes it to GitHub Pages. There is no database, server, frontend, or research automation.
 
-The tracked games are Diablo IV, Path of Exile 2, Gray Zone Warfare, Borderlands 4, and Crimson Desert. Their news fields and the production event list are deliberately empty: no verified events or news were supplied. All test events are fictional.
+The tracked games are Diablo IV, Path of Exile 2, Gray Zone Warfare, Borderlands 4, and Crimson Desert. Production news and upcoming events are curated from linked official sources in the YAML files. Events without reliable dates and minor updates are omitted. All test events are fictional.
 
 ## Architecture and files
 
@@ -109,7 +109,7 @@ The feed is public: never put secrets or private notes in the YAML. No scheduled
 
 On macOS, open **Calendar → File → New Calendar Subscription**, paste the HTTPS `.ics` URL, and click **Subscribe**. Choose a name and an auto-refresh interval (for example, daily). Choose iCloud as the location if offered and you want the subscription across devices. Use **View → Refresh Calendars** to request a refresh.
 
-On iPhone/iPad, open **Settings → Apps → Calendar → Calendar Accounts → Add Account → Other → Add Subscribed Calendar** (older versions start at **Settings → Calendar → Accounts**), enter the URL, and save. An empty feed initially shows no game events; that is expected. Subscribe using the URL rather than downloading and importing the file, which would only create a one-time copy.
+On iPhone/iPad, open **Settings → Apps → Calendar → Calendar Accounts → Add Account → Other → Add Subscribed Calendar** (older versions start at **Settings → Calendar → Accounts**), enter the URL, and save. Games without qualifying dated events have no entries; that is expected. Subscribe using the URL rather than downloading and importing the file, which would only create a one-time copy.
 
 ## Next step
 
