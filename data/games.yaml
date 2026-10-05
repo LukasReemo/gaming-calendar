@@ -1,0 +1,27 @@
+# IDs are permanent. News is intentionally empty until verified.
+games:
+  - id: diablo-iv
+    name: Diablo IV
+    tracking_status: interested
+    tracked_event_types: [release, expansion, dlc, season, major_update, beta, early_access]
+    latest_news: ""
+  - id: path-of-exile-2
+    name: Path of Exile 2
+    tracking_status: interested
+    tracked_event_types: [release, expansion, dlc, season, major_update, beta, early_access]
+    latest_news: ""
+  - id: gray-zone-warfare
+    name: Gray Zone Warfare
+    tracking_status: interested
+    tracked_event_types: [release, expansion, dlc, season, major_update, beta, early_access]
+    latest_news: ""
+  - id: borderlands-4
+    name: Borderlands 4
+    tracking_status: interested
+    tracked_event_types: [release, expansion, dlc, season, major_update, beta, early_access]
+    latest_news: ""
+  - id: crimson-desert
+    name: Crimson Desert
+    tracking_status: interested
+    tracked_event_types: [release, expansion, dlc, season, major_update, beta, early_access]
+    latest_news: ""
