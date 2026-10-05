@@ -1,27 +1,46 @@
-# IDs are permanent. News is intentionally empty until verified.
+# IDs are permanent. News curated from official sources on 2026-10-05.
 games:
   - id: diablo-iv
     name: Diablo IV
     tracking_status: interested
     tracked_event_types: [release, expansion, dlc, season, major_update, beta, early_access]
-    latest_news: ""
+    latest_news: Season of Hell's Legacy launched on September 15, bringing a journey with Deckard Cain
+      and encounters with the Prime Evils. Blizzard also announced an Amazon class pack for the first
+      half of 2027, without a specific launch date.
+    latest_news_source_url: https://news.blizzard.com/en-us/article/24301509/diablos-next-era-revealed-at-blizzcon-2026-opening-ceremonies-recap
+    latest_news_updated_at: '2026-10-05T18:38:49Z'
   - id: path-of-exile-2
     name: Path of Exile 2
     tracking_status: interested
     tracked_event_types: [release, expansion, dlc, season, major_update, beta, early_access]
-    latest_news: ""
+    latest_news: Grinding Gear Games announced that Path of Exile 2 will leave Early Access and launch
+      free-to-play on December 11, 2026. The full release introduces the Duelist class.
+    latest_news_source_url: https://store.steampowered.com/news/app/2694490/view/714536220261090882
+    latest_news_updated_at: '2026-10-05T18:38:49Z'
   - id: gray-zone-warfare
     name: Gray Zone Warfare
     tracking_status: interested
     tracked_event_types: [release, expansion, dlc, season, major_update, beta, early_access]
-    latest_news: ""
+    latest_news: Rogue Ops brings Hideout and crafting systems, multiple playable characters, and major
+      gameplay improvements as the game enters alpha. The update uses a soft wipe that retains progression
+      but resets lockers and money. Supporter Preview begins October 19, followed by the public update
+      on October 22, 2026.
+    latest_news_source_url: https://www.grayzonewarfare.com/news/player-driven-improvements-rogue-ops
+    latest_news_updated_at: '2026-10-05T18:38:49Z'
   - id: borderlands-4
     name: Borderlands 4
     tracking_status: interested
     tracked_event_types: [release, expansion, dlc, season, major_update, beta, early_access]
-    latest_news: ""
+    latest_news: 'The September 10 content release added Story Pack 2: FL4K and the Last Resort, the playable
+      Vault Hunter Loveless the Hacker, and Bounty Pack 5: Amara and the Vile Shadows. The accompanying
+      free Version 1.10 update increased the level cap by ten.'
+    latest_news_source_url: https://newsroom-uk.2k.com/news/borderlandsr-4-story-pack-2-fl4k-and-the-last-resort-launching-on-september-10-alongside-all-new-vault-hunter-and-bounty-pack-5-amara-and-the-vile-shadows
+    latest_news_updated_at: '2026-10-05T18:38:49Z'
   - id: crimson-desert
     name: Crimson Desert
     tracking_status: interested
     tracked_event_types: [release, expansion, dlc, season, major_update, beta, early_access]
-    latest_news: ""
+    latest_news: Pearl Abyss delayed the Charting the Unknown DLC by two weeks to October 29, 2026, to
+      improve polish and stability. The revised release time is 22:00 UTC, which is 23:00 in Prague.
+    latest_news_source_url: https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=134
+    latest_news_updated_at: '2026-10-05T18:38:49Z'
