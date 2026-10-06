@@ -2,7 +2,7 @@
 
 A personal iCalendar feed with all-day and exact-time events for Apple Calendar. Git-tracked YAML is the source of truth; Python generates the feed, and GitHub Actions publishes it to GitHub Pages. There is no database, server, frontend, or research automation.
 
-The tracked games are Diablo IV, Path of Exile 2, Gray Zone Warfare, Borderlands 4, and Crimson Desert. Production news and upcoming events are curated from linked official sources in the YAML files. Events without reliable dates and minor updates are omitted. All test events are fictional.
+The tracked games are Diablo IV, Path of Exile 2, Gray Zone Warfare, Borderlands 4, Crimson Desert, ARC Raiders, and Marathon. Production news and upcoming events are curated from linked official sources in the YAML files. Events without reliable dates and minor updates are omitted. All test events are fictional.
 
 ## Architecture and files
 

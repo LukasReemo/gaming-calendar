@@ -44,3 +44,22 @@ games:
       improve polish and stability. The revised release time is 22:00 UTC, which is 23:00 in Prague.
     latest_news_source_url: https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=134
     latest_news_updated_at: '2026-10-05T18:38:49Z'
+  - id: arc-raiders
+    name: ARC Raiders
+    tracking_status: interested
+    tracked_event_types: [release, expansion, dlc, season, major_update, beta, early_access]
+    latest_news: Frozen Trail arrives October 8, 2026, adding Pendola Pass, the Frigate challenge,
+      new ARC enemies, customizable Outposts, and deeper weapon progression. Embark also introduces
+      Reward Passes with this major update.
+    latest_news_source_url: https://arcraiders.com/news/frozen-trail-content-preview
+    latest_news_updated_at: '2026-10-06T14:06:31Z'
+  - id: marathon
+    name: Marathon
+    tracking_status: interested
+    tracked_event_types: [release, expansion, dlc, season, major_update, beta, early_access]
+    latest_news: Nightfall Refresh on October 6, 2026 resets progression and the economy and refreshes
+      rewards. Symbiosis follows December 8 with permanent PvE, a refreshed Perimeter, a new Runner
+      shell, and a social space with a firing range. Bungie plans a larger evolution in March 2027,
+      without an exact day announced.
+    latest_news_source_url: https://www.bungie.net/7/en/News/Article/nightfallrefreshandsymbiosis
+    latest_news_updated_at: '2026-10-06T14:06:31Z'

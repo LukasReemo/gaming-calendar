@@ -44,3 +44,41 @@ events:
     release time: October 29, 2026 at 22:00 UTC, or 23:00 Europe/Prague (CET). The publisher notice incorrectly labels the European timezone CEST for this date.'
   status: confirmed
   updated_at: '2026-10-06T14:00:00Z'
+- id: arc-raiders-frozen-trail
+  game_id: arc-raiders
+  title: Frozen Trail
+  type: major_update
+  date: '2026-10-08'
+  source_url: https://arcraiders.com/news/frozen-trail-content-preview
+  notes: Major content update adding Pendola Pass, the Frigate challenge, new ARC enemies, Outposts,
+    weapon upgrades, gadgets, and Reward Passes. The official content preview confirms October 8 but
+    provides no exact launch hour. The separately announced free-play start time is not used as the
+    update's launch time; cosmetic DLC and free-play promotions are not separate calendar events.
+  status: confirmed
+  updated_at: '2026-10-06T14:06:31Z'
+- id: marathon-nightfall-refresh
+  game_id: marathon
+  title: Nightfall Refresh
+  type: major_update
+  date: '2026-10-06'
+  source_url: https://www.bungie.net/7/en/News/Article/nightfallrefreshandsymbiosis
+  notes: Significant progression and economy reset with refreshed rewards, a new Rewards Pass,
+    quality-of-life improvements, and balance changes. This is a refresh within Nightfall rather than
+    a new season; Bungie is moving away from a strict seasonal schedule. The dated development
+    announcement does not specify a launch hour. The live maintenance page labels its October 6 entry
+    as Update 1.1.9 and does not identify Nightfall Refresh, so its download and login estimates are
+    not assigned to this event.
+  status: confirmed
+  updated_at: '2026-10-06T14:06:31Z'
+- id: marathon-symbiosis
+  game_id: marathon
+  title: Symbiosis
+  type: major_update
+  date: '2026-12-08'
+  source_url: https://www.bungie.net/7/en/News/Article/nightfallrefreshandsymbiosis
+  notes: Major update introducing permanent PvE, a refreshed Perimeter, a new Runner shell, a social
+    space with a firing range, experimental Team Deathmatch, and improved onboarding. This replaces
+    content previously planned for September 22. Bungie confirms December 8 without an exact launch
+    hour; the broader March 2027 evolution is not exported until a specific date is announced.
+  status: confirmed
+  updated_at: '2026-10-06T14:06:31Z'
