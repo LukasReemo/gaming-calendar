@@ -1,2 +1,3 @@
 # Preserve iCalendar's required CRLF bytes and accept them in whitespace checks.
-*.ics -text whitespace=cr-at-eol
+# Spaces before a fold are intentional content and must survive unfolding.
+*.ics -text whitespace=cr-at-eol,-blank-at-eol

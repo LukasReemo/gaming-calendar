@@ -37,10 +37,10 @@ events:
   game_id: crimson-desert
   title: Charting the Unknown
   type: dlc
-  date: '2026-10-29'
+  start_at: '2026-10-29T22:00:00Z'
+  source_timezone: UTC
   source_url: https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=134
   notes: 'Revised release date replaces the original October 15 announcement after a two-week delay. Official
-    release time: October 29, 2026 at 22:00 UTC, or 23:00 Europe/Prague (CET). This calendar remains all-day;
-    the publisher notice incorrectly labels the European timezone CEST for this date.'
+    release time: October 29, 2026 at 22:00 UTC, or 23:00 Europe/Prague (CET). The publisher notice incorrectly labels the European timezone CEST for this date.'
   status: confirmed
-  updated_at: '2026-10-05T18:38:49Z'
+  updated_at: '2026-10-06T14:00:00Z'

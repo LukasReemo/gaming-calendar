@@ -4,24 +4,74 @@ PRODID:-//Gaming Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Gaming Calendar
+X-WR-TIMEZONE:Europe/Prague
+BEGIN:VTIMEZONE
+TZID:Europe/Prague
+X-LIC-LOCATION:Europe/Prague
+BEGIN:STANDARD
+DTSTART:20250101T010000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20250330T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251026T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260329T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20261025T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20270328T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20271031T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:crimson-desert-charting-the-unknown@gaming-calendar
-DTSTAMP:20261005T183849Z
-LAST-MODIFIED:20261005T183849Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
+DTSTAMP:20261006T140000Z
+LAST-MODIFIED:20261006T140000Z
+X-GAMING-CALENDAR-MANAGED:TRUE
+X-GAMING-CALENDAR-GAME-ID:crimson-desert
+X-GAMING-CALENDAR-EVENT-ID:crimson-desert-charting-the-unknown
+DTSTART;TZID=Europe/Prague:20261029T230000
+DTEND;TZID=Europe/Prague:20261030T000000
 SUMMARY:🧩 Crimson Desert · Charting the Unknown
 DESCRIPTION:Game: Crimson Desert\nType: Dlc\nStatus: Confirmed\n\nRevised r
  elease date replaces the original October 15 announcement after a two-week
   delay. Official release time: October 29\, 2026 at 22:00 UTC\, or 23:00 E
- urope/Prague (CET). This calendar remains all-day\; the publisher notice i
- ncorrectly labels the European timezone CEST for this date.\n\nLatest news
- :\nPearl Abyss delayed the Charting the Unknown DLC by two weeks to Octobe
- r 29\, 2026\, to improve polish and stability. The revised release time is
-  22:00 UTC\, which is 23:00 in Prague.\n\nNews source:\nhttps://crimsondes
- ert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=134\n\nEvent source:\
- nhttps://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=13
- 4
+ urope/Prague (CET). The publisher notice incorrectly labels the European t
+ imezone CEST for this date.\n\nLatest news:\nPearl Abyss delayed the Chart
+ ing the Unknown DLC by two weeks to October 29\, 2026\, to improve polish 
+ and stability. The revised release time is 22:00 UTC\, which is 23:00 in P
+ rague.\n\nNews source:\nhttps://crimsondesert.pearlabyss.com/en-US/News/No
+ tice/Detail?_boardNo=134\n\nEvent source:\nhttps://crimsondesert.pearlabys
+ s.com/en-US/News/Notice/Detail?_boardNo=134\n\nSource start: 2026-10-29T22
+ :00:00Z\nSource timezone: UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -29,6 +79,9 @@ BEGIN:VEVENT
 UID:gray-zone-warfare-rogue-ops@gaming-calendar
 DTSTAMP:20261005T183849Z
 LAST-MODIFIED:20261005T183849Z
+X-GAMING-CALENDAR-MANAGED:TRUE
+X-GAMING-CALENDAR-GAME-ID:gray-zone-warfare
+X-GAMING-CALENDAR-EVENT-ID:gray-zone-warfare-rogue-ops
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:🔄 Gray Zone Warfare · Rogue Ops 0.5
@@ -51,6 +104,9 @@ BEGIN:VEVENT
 UID:gray-zone-warfare-rogue-ops-supporter-preview@gaming-calendar
 DTSTAMP:20261005T183849Z
 LAST-MODIFIED:20261005T183849Z
+X-GAMING-CALENDAR-MANAGED:TRUE
+X-GAMING-CALENDAR-GAME-ID:gray-zone-warfare
+X-GAMING-CALENDAR-EVENT-ID:gray-zone-warfare-rogue-ops-supporter-preview
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 SUMMARY:🚀 Gray Zone Warfare · Rogue Ops 0.5 Supporter Preview
@@ -72,6 +128,9 @@ BEGIN:VEVENT
 UID:path-of-exile-2-full-release@gaming-calendar
 DTSTAMP:20261005T183849Z
 LAST-MODIFIED:20261005T183849Z
+X-GAMING-CALENDAR-MANAGED:TRUE
+X-GAMING-CALENDAR-GAME-ID:path-of-exile-2
+X-GAMING-CALENDAR-EVENT-ID:path-of-exile-2-full-release
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:🎮 Path of Exile 2 · Full Release 1.0
