@@ -1,4 +1,44 @@
 version: 1
 past_event_retention_days: 30
-# Empty until the first sync; legacy games report warning: Not yet synced.
-games: {}
+games:
+  diablo-iv:
+    last_attempt: '2026-10-07T15:47:52+00:00'
+    status: OK
+    message: ''
+    last_success: '2026-10-07T15:47:52+00:00'
+  path-of-exile-2:
+    last_attempt: '2026-10-07T15:47:52+00:00'
+    status: warning
+    message: December 11 full release corroborated by official Steam announcement
+      title and indexed store developer text; official patch forum checked. Steam
+      announcement body and current news hub were inaccessible, limiting completeness;
+      existing event preserved.
+  gray-zone-warfare:
+    last_attempt: '2026-10-07T15:47:52+00:00'
+    status: OK
+    message: ''
+    last_success: '2026-10-07T15:47:52+00:00'
+  borderlands-4:
+    last_attempt: '2026-10-07T15:47:52+00:00'
+    status: warning
+    message: Official 2K DLC announcement verified; current Borderlands news and update
+      pages returned HTTP 403 and Steam English announcements were age-gated. No new
+      major dated event could be verified; existing data preserved.
+  crimson-desert:
+    last_attempt: '2026-10-07T15:47:52+00:00'
+    status: OK
+    message: ''
+    last_success: '2026-10-07T15:47:52+00:00'
+  arc-raiders:
+    last_attempt: '2026-10-07T15:47:52+00:00'
+    status: OK
+    message: ''
+    last_success: '2026-10-07T15:47:52+00:00'
+  marathon:
+    last_attempt: '2026-10-07T15:47:52+00:00'
+    status: warning
+    message: 'New roadmap and Update 1.1.9.2 verified. Vault Breaker dates conflict:
+      patch notes say October 20-November 9, roadmap calendar says October 22-November
+      2; no event added for conflicting dates. Routine activity returns and limited
+      in-game events were not mislabeled as releases or major updates under the existing
+      event-type schema.'

@@ -1,4 +1,3 @@
-# Upcoming meaningful events verified against official sources on 2026-10-05.
 events:
 - id: path-of-exile-2-full-release
   game_id: path-of-exile-2
@@ -6,9 +5,9 @@ events:
   type: release
   date: '2026-12-11'
   source_url: https://store.steampowered.com/news/app/2694490/view/714536220261090882
-  notes: Leaves Early Access and becomes free-to-play, introducing the Duelist. The publisher announces
-    December 11 in Pacific Time; an exact launch hour was not verified, so this all-day entry uses the
-    announced date.
+  notes: Leaves Early Access and becomes free-to-play, introducing the Duelist. The
+    publisher announces December 11 in Pacific Time; an exact launch hour was not
+    verified, so this all-day entry uses the announced date.
   status: confirmed
   updated_at: '2026-10-05T18:38:49Z'
 - id: gray-zone-warfare-rogue-ops-supporter-preview
@@ -17,9 +16,9 @@ events:
   type: early_access
   date: '2026-10-19'
   source_url: https://www.grayzonewarfare.com/news/update-05-teaser
-  notes: Early preview of the major Rogue Ops update, available to Supporter Edition owners only. This
-    is a preview milestone, not the public update release or a new base-game launch. Launch time has not
-    been announced in this source.
+  notes: Early preview of the major Rogue Ops update, available to Supporter Edition
+    owners only. This is a preview milestone, not the public update release or a new
+    base-game launch. Launch time has not been announced in this source.
   status: confirmed
   updated_at: '2026-10-05T18:38:49Z'
 - id: gray-zone-warfare-rogue-ops
@@ -28,9 +27,10 @@ events:
   type: major_update
   date: '2026-10-22'
   source_url: https://www.grayzonewarfare.com/news/update-05-teaser
-  notes: Major content update and transition from pre-alpha to alpha, with Hideout building, crafting,
-    smuggling activities, new locations and weapons. A soft wipe retains rank, apparel, vendor levels
-    and completed tasks, but resets lockers and money. Launch time has not been announced in this source.
+  notes: Major content update and transition from pre-alpha to alpha, with Hideout
+    building, crafting, smuggling activities, new locations and weapons. A soft wipe
+    retains rank, apparel, vendor levels and completed tasks, but resets lockers and
+    money. Launch time has not been announced in this source.
   status: confirmed
   updated_at: '2026-10-05T18:38:49Z'
 - id: crimson-desert-charting-the-unknown
@@ -40,8 +40,10 @@ events:
   start_at: '2026-10-29T22:00:00Z'
   source_timezone: UTC
   source_url: https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=134
-  notes: 'Revised release date replaces the original October 15 announcement after a two-week delay. Official
-    release time: October 29, 2026 at 22:00 UTC, or 23:00 Europe/Prague (CET). The publisher notice incorrectly labels the European timezone CEST for this date.'
+  notes: 'Revised release date replaces the original October 15 announcement after
+    a two-week delay. Official release time: October 29, 2026 at 22:00 UTC, or 23:00
+    Europe/Prague (CET). The publisher notice incorrectly labels the European timezone
+    CEST for this date.'
   status: confirmed
   updated_at: '2026-10-06T14:00:00Z'
 - id: arc-raiders-frozen-trail
@@ -50,10 +52,11 @@ events:
   type: major_update
   date: '2026-10-08'
   source_url: https://arcraiders.com/news/frozen-trail-content-preview
-  notes: Major content update adding Pendola Pass, the Frigate challenge, new ARC enemies, Outposts,
-    weapon upgrades, gadgets, and Reward Passes. The official content preview confirms October 8 but
-    provides no exact launch hour. The separately announced free-play start time is not used as the
-    update's launch time; cosmetic DLC and free-play promotions are not separate calendar events.
+  notes: Major content update adding Pendola Pass, the Frigate challenge, new ARC
+    enemies, Outposts, weapon upgrades, gadgets, and Reward Passes. The official content
+    preview confirms October 8 but provides no exact launch hour. The separately announced
+    free-play start time is not used as the update's launch time; cosmetic DLC and
+    free-play promotions are not separate calendar events.
   status: confirmed
   updated_at: '2026-10-06T14:06:31Z'
 - id: marathon-nightfall-refresh
@@ -61,24 +64,23 @@ events:
   title: Nightfall Refresh
   type: major_update
   date: '2026-10-06'
-  source_url: https://www.bungie.net/7/en/News/Article/nightfallrefreshandsymbiosis
-  notes: Significant progression and economy reset with refreshed rewards, a new Rewards Pass,
-    quality-of-life improvements, and balance changes. This is a refresh within Nightfall rather than
-    a new season; Bungie is moving away from a strict seasonal schedule. The dated development
-    announcement does not specify a launch hour. The live maintenance page labels its October 6 entry
-    as Update 1.1.9 and does not identify Nightfall Refresh, so its download and login estimates are
-    not assigned to this event.
+  source_url: https://www.bungie.net/7/en/News/Article/marathon_update_1_1_9_2
+  notes: Nightfall Refresh is live with a progression and economy reset, a free NuCaloric
+    Rewards Pass, reduced faction reputation requirements, solo PvE tuning, quality-of-life
+    improvements, and balance changes. This is a refresh within Nightfall rather than
+    a new season. Official patch notes confirm the release but do not supply an exact
+    launch hour.
   status: confirmed
-  updated_at: '2026-10-06T14:06:31Z'
+  updated_at: '2026-10-07T15:47:52+00:00'
 - id: marathon-symbiosis
   game_id: marathon
   title: Symbiosis
   type: major_update
   date: '2026-12-08'
-  source_url: https://www.bungie.net/7/en/News/Article/nightfallrefreshandsymbiosis
-  notes: Major update introducing permanent PvE, a refreshed Perimeter, a new Runner shell, a social
-    space with a firing range, experimental Team Deathmatch, and improved onboarding. This replaces
-    content previously planned for September 22. Bungie confirms December 8 without an exact launch
-    hour; the broader March 2027 evolution is not exported until a specific date is announced.
+  source_url: https://www.bungie.net/7/en/News/Article/nighfall_refresh_symbiosis_roadmap
+  notes: Major update introducing permanent PvE, an expanded Perimeter, the Bishop
+    Runner shell, a social space with a firing range, Team Deathmatch, and improved
+    onboarding. Bungie reconfirms December 8 without an exact launch hour; the broader
+    March 2027 evolution remains undated.
   status: confirmed
-  updated_at: '2026-10-06T14:06:31Z'
+  updated_at: '2026-10-07T15:47:52+00:00'
