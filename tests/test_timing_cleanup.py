@@ -50,6 +50,13 @@ class TimingCleanupTests(unittest.TestCase):
                 self.assertIn('DTSTART;TZID=Europe/Prague:' + expected,
                               self.timed(source, 'America/Los_Angeles'))
 
+    def test_utc_to_prague_uses_seasonal_iana_offsets(self):
+        for source, expected in [('2026-01-15T16:00:00Z', '20260115T170000'),
+                                 ('2026-07-15T16:00:00Z', '20260715T180000')]:
+            with self.subTest(source=source):
+                self.assertIn('DTSTART;TZID=Europe/Prague:' + expected,
+                              self.timed(source, 'UTC'))
+
     def test_known_end_and_midnight(self):
         result = self.timed('2026-10-29T22:00:00Z', 'UTC', '2026-10-30T01:30:00Z')
         self.assertIn('DTSTART;TZID=Europe/Prague:20261029T230000', result)

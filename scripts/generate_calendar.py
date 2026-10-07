@@ -13,7 +13,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 TYPES = {"release": "🎮", "expansion": "🌍", "dlc": "🧩", "season": "🌑",
          "major_update": "🔄", "beta": "🧪", "early_access": "🚀"}
-STATUSES = {"confirmed", "expected", "rumored", "delayed"}
+STATUSES = {"confirmed", "expected", "rumored", "delayed", "tentative"}
 
 
 def required_text(row, field):
@@ -179,8 +179,14 @@ def load_rows(path, key):
     return data[key]
 
 
-def validate(games, events):
+def validate(games, events, *, enforce_limit=True):
+    for collection in (games, events):
+        ids = [required_text(row, "id") for row in collection]
+        if len(ids) != len(set(ids)) or any(not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", value) for value in ids):
+            raise ValueError("Invalid or duplicate stable IDs")
     indexed = {g["id"]: g for g in games}
+    if enforce_limit and any(sum(e.get("game_id") == gid for e in events) > 5 for gid in indexed):
+        raise ValueError("Maximum 5 events per game")
     for game in games:
         required_text(game, "name")
         if game.get("tracking_status") not in {"playing", "interested", "waiting"}:
@@ -204,6 +210,11 @@ def validate(games, events):
         if event.get("type") not in TYPES or event.get("status") not in STATUSES:
             raise ValueError("Invalid event type or status")
         event_timing(event)
+        if "logical_key" in event and (not isinstance(event["logical_key"], str) or
+                                       not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", event["logical_key"])):
+            raise ValueError("Invalid logical_key")
+        if type(event.get("importance", 0)) is not int or not 0 <= event.get("importance", 0) <= 3:
+            raise ValueError("importance must be an integer from 0 to 3")
         url(required_text(event, "source_url"))
         optional_text(event, "notes")
         timestamp(required_text(event, "updated_at"))
@@ -244,12 +255,12 @@ def generate(games, events):
             description.extend(["", event["notes"]])
         news = optional_text(game, "latest_news")
         modified = timestamp(event["updated_at"])
+        if "latest_news_updated_at" in game:
+            modified = max(modified, timestamp(game["latest_news_updated_at"]))
         if news:
             description.extend(["", "Latest news:", news])
             if optional_text(game, "latest_news_source_url"):
                 description.extend(["", "News source:", game["latest_news_source_url"]])
-            if "latest_news_updated_at" in game:
-                modified = max(modified, timestamp(game["latest_news_updated_at"]))
         description.extend(["", "Event source:", event["source_url"]])
         stamp = modified.strftime("%Y%m%dT%H%M%SZ")
         kind, start, end = timings[event["id"]]
@@ -288,6 +299,13 @@ def main():
         if args.remove_game:
             check_managed_feed(args.output)
             games, events = remove_tracked_game(games, events, args.remove_game)
+        sync_path = args.games.parent / "sync.yaml"
+        sync_state = None
+        if args.remove_game and sync_path.exists():
+            sync_state = yaml.safe_load(sync_path.read_text(encoding="utf-8"))
+            if not isinstance(sync_state, dict) or not isinstance(sync_state.get("games"), dict):
+                raise ValueError("Invalid sync metadata")
+            sync_state["games"].pop(args.remove_game, None)
         calendar = generate(games, events)
     except (ValueError, TypeError, OverflowError, ZoneInfoNotFoundError, yaml.YAMLError) as error:
         parser.error(str(error))
@@ -296,6 +314,8 @@ def main():
     atomic_write(args.output, calendar.encode("utf-8"))
     if args.remove_game:
         atomic_write(args.events, yaml.safe_dump({"events": events}, allow_unicode=True, sort_keys=False).encode("utf-8"))
+        if sync_state is not None:
+            atomic_write(sync_path, yaml.safe_dump(sync_state, allow_unicode=True, sort_keys=False).encode("utf-8"))
         atomic_write(args.games, yaml.safe_dump({"games": games}, allow_unicode=True, sort_keys=False).encode("utf-8"))
     print(f"Wrote {args.output}")
 

@@ -1,0 +1,4 @@
+version: 1
+past_event_retention_days: 30
+# Empty until the first sync; legacy games report warning: Not yet synced.
+games: {}

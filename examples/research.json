@@ -1,0 +1,23 @@
+{
+  "games": [
+    {
+      "game_id": "fictional-game",
+      "status": "OK",
+      "latest_news": "A fictional major update has an exact confirmed date.",
+      "latest_news_source_url": "https://example.com/news",
+      "events": [
+        {
+          "logical_key": "update-one",
+          "title": "Update One",
+          "type": "major_update",
+          "date": "2030-01-15",
+          "status": "confirmed",
+          "source_url": "https://example.com/update",
+          "importance": 2,
+          "notes": "Fictional example only; no verified launch time."
+        }
+      ],
+      "cancelled_events": []
+    }
+  ]
+}
