@@ -115,3 +115,21 @@ games:
     2027 without an exact day.
   latest_news_source_url: https://www.bungie.net/7/en/News/Article/nighfall_refresh_symbiosis_roadmap
   latest_news_updated_at: '2026-10-07T15:47:52+00:00'
+- id: wardogs
+  name: WARDOGS
+  tracking_status: playing
+  tracked_event_types:
+  - release
+  - expansion
+  - dlc
+  - season
+  - major_update
+  - beta
+  - early_access
+  latest_news: Season 02 arrives October 15, 2026, with new map conditions, equipment,
+    balance reworks and additional features planned. The October 2 balance hotfix
+    temporarily disabled IR Rangefinders in the vendor until Season 02, when they
+    will require batteries, and restored faster CIWS damage against the Havoc. No
+    exact Season 02 launch time has been announced.
+  latest_news_source_url: https://steamcommunity.com/app/1867240/announcements/
+  latest_news_updated_at: '2026-10-08T07:50:54.721456+00:00'

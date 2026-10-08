@@ -42,3 +42,8 @@ games:
       2; no event added for conflicting dates. Routine activity returns and limited
       in-game events were not mislabeled as releases or major updates under the existing
       event-type schema.'
+  wardogs:
+    last_attempt: '2026-10-08T07:50:54.721456+00:00'
+    status: OK
+    message: ''
+    last_success: '2026-10-08T07:50:54.721456+00:00'

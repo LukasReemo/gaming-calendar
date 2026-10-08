@@ -84,3 +84,14 @@ events:
     March 2027 evolution remains undated.
   status: confirmed
   updated_at: '2026-10-07T15:47:52+00:00'
+- logical_key: season-02
+  title: Season 02
+  type: season
+  date: '2026-10-15'
+  status: confirmed
+  source_url: https://steamcommunity.com/app/1867240/announcements/
+  notes: BULKHEAD confirmed October 15 in the September 22 Season 02 teaser. No exact
+    launch time has been announced.
+  id: wardogs-season-02
+  game_id: wardogs
+  updated_at: '2026-10-08T07:50:54.721456+00:00'
