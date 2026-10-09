@@ -56,6 +56,7 @@ class SyncTests(unittest.TestCase):
         later = NOW + timedelta(days=3)
         replay = apply_sync(*after[:3], {"games": [self.result]}, later, full=True)
         self.assertEqual(after[:3], replay[:3])
+        self.assertEqual(generate(*after[:2]), generate(*replay[:2]))
         self.assertEqual(replay[3]["games"][0]["attempted_at"], later.isoformat())
         self.assertFalse(replay[3]["games"][0]["checkpoint_updated"])
         with tempfile.TemporaryDirectory() as directory:
@@ -125,6 +126,31 @@ class SyncTests(unittest.TestCase):
         _, events, _, summary = self.apply()
         self.assertIn("fictional-game-update-one", {e["id"] for e in events})
         self.assertEqual(summary["events_added"], 1)
+
+    def test_new_event_uses_creation_date_and_ignores_supplied_revision(self):
+        self.result["events"] = [dict(self.events[0], id="new-release", title="New Release")]
+        created = datetime(2026, 10, 8, 22, 30, tzinfo=timezone.utc)
+        games, events, _, _ = apply_sync(self.games, self.events, self.state,
+                                       {"games": [self.result]}, created)
+        event = next(e for e in events if e["id"] == "new-release")
+        self.assertEqual(event["updated_at"], created.isoformat())
+        self.assertIn("Last updated: 09 Oct 2026", generate(games, [event]))
+
+    def test_content_changes_advance_date_and_metadata_changes_preserve_feed(self):
+        self.result["latest_news"] = self.games[0]["latest_news"]
+        self.result.pop("latest_news_source_url")
+        for change in ({"date": "2026-11-02"}, {"title": "Renamed Release"},
+                       {"notes": "New notes."}, {"source_url": "https://example.com/new"}):
+            with self.subTest(change=change):
+                result = copy.deepcopy(self.result)
+                result["events"][0].update(change)
+                games, events, _, _ = self.apply([result])
+                self.assertEqual(events[0]["updated_at"], NOW.isoformat())
+                self.assertIn("Last updated: 07 Oct 2026", generate(games, events).replace("\r\n ", ""))
+        self.result["events"][0].update(logical_key="release", importance=3)
+        games, events, _, _ = self.apply()
+        self.assertEqual(events[0]["updated_at"], self.events[0]["updated_at"])
+        self.assertEqual(generate(games, events), generate(self.games, self.events))
 
     def test_duplicate_identity_is_rejected_and_other_game_continues(self):
         self.second_game()
@@ -339,6 +365,7 @@ class SyncTests(unittest.TestCase):
         games, events, _, _ = self.apply()
         text = generate(games, events)
         self.assertIn("LAST-MODIFIED:20261007T120000Z", text)
+        self.assertIn("Last updated: 07 Oct 2026", text)
         self.assertNotIn("Latest news:", text)
 
     def write_store(self, base):

@@ -48,6 +48,31 @@ class CalendarTests(unittest.TestCase):
         self.assertEqual(uid(before), uid(after))
         self.assertIn("DTSTART;VALUE=DATE:20310202", after)
         self.assertIn("LAST-MODIFIED:20261006T120000Z", after)
+        self.assertIn("Last updated: 06 Oct 2026", after)
+
+    def test_legacy_initialization_preserves_state_and_revisions(self):
+        original = copy.deepcopy((self.games, self.events))
+        result = self.unfolded()
+        description = next(line for line in result.splitlines() if line.startswith("DESCRIPTION:"))
+        self.assertTrue(description.endswith(r"\n\nLast updated: 05 Oct 2026"))
+        self.assertIn("LAST-MODIFIED:20261005T120000Z", result)
+        self.assertIn("DTSTAMP:20261005T120000Z", result)
+        self.assertEqual(original, (self.games, self.events))
+
+    def test_last_updated_prague_date_and_final_line_for_timed_events(self):
+        self.events[0].pop("date")
+        self.events[0].update(start_at="2030-01-01T12:00:00Z", end_at="2030-01-01T14:00:00Z",
+                              source_timezone="UTC", notes="Fictional notes.")
+        for revision, expected in [("2026-12-31T23:30:00Z", "01 Jan 2027"),
+                                   ("2026-06-30T22:30:00Z", "01 Jul 2026"),
+                                   ("2026-10-25T23:30:00Z", "26 Oct 2026")]:
+            with self.subTest(revision=revision):
+                self.events[0]["updated_at"] = revision
+                description = next(line for line in self.unfolded().splitlines()
+                                   if line.startswith("DESCRIPTION:"))
+                self.assertIn("Source end:", description)
+                self.assertTrue(description.endswith("Last updated: " + expected))
+                self.assertEqual(description.count("Last updated:"), 1)
 
     def test_statuses_and_type_filter(self):
         for status, exported in [("confirmed", True), ("expected", True), ("rumored", False), ("delayed", False)]:
@@ -70,6 +95,7 @@ class CalendarTests(unittest.TestCase):
         self.assertEqual(result.count("Latest news:"), 2)
         self.assertEqual(result.count("News source:\\nhttps://example.com/news"), 2)
         self.assertEqual(result.count("LAST-MODIFIED:20261007T120000Z"), 2)
+        self.assertEqual(result.count("Last updated: 07 Oct 2026"), 2)
 
     def test_absent_news_omits_sections(self):
         self.games[0]["latest_news_source_url"] = "https://example.com/news"

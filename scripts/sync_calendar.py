@@ -177,8 +177,11 @@ def reconcile_game(game, existing, result, now):
                 raise ValueError("A logical key is permanent")
             event["logical_key"] = old["logical_key"]
         event.pop("updated_at", None)
-        previous = {k: v for k, v in (old or {}).items() if k != "updated_at"}
-        event["updated_at"] = old["updated_at"] if old and previous == event else now.isoformat()
+        # Identity/selection metadata is persisted but does not revise calendar content.
+        metadata = {"updated_at", "logical_key", "importance"}
+        previous = {k: v for k, v in (old or {}).items() if k not in metadata}
+        content = {k: v for k, v in event.items() if k not in metadata}
+        event["updated_at"] = old["updated_at"] if old and previous == content else now.isoformat()
         validate([game], [event])
         merged[eid] = event
     cancelled = rows(result.get("cancelled_events", []), "cancelled_events")

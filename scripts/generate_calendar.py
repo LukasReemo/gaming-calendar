@@ -50,6 +50,8 @@ def timestamp(value):
 
 
 PRAGUE = ZoneInfo("Europe/Prague")
+MONTHS = ("Jan", "Feb", "Mar", "Apr", "May", "Jun",
+          "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 
 
 def source_datetime(value, zone_name=None):
@@ -270,6 +272,10 @@ def generate(games, events):
                 description.append("Source timezone: " + event["source_timezone"])
             if "end_at" in event:
                 description.append("Source end: " + event["end_at"])
+        # Reuse persisted content revisions, including legacy events. Never use
+        # generation/sync time: migration and no-op builds must not advance dates.
+        updated = modified.astimezone(PRAGUE)
+        description.extend(["", f"Last updated: {updated.day:02} {MONTHS[updated.month - 1]} {updated.year:04}"])
         timing_lines = ([f"DTSTART;VALUE=DATE:{start:%Y%m%d}", f"DTEND;VALUE=DATE:{end:%Y%m%d}"]
                         if kind == "all_day" else
                         [calendar_datetime("DTSTART", start), calendar_datetime("DTEND", end)])

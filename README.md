@@ -117,7 +117,7 @@ All-day events have inclusive `DTSTART` and an exclusive next-day `DTEND`, both 
 
 Every generated event includes `X-GAMING-CALENDAR-MANAGED:TRUE`, `X-GAMING-CALENDAR-GAME-ID`, and `X-GAMING-CALENDAR-EVENT-ID`. The full feed is exclusively project-managed; never point `--output` at a manual or mixed calendar file. There is no external calendar API deletion. Cleanup replaces this project's feed and subscription clients reconcile it on refresh. A future API integration must require the ownership marker plus stable game/event identifiers before updating or deleting external events. UIDs use `<event-id>@gaming-calendar`, independent of dates and titles; editing a date updates the same event identity. Keep this namespace unchanged once subscribed, and use globally distinctive IDs if running multiple copies of this project.
 
-`DTSTAMP` and `LAST-MODIFIED` use the later of the event revision and available game-news revision. Explicit revisions keep generation deterministic and help clients recognize changes. Events are sorted by ID. Descriptions contain game, type, status, optional notes, optional game-level latest news and news source, and event source. There are no empty news sections. Events are transparent so they do not block your availability.
+`DTSTAMP` and `LAST-MODIFIED` use the later of the event revision and available game-news revision. Explicit revisions keep generation deterministic and help clients recognize changes. Events are sorted by ID. Descriptions contain game, type, status, optional notes, optional game-level latest news and news source, and event source. The final line is `Last updated: DD MMM YYYY` (English month abbreviation), using the same content revision converted to Europe/Prague. New events use their creation revision; existing events initialize from their recorded event/news revisions when regenerated, without changing YAML or treating migration as a content update. Unchanged syncs, status-only checkpoints and generation never advance this date. Internal logical-key and importance changes also leave the content revision unchanged. There are no empty news sections. Events are transparent so they do not block your availability.
 
 ## Publish with GitHub Pages
 
@@ -145,8 +145,8 @@ On iPhone/iPad, open **Settings → Apps → Calendar → Calendar Accounts → 
 No migration of existing games, news or events was needed: all seven tracked games,
 seven records, stable UIDs, event formatting and emoji prefixes remain intact.
 Prague timezone conversion and the existing `public/gaming-calendar.ics` deployment
-path remain unchanged. Generating this implementation's initial data produces a
-byte-identical feed to v1. The Apple subscription URL continues to use the same
+path remain unchanged. Regeneration adds the last-updated line to existing event descriptions while
+preserving their recorded revisions, UIDs and other calendar properties. The Apple subscription URL continues to use the same
 Pages location; keep your current subscription. Imported copies remain independent.
 
 V1 already implemented source validation, stable UIDs, all-day/exact timing,

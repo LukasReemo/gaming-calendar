@@ -104,7 +104,14 @@ Events use the v1 fields: `title`, `type`, `status`, `source_url`, optional `not
 and either an exact `date` or a reliable `start_at` with optional `end_at` and
 `source_timezone`. Event `game_id` may be omitted; if present it must match.
 `updated_at` is assigned by the sync code only when content changes; a supplied
-value is ignored. Keep exact source timestamps, never guessed UTC offsets.
+value is ignored. New events receive the run timestamp as their creation revision.
+Internal `logical_key` and `importance` changes do not advance `updated_at`.
+The generator appends `Last updated: DD MMM YYYY` as the final description line,
+using the later event/news revision in Europe/Prague (including news removal).
+Existing events initialize from those stored revisions on regeneration; no migration
+write, new timestamp field or revision bump is needed. No-op syncs and sync-status
+changes leave both the displayed date and generated ICS bytes unchanged.
+Keep exact source timestamps, never guessed UTC offsets.
 All-day retention uses the next Prague midnight; timed retention uses actual end
 (one elapsed hour if no end is known). An event is expired only when its end is
 strictly more than the configured retention days before the run timestamp.
