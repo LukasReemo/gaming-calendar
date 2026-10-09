@@ -113,6 +113,19 @@ Remove an event by deleting its mapping. Removing or filtering events removes th
 
 ## Calendar behavior
 
+Event names use the shared category prefixes below for all existing and future events.
+Regeneration applies the mapping without changing event IDs or source revisions.
+
+| Category | Emoji |
+| --- | --- |
+| Release | 🎮 |
+| Expansion | 🌍 |
+| DLC | 🧩 |
+| Season | 🔥 |
+| Major update | ⚡ |
+| Beta | 🧪 |
+| Early access | 🚀 |
+
 All-day events have inclusive `DTSTART` and an exclusive next-day `DTEND`, both date-only. Timed events are normalized using Python `zoneinfo` and `Europe/Prague`, with no fixed offset. Output uses `TZID=Europe/Prague` and embeds IANA-derived `VTIMEZONE` transitions for the event years plus neighboring years. The second occurrence of an autumn repeated hour uses UTC to preserve its unambiguous instant; the calendar timezone remains Prague. Python requires system IANA timezone data (as provided by the Linux CI runner); on platforms without it, install Python's `tzdata` package.
 
 Every generated event includes `X-GAMING-CALENDAR-MANAGED:TRUE`, `X-GAMING-CALENDAR-GAME-ID`, and `X-GAMING-CALENDAR-EVENT-ID`. The full feed is exclusively project-managed; never point `--output` at a manual or mixed calendar file. There is no external calendar API deletion. Cleanup replaces this project's feed and subscription clients reconcile it on refresh. A future API integration must require the ownership marker plus stable game/event identifiers before updating or deleting external events. UIDs use `<event-id>@gaming-calendar`, independent of dates and titles; editing a date updates the same event identity. Keep this namespace unchanged once subscribed, and use globally distinctive IDs if running multiple copies of this project.
@@ -143,7 +156,8 @@ On iPhone/iPad, open **Settings → Apps → Calendar → Calendar Accounts → 
 ## Compatibility and automated sync
 
 No migration of existing games, news or events was needed: all seven tracked games,
-seven records, stable UIDs, event formatting and emoji prefixes remain intact.
+seven records, stable UIDs and event formatting remain intact. Season and major
+update prefixes now use 🔥 and ⚡; other category prefixes remain unchanged.
 Prague timezone conversion and the existing `public/gaming-calendar.ics` deployment
 path remain unchanged. Regeneration adds the last-updated line to existing event descriptions while
 preserving their recorded revisions, UIDs and other calendar properties. The Apple subscription URL continues to use the same

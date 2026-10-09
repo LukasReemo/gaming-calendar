@@ -128,9 +128,12 @@ class CalendarTests(unittest.TestCase):
 
     def test_all_event_types_and_year_boundary(self):
         from scripts.generate_calendar import TYPES
-        self.games[0]["tracked_event_types"] = list(TYPES)
+        expected = {"release": "🎮", "expansion": "🌍", "dlc": "🧩", "season": "🔥",
+                    "major_update": "⚡", "beta": "🧪", "early_access": "🚀"}
+        self.assertEqual(TYPES, expected)
+        self.games[0]["tracked_event_types"] = list(expected)
         self.events[0]["date"] = "2030-12-31"
-        for event_type, emoji in TYPES.items():
+        for event_type, emoji in expected.items():
             with self.subTest(event_type=event_type):
                 self.events[0]["type"] = event_type
                 self.assertIn("SUMMARY:" + emoji, self.unfolded())

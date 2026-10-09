@@ -11,8 +11,8 @@ import tempfile
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
-TYPES = {"release": "🎮", "expansion": "🌍", "dlc": "🧩", "season": "🌑",
-         "major_update": "🔄", "beta": "🧪", "early_access": "🚀"}
+TYPES = {"release": "🎮", "expansion": "🌍", "dlc": "🧩", "season": "🔥",
+         "major_update": "⚡", "beta": "🧪", "early_access": "🚀"}
 STATUSES = {"confirmed", "expected", "rumored", "delayed", "tentative"}
 
 
