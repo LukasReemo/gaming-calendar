@@ -29,8 +29,8 @@ games:
   latest_news: Grinding Gear Games announced that Path of Exile 2 will leave Early
     Access and launch free-to-play on December 11, 2026. The full release introduces
     the Duelist class.
-  latest_news_source_url: https://store.steampowered.com/news/app/2694490/view/714536220261090882
-  latest_news_updated_at: '2026-10-05T18:38:49Z'
+  latest_news_source_url: https://www.pathofexile.com/forum/view-thread/3999366
+  latest_news_updated_at: '2026-10-09T07:21:18.273524+00:00'
 - id: gray-zone-warfare
   name: Gray Zone Warfare
   tracking_status: interested
@@ -92,11 +92,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Frozen Trail arrives October 8, 2026, adding Pendola Pass, the Frigate
-    challenge, new ARC enemies, customizable Outposts, and deeper weapon progression.
-    Embark also introduces Reward Passes with this major update.
-  latest_news_source_url: https://arcraiders.com/news/frozen-trail-content-preview
-  latest_news_updated_at: '2026-10-06T14:06:31Z'
+  latest_news: Frozen Trail is live as the October 8 major update, adding Pendola
+    Pass, new ARC enemies, weapons and traversal gadgets. It also introduces customizable
+    Outposts with a Research Bench, Amplified Weapons, a revamped Skill Tree, 22 new
+    quests, and Reward Passes.
+  latest_news_source_url: https://arcraiders.com/news/frozen-trail-2-0-update
+  latest_news_updated_at: '2026-10-09T07:21:18.273524+00:00'
 - id: marathon
   name: Marathon
   tracking_status: interested

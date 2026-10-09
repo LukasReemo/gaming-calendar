@@ -4,12 +4,12 @@ events:
   title: Full Release 1.0
   type: release
   date: '2026-12-11'
-  source_url: https://store.steampowered.com/news/app/2694490/view/714536220261090882
+  source_url: https://www.pathofexile.com/forum/view-thread/3999366
   notes: Leaves Early Access and becomes free-to-play, introducing the Duelist. The
     publisher announces December 11 in Pacific Time; an exact launch hour was not
     verified, so this all-day entry uses the announced date.
   status: confirmed
-  updated_at: '2026-10-05T18:38:49Z'
+  updated_at: '2026-10-09T07:21:18.273524+00:00'
 - id: gray-zone-warfare-rogue-ops-supporter-preview
   game_id: gray-zone-warfare
   title: Rogue Ops 0.5 Supporter Preview

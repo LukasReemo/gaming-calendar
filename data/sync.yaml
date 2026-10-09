@@ -2,17 +2,17 @@ version: 1
 past_event_retention_days: 30
 games:
   diablo-iv:
-    last_attempt: '2026-10-07T15:47:52+00:00'
-    status: OK
-    message: ''
+    last_attempt: '2026-10-09T07:21:18.273524+00:00'
+    status: warning
+    message: Official BlizzCon recap and current season page verified; Blizzard news
+      feed exposed no article listing, limiting completeness. No new confirmed upcoming
+      date found; existing data preserved.
     last_success: '2026-10-07T15:47:52+00:00'
   path-of-exile-2:
-    last_attempt: '2026-10-07T15:47:52+00:00'
-    status: warning
-    message: December 11 full release corroborated by official Steam announcement
-      title and indexed store developer text; official patch forum checked. Steam
-      announcement body and current news hub were inaccessible, limiting completeness;
-      existing event preserved.
+    last_attempt: '2026-10-09T07:21:18.273524+00:00'
+    status: OK
+    message: ''
+    last_success: '2026-10-09T07:21:18.273524+00:00'
   gray-zone-warfare:
     last_attempt: '2026-10-07T15:47:52+00:00'
     status: OK
@@ -30,10 +30,10 @@ games:
     message: ''
     last_success: '2026-10-07T15:47:52+00:00'
   arc-raiders:
-    last_attempt: '2026-10-07T15:47:52+00:00'
+    last_attempt: '2026-10-09T07:21:18.273524+00:00'
     status: OK
     message: ''
-    last_success: '2026-10-07T15:47:52+00:00'
+    last_success: '2026-10-09T07:21:18.273524+00:00'
   marathon:
     last_attempt: '2026-10-07T15:47:52+00:00'
     status: warning
