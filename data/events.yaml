@@ -26,13 +26,14 @@ events:
   title: Rogue Ops 0.5
   type: major_update
   date: '2026-10-22'
-  source_url: https://www.grayzonewarfare.com/news/update-05-teaser
-  notes: Major content update and transition from pre-alpha to alpha, with Hideout
-    building, crafting, smuggling activities, new locations and weapons. A soft wipe
-    retains rank, apparel, vendor levels and completed tasks, but resets lockers and
-    money. Launch time has not been announced in this source.
+  source_url: https://www.grayzonewarfare.com/news/new-content-rogue-ops-devlog
+  notes: Major Rogue Ops update and transition to alpha, adding Hideout building,
+    crafting, smuggling, seven weapons, 370 weapon parts, three Tier 4 locations,
+    and new tasks. A soft wipe preserves rank, apparel, vendor levels and completed
+    tasks but resets lockers and money. The October 11 devlog reconfirms October 22;
+    no exact launch hour is announced.
   status: confirmed
-  updated_at: '2026-10-05T18:38:49Z'
+  updated_at: '2026-10-13T06:04:42.309789+00:00'
 - id: crimson-desert-charting-the-unknown
   game_id: crimson-desert
   title: Charting the Unknown
@@ -90,8 +91,37 @@ events:
   date: '2026-10-15'
   status: confirmed
   source_url: https://steamcommunity.com/app/1867240/announcements/
-  notes: BULKHEAD confirmed October 15 in the September 22 Season 02 teaser. No exact
-    launch time has been announced.
+  notes: The October 9 Season 02 preview reconfirms October 15, 2026 with four new
+    weapons, four vehicles, three buildables, rain weather, and progression and teamplay
+    improvements. An experimental Wager Vendor is planned during the season, without
+    a separate date. No exact Season 02 launch hour is announced.
   id: wardogs-season-02
   game_id: wardogs
-  updated_at: '2026-10-08T07:50:54.721456+00:00'
+  updated_at: '2026-10-13T06:04:42.309789+00:00'
+- logical_key: pve-toggle-beta
+  title: PvE Toggle Beta Test
+  type: beta
+  status: confirmed
+  start_at: '2026-10-13T11:00:00+02:00'
+  end_at: '2026-10-20T11:00:00+02:00'
+  source_timezone: Europe/Prague
+  source_url: https://arcraiders.com/news/pve-toggle-what-to-know
+  notes: 'Official test window: October 13 at 11:00 CEST through October 20 at 11:00
+    CEST. Optional PvE matchmaking removes player-to-player damage, lowers loot value,
+    and excludes Night Raid, Locked Gate, Hidden Bunker, Frigate, and Redirection.
+    This is a temporary beta, not confirmation of permanent PvE.'
+  id: arc-raiders-pve-toggle-beta
+  game_id: arc-raiders
+  updated_at: '2026-10-13T06:04:42.309789+00:00'
+- logical_key: trials-season-6-end
+  title: 'Trials Season 6: Frozen Trials ends'
+  type: season
+  status: confirmed
+  date: '2027-01-12'
+  source_url: https://arcraiders.com/news/trials-season-6
+  notes: Official end date for Trials Season 6, which began October 8, 2026. Weekly
+    challenges award gear and Blueprints, with season-placement cosmetics including
+    the Maestro Outfit. No exact closing hour or next-season start is announced.
+  id: arc-raiders-trials-season-6-end
+  game_id: arc-raiders
+  updated_at: '2026-10-13T06:04:42.309789+00:00'

@@ -2,11 +2,12 @@ version: 1
 past_event_retention_days: 30
 games:
   diablo-iv:
-    last_attempt: '2026-10-09T07:21:18.273524+00:00'
+    last_attempt: '2026-10-13T06:04:42.309789+00:00'
     status: warning
-    message: Official BlizzCon recap and current season page verified; Blizzard news
-      feed exposed no article listing, limiting completeness. No new confirmed upcoming
-      date found; existing data preserved.
+    message: Official BlizzCon recap and patch notes verified; Blizzard news feed
+      exposed no article listing and the season page returned HTTP 403, limiting completeness.
+      Patch 3.2.3 is a bug-fix patch, excluded from major-update events; no new confirmed
+      major upcoming date found.
     last_success: '2026-10-07T15:47:52+00:00'
   path-of-exile-2:
     last_attempt: '2026-10-09T07:21:18.273524+00:00'
@@ -14,10 +15,10 @@ games:
     message: ''
     last_success: '2026-10-09T07:21:18.273524+00:00'
   gray-zone-warfare:
-    last_attempt: '2026-10-07T15:47:52+00:00'
+    last_attempt: '2026-10-13T06:04:42.309789+00:00'
     status: OK
     message: ''
-    last_success: '2026-10-07T15:47:52+00:00'
+    last_success: '2026-10-13T06:04:42.309789+00:00'
   borderlands-4:
     last_attempt: '2026-10-07T15:47:52+00:00'
     status: warning
@@ -25,15 +26,15 @@ games:
       pages returned HTTP 403 and Steam English announcements were age-gated. No new
       major dated event could be verified; existing data preserved.
   crimson-desert:
-    last_attempt: '2026-10-07T15:47:52+00:00'
+    last_attempt: '2026-10-13T06:04:42.309789+00:00'
     status: OK
     message: ''
-    last_success: '2026-10-07T15:47:52+00:00'
+    last_success: '2026-10-13T06:04:42.309789+00:00'
   arc-raiders:
-    last_attempt: '2026-10-09T07:21:18.273524+00:00'
+    last_attempt: '2026-10-13T06:04:42.309789+00:00'
     status: OK
     message: ''
-    last_success: '2026-10-09T07:21:18.273524+00:00'
+    last_success: '2026-10-13T06:04:42.309789+00:00'
   marathon:
     last_attempt: '2026-10-07T15:47:52+00:00'
     status: warning
@@ -43,7 +44,7 @@ games:
       in-game events were not mislabeled as releases or major updates under the existing
       event-type schema.'
   wardogs:
-    last_attempt: '2026-10-08T07:50:54.721456+00:00'
+    last_attempt: '2026-10-13T06:04:42.309789+00:00'
     status: OK
     message: ''
-    last_success: '2026-10-08T07:50:54.721456+00:00'
+    last_success: '2026-10-13T06:04:42.309789+00:00'
