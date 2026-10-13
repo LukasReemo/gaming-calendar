@@ -140,6 +140,7 @@ games:
   latest_news_updated_at: '2026-10-13T06:04:42.309789+00:00'
 - id: world-of-warcraft-retail
   name: 'World of Warcraft: Retail'
+  display_name: WoW:Retail
   tracking_status: interested
   tracked_event_types:
   - release
@@ -157,6 +158,7 @@ games:
   latest_news_updated_at: '2026-10-13T14:43:31+00:00'
 - id: world-of-warcraft-classic
   name: 'World of Warcraft: Classic'
+  display_name: WoW:Classic
   tracking_status: interested
   tracked_event_types:
   - release
@@ -175,6 +177,7 @@ games:
   latest_news_updated_at: '2026-10-13T14:43:31+00:00'
 - id: world-of-warcraft-forever
   name: 'World of Warcraft: Forever'
+  display_name: WoW:Forever
   tracking_status: interested
   tracked_event_types:
   - release

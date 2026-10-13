@@ -191,6 +191,8 @@ def validate(games, events, *, enforce_limit=True):
         raise ValueError("Maximum 5 events per game")
     for game in games:
         required_text(game, "name")
+        if "display_name" in game:
+            required_text(game, "display_name")
         if game.get("tracking_status") not in {"playing", "interested", "waiting"}:
             raise ValueError("Invalid tracking_status")
         tracked = game.get("tracked_event_types")
@@ -285,7 +287,7 @@ def generate(games, events):
                       f"X-GAMING-CALENDAR-GAME-ID:{event['game_id']}",
                       f"X-GAMING-CALENDAR-EVENT-ID:{event['id']}",
                       *timing_lines,
-                      "SUMMARY:" + escape(f"{TYPES[event['type']]} {game['name']} · {event['title']}"),
+                      "SUMMARY:" + escape(f"{TYPES[event['type']]} {game.get('display_name', game['name'])} · {event['title']}"),
                       "DESCRIPTION:" + escape("\n".join(description)),
                       "STATUS:" + ("CONFIRMED" if event["status"] == "confirmed" else "TENTATIVE"),
                       "TRANSP:TRANSPARENT", "END:VEVENT"])

@@ -50,6 +50,22 @@ class CalendarTests(unittest.TestCase):
         self.assertIn("LAST-MODIFIED:20261006T120000Z", after)
         self.assertIn("Last updated: 06 Oct 2026", after)
 
+    def test_display_name_changes_only_summary(self):
+        self.games[0]["latest_news"] = "Fictional news remains unchanged."
+        before = self.unfolded().splitlines()
+        self.games[0]["display_name"] = "Short:Name"
+        after = self.unfolded().splitlines()
+        self.assertIn("SUMMARY:🎮 Short:Name · Release", after)
+        self.assertEqual([line for line in before if not line.startswith("SUMMARY:")],
+                         [line for line in after if not line.startswith("SUMMARY:")])
+        self.assertIn("Game: Fictional Game", self.unfolded())
+
+    def test_display_name_must_be_nonempty_text(self):
+        for value in (None, "", "   ", 42):
+            with self.subTest(value=value), self.assertRaises(ValueError):
+                self.games[0]["display_name"] = value
+                self.render()
+
     def test_legacy_initialization_preserves_state_and_revisions(self):
         original = copy.deepcopy((self.games, self.events))
         result = self.unfolded()
