@@ -48,3 +48,25 @@ games:
     status: OK
     message: ''
     last_success: '2026-10-13T06:04:42.309789+00:00'
+  world-of-warcraft-retail:
+    last_attempt: '2026-10-13T14:43:31+00:00'
+    status: warning
+    message: Official indexed EU announcement and content notes verified; direct Blizzard
+      article requests returned HTTP 403, limiting completeness. Track all Retail
+      expansions, not only Midnight; undated Season 3, Eclipse and The Last Titan
+      remain outside the feed. Promotions and routine tuning are not major updates.
+  world-of-warcraft-classic:
+    last_attempt: '2026-10-13T14:43:31+00:00'
+    status: warning
+    message: Official indexed Zul’Aman announcement and Classic landing page verified;
+      direct Blizzard article requests returned HTTP 403, limiting completeness. No
+      additional exact upcoming Classic release date verified; Retail and Forever
+      excluded.
+  world-of-warcraft-forever:
+    last_attempt: '2026-10-13T14:43:31+00:00'
+    status: warning
+    message: Official indexed beta, launch and upgrade announcements verified; direct
+      Blizzard article requests returned HTTP 403, limiting completeness. Beta milestones
+      and global launch have confirmed dates; Server Slam and later major updates
+      lack verified exact dates. Early name reservation is retained in news because
+      it is not a supported calendar category.

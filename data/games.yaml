@@ -138,3 +138,55 @@ games:
     Wager Vendor is planned during the season; no exact launch hour is announced.
   latest_news_source_url: https://steamcommunity.com/app/1867240/announcements/
   latest_news_updated_at: '2026-10-13T06:04:42.309789+00:00'
+- id: world-of-warcraft-retail
+  name: 'World of Warcraft: Retail'
+  tracking_status: interested
+  tracked_event_types:
+  - release
+  - expansion
+  - dlc
+  - season
+  - major_update
+  - beta
+  - early_access
+  latest_news: Midnight's 12.1.5 update arrives October 14 with European weekly maintenance,
+    adding the Kindo'jan Labyrinth, the Kith'ix raid, Aqir Invasions, and a Season
+    2 mid-season refresh. Season 3 and Eclipse have been previewed, while The Last
+    Titan remains the next expansion without a verified exact release date.
+  latest_news_source_url: https://worldofwarcraft.blizzard.com/en-gb/news/24307306
+  latest_news_updated_at: '2026-10-13T14:43:31+00:00'
+- id: world-of-warcraft-classic
+  name: 'World of Warcraft: Classic'
+  tracking_status: interested
+  tracked_event_types:
+  - release
+  - expansion
+  - dlc
+  - season
+  - major_update
+  - beta
+  - early_access
+  latest_news: Burning Crusade Classic Anniversary's Gods of Zul'Aman content phase
+    launches October 22 at 15:00 PDT, which is October 23 at 00:00 in Prague. It adds
+    the Zul'Aman raid and updates raid attunements, Heroic dungeons, Badges of Justice,
+    and epic gems. Mists of Pandaria Classic's Siege of Orgrimmar is already live;
+    no additional upcoming major Classic release date was verified.
+  latest_news_source_url: https://worldofwarcraft.blizzard.com/en-us/news/24310652/bcca-face-the-gods-of-zulaman-on-october-22
+  latest_news_updated_at: '2026-10-13T14:43:31+00:00'
+- id: world-of-warcraft-forever
+  name: 'World of Warcraft: Forever'
+  tracking_status: interested
+  tracked_event_types:
+  - release
+  - expansion
+  - dlc
+  - season
+  - major_update
+  - beta
+  - early_access
+  latest_news: Forever beta testing began September 17 and October 21 is its last
+    full testing day. Eligible upgrade purchasers can reserve names October 27-November
+    3. Global release is November 4 at 15:00 PST, which is November 5 at 00:00 in
+    Prague; the Server Slam and later major updates have no verified exact dates.
+  latest_news_source_url: https://worldofwarcraft.blizzard.com/en-us/news/24303862/world-of-warcraft-forever-whats-next-panel-recap
+  latest_news_updated_at: '2026-10-13T14:43:31+00:00'

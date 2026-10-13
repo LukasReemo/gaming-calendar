@@ -125,3 +125,66 @@ events:
   id: arc-raiders-trials-season-6-end
   game_id: arc-raiders
   updated_at: '2026-10-13T06:04:42.309789+00:00'
+- logical_key: bcca-gods-of-zulaman
+  title: 'Burning Crusade Classic Anniversary: Gods of Zul’Aman'
+  type: major_update
+  status: confirmed
+  source_url: https://worldofwarcraft.blizzard.com/en-us/news/24310652/bcca-face-the-gods-of-zulaman-on-october-22
+  notes: Official global launch is October 22, 2026 at 15:00 PDT / 23:00 BST, equivalent
+    to October 23 at 00:00 Europe/Prague. Classic Anniversary content phase includes
+    the 10-player Zul'Aman raid and substantial raid, dungeon, currency and gem updates;
+    this is separate from Retail's Zul'Aman content.
+  start_at: '2026-10-22T15:00:00-07:00'
+  source_timezone: America/Los_Angeles
+  id: world-of-warcraft-classic-bcca-gods-of-zulaman
+  game_id: world-of-warcraft-classic
+  updated_at: '2026-10-13T14:43:31+00:00'
+- logical_key: beta-final-day
+  title: 'Beta: Last Full Testing Day'
+  type: beta
+  status: confirmed
+  source_url: https://worldofwarcraft.blizzard.com/en-us/news/24304160/the-world-of-warcraft-forever-beta-now-live
+  notes: Blizzard explicitly identifies October 21, 2026 as the last full day of testing.
+    This is an all-day milestone, not an inferred shutdown hour.
+  date: '2026-10-21'
+  id: world-of-warcraft-forever-beta-final-day
+  game_id: world-of-warcraft-forever
+  updated_at: '2026-10-13T14:43:31+00:00'
+- logical_key: beta-start
+  title: Beta Begins
+  type: beta
+  status: confirmed
+  source_url: https://worldofwarcraft.blizzard.com/en-us/news/24304160/the-world-of-warcraft-forever-beta-now-live
+  notes: Official beta begins September 17, 2026 and remains available through October
+    21. This retained recent milestone is independent of Classic and Retail; no exact
+    opening hour verified.
+  date: '2026-09-17'
+  id: world-of-warcraft-forever-beta-start
+  game_id: world-of-warcraft-forever
+  updated_at: '2026-10-13T14:43:31+00:00'
+- logical_key: official-release
+  title: Official Release
+  type: release
+  status: confirmed
+  source_url: https://worldofwarcraft.blizzard.com/en-us/news/24303862/world-of-warcraft-forever-whats-next-panel-recap
+  notes: Official global launch is November 4, 2026 at 15:00 PST, equivalent to November
+    5 at 00:00 Europe/Prague. Access is included with a WoW subscription or game time;
+    this is the independent Forever release.
+  start_at: '2026-11-04T15:00:00-08:00'
+  source_timezone: America/Los_Angeles
+  id: world-of-warcraft-forever-official-release
+  game_id: world-of-warcraft-forever
+  updated_at: '2026-10-13T14:43:31+00:00'
+- logical_key: patch-12-1-5
+  title: Midnight 12.1.5 Content Update (Europe)
+  type: major_update
+  status: confirmed
+  source_url: https://worldofwarcraft.blizzard.com/en-gb/news/24307306
+  notes: European announcement confirms October 14, 2026 with weekly maintenance;
+    the US rollout is October 13. Includes a new single-boss raid, nine-chamber Labyrinth,
+    Season 2 refresh, campaign and Aqir Invasions. No exact maintenance completion
+    hour is supplied; these features are grouped as one content-update milestone.
+  date: '2026-10-14'
+  id: world-of-warcraft-retail-patch-12-1-5
+  game_id: world-of-warcraft-retail
+  updated_at: '2026-10-13T14:43:31+00:00'

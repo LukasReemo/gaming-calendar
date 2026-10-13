@@ -23,3 +23,18 @@
 - Keep unrelated user edits intact. Start scheduled runs from current main in a
   clean checkout. Follow branch protection; report any push/deployment blocker.
 - The scheduler and exact twice-weekly schedule are configured separately in Codex.
+
+## World of Warcraft tracking scopes
+
+- `world-of-warcraft-retail` tracks all current and future Retail expansions,
+  major patches, seasons, and relevant events, including expansions after Midnight.
+- `world-of-warcraft-classic` tracks Classic-specific updates, content phases,
+  major releases, and relevant events across Classic editions; exclude Retail
+  and Forever announcements.
+- `world-of-warcraft-forever` tracks Forever beta milestones, official release,
+  major updates, and relevant events; exclude Retail and Classic announcements.
+- Research these three games independently, with separate latest news and the
+  existing five-event limit for each. Shared Blizzard news articles must be
+  assessed by edition. Use only supported event categories; other relevant
+  announcements and milestones without sufficiently confirmed dates belong in
+  game-level news. Do not guess a category or date to fill the limit.
