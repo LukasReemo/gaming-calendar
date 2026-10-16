@@ -90,14 +90,16 @@ events:
   type: season
   date: '2026-10-15'
   status: confirmed
-  source_url: https://steamcommunity.com/app/1867240/announcements/
-  notes: The October 9 Season 02 preview reconfirms October 15, 2026 with four new
-    weapons, four vehicles, three buildables, rain weather, and progression and teamplay
-    improvements. An experimental Wager Vendor is planned during the season, without
-    a separate date. No exact Season 02 launch hour is announced.
+  source_url: https://store.steampowered.com/news/app/1867240/view/670630562731396445
+  notes: Season 02 is live as Update 0.2.0, with four weapons, four vehicles, three
+    buildables, rain weather, and reworked progression and balance. The October 14
+    patch notes scheduled maintenance for October 15 from 08:00 to 09:30 UTC; the
+    end was an estimate, not a guaranteed launch time, so the announced release date
+    remains all-day. The Wager Vendor will open later in Season 02, without a separate
+    confirmed date.
   id: wardogs-season-02
   game_id: wardogs
-  updated_at: '2026-10-13T06:04:42.309789+00:00'
+  updated_at: '2026-10-16T06:03:11+00:00'
 - logical_key: pve-toggle-beta
   title: PvE Toggle Beta Test
   type: beta
@@ -179,12 +181,41 @@ events:
   title: Midnight 12.1.5 Content Update (Europe)
   type: major_update
   status: confirmed
-  source_url: https://worldofwarcraft.blizzard.com/en-gb/news/24307306
-  notes: European announcement confirms October 14, 2026 with weekly maintenance;
-    the US rollout is October 13. Includes a new single-boss raid, nine-chamber Labyrinth,
-    Season 2 refresh, campaign and Aqir Invasions. No exact maintenance completion
-    hour is supplied; these features are grouped as one content-update milestone.
+  source_url: https://news.blizzard.com/en-us/article/24307306/midnight-s-12-1-5-content-update-is-now-live
+  notes: The European rollout was announced for October 14, 2026 with weekly maintenance;
+    Blizzard now confirms 12.1.5 is live. Includes the Kith'ix single-boss raid, nine-chamber
+    Labyrinth of Kindo'jan, Season 2 refresh, campaign, and Aqir Invasions. The content-update
+    milestone retains its European date and stable identity; no exact maintenance-completion
+    hour is verified.
   date: '2026-10-14'
   id: world-of-warcraft-retail-patch-12-1-5
   game_id: world-of-warcraft-retail
-  updated_at: '2026-10-13T14:43:31+00:00'
+  updated_at: '2026-10-16T06:03:11+00:00'
+- logical_key: initial-raids-unlock
+  title: Initial Raids Unlock
+  type: major_update
+  status: confirmed
+  date: '2026-12-09'
+  source_url: https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap
+  notes: Blizzard's Forever roadmap explicitly dates new raid unlocks for December
+    9 after the November release. No opening hour or region-specific timing is supplied,
+    so this entry uses the announced all-day date. This milestone is independent of
+    Classic and Retail.
+  id: world-of-warcraft-forever-initial-raids-unlock
+  game_id: world-of-warcraft-forever
+  updated_at: '2026-10-16T06:03:11+00:00'
+- logical_key: server-slam-eu
+  title: Server Slam Stress Test (Europe)
+  type: beta
+  status: confirmed
+  start_at: '2026-10-19T19:00:00+02:00'
+  source_timezone: Europe/Prague
+  source_url: https://eu.forums.blizzard.com/en/wow/t/wow-forever-stress-test-19-october/635831
+  notes: Blizzard confirms the EU regional stress test starts October 19 at 19:00
+    CEST. Anyone with a WoW account can join without an active subscription; production
+    realms are used for a few hours and test characters and names are wiped afterwards,
+    then beta testing reopens. No exact end time is announced; the calendar's default
+    one-hour slot is not the test's confirmed duration.
+  id: world-of-warcraft-forever-server-slam-eu
+  game_id: world-of-warcraft-forever
+  updated_at: '2026-10-16T06:03:11+00:00'

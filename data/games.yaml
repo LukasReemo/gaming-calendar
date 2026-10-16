@@ -10,12 +10,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Blizzard lists patch 3.2.3 for October 14, 2026, fixing seasonal quest
+  latest_news: Patch 3.2.3 is dated October 14, 2026 and addresses seasonal quest
     progression, boss encounters, Horadric Cube affix rerolls, and stability issues.
     Season of Hell's Legacy remains current, while the Amazon class pack is planned
     for the first half of 2027 without an exact date.
   latest_news_source_url: https://news.blizzard.com/en-us/article/24295395/diablo-iv-patch-notes
-  latest_news_updated_at: '2026-10-13T06:04:42.309789+00:00'
+  latest_news_updated_at: '2026-10-16T06:03:11+00:00'
 - id: path-of-exile-2
   name: Path of Exile 2
   tracking_status: interested
@@ -96,12 +96,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Frozen Trail is live with Pendola Pass, Outposts, deeper progression,
-    and new gear. A PvE matchmaking beta runs October 13-20, 2026 at 11:00 CEST, disabling
-    player damage while lowering loot value and excluding some map conditions. Trials
-    Season 6 is active and ends January 12, 2027.
-  latest_news_source_url: https://arcraiders.com/news/pve-toggle-what-to-know
-  latest_news_updated_at: '2026-10-13T06:04:42.309789+00:00'
+  latest_news: Update 2.1 launched the PvE matchmaking beta on October 13, with testing
+    scheduled through October 20 at 11:00 CEST. The update also fixes Reward Pass
+    progression, traversal, skills, and stability issues following Frozen Trail. Trials
+    Season 6 remains active and ends January 12, 2027.
+  latest_news_source_url: https://arcraiders.com/news/store-update-2-1-0
+  latest_news_updated_at: '2026-10-16T06:03:11+00:00'
 - id: marathon
   name: Marathon
   tracking_status: interested
@@ -131,13 +131,13 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Season 02 releases October 15, 2026 with four weapons, four vehicles,
-    buildables, rain weather, and progression and teamplay improvements. The preview
-    also outlines Lonestar cash and XP bonuses, less visible uniforms, moved spawns,
-    and a 20 percent vendor discount for teams far behind. An optional experimental
-    Wager Vendor is planned during the season; no exact launch hour is announced.
+  latest_news: Season 02 is live with Update 0.2.0, adding four weapons, four vehicles,
+    buildables, rain weather, and broad combat and controller changes. Role-track
+    level 20 now requires 55 percent less XP, alongside revised unlocks, Lonestar
+    bonuses, and a discount for losing teams. The Wager Vendor is explicitly unavailable
+    at launch and will open later in the season without a confirmed date.
   latest_news_source_url: https://steamcommunity.com/app/1867240/announcements/
-  latest_news_updated_at: '2026-10-13T06:04:42.309789+00:00'
+  latest_news_updated_at: '2026-10-16T06:03:11+00:00'
 - id: world-of-warcraft-retail
   name: 'World of Warcraft: Retail'
   display_name: WoW:Retail
@@ -150,12 +150,13 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Midnight's 12.1.5 update arrives October 14 with European weekly maintenance,
-    adding the Kindo'jan Labyrinth, the Kith'ix raid, Aqir Invasions, and a Season
-    2 mid-season refresh. Season 3 and Eclipse have been previewed, while The Last
-    Titan remains the next expansion without a verified exact release date.
-  latest_news_source_url: https://worldofwarcraft.blizzard.com/en-gb/news/24307306
-  latest_news_updated_at: '2026-10-13T14:43:31+00:00'
+  latest_news: Midnight 12.1.5 is live with the nine-chamber Labyrinth of Kindo'jan,
+    the Kith'ix raid, Aqir Invasions, and the Season 2 refresh. During maintenance
+    in the week of October 20, Ascendant Venomstones unlock further upgrades and the
+    crest cap is lifted. Season 3, Eclipse, and The Last Titan still lack a newly
+    verified exact release date.
+  latest_news_source_url: https://news.blizzard.com/en-us/article/24307306/midnight-s-12-1-5-content-update-is-now-live
+  latest_news_updated_at: '2026-10-16T06:03:11+00:00'
 - id: world-of-warcraft-classic
   name: 'World of Warcraft: Classic'
   display_name: WoW:Classic
@@ -187,9 +188,10 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Forever beta testing began September 17 and October 21 is its last
-    full testing day. Eligible upgrade purchasers can reserve names October 27-November
-    3. Global release is November 4 at 15:00 PST, which is November 5 at 00:00 in
-    Prague; the Server Slam and later major updates have no verified exact dates.
-  latest_news_source_url: https://worldofwarcraft.blizzard.com/en-us/news/24303862/world-of-warcraft-forever-whats-next-panel-recap
-  latest_news_updated_at: '2026-10-13T14:43:31+00:00'
+  latest_news: The EU Forever Stress Test begins October 19, 2026 at 19:00 CEST, is
+    open to anyone with a WoW account without an active subscription, and wipes test
+    characters afterwards. October 21 remains the beta's last full testing day. Global
+    release is November 4 at 15:00 PST, or November 5 at 00:00 in Prague, with initial
+    raids unlocking December 9 without a verified opening hour.
+  latest_news_source_url: https://eu.forums.blizzard.com/en/wow/t/wow-forever-stress-test-19-october/635831
+  latest_news_updated_at: '2026-10-16T06:03:11+00:00'

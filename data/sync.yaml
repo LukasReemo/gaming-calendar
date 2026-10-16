@@ -2,7 +2,7 @@ version: 1
 past_event_retention_days: 30
 games:
   diablo-iv:
-    last_attempt: '2026-10-13T06:04:42.309789+00:00'
+    last_attempt: '2026-10-16T06:03:11+00:00'
     status: warning
     message: Official BlizzCon recap and patch notes verified; Blizzard news feed
       exposed no article listing and the season page returned HTTP 403, limiting completeness.
@@ -31,10 +31,10 @@ games:
     message: ''
     last_success: '2026-10-13T06:04:42.309789+00:00'
   arc-raiders:
-    last_attempt: '2026-10-13T06:04:42.309789+00:00'
+    last_attempt: '2026-10-16T06:03:11+00:00'
     status: OK
     message: ''
-    last_success: '2026-10-13T06:04:42.309789+00:00'
+    last_success: '2026-10-16T06:03:11+00:00'
   marathon:
     last_attempt: '2026-10-07T15:47:52+00:00'
     status: warning
@@ -44,29 +44,29 @@ games:
       in-game events were not mislabeled as releases or major updates under the existing
       event-type schema.'
   wardogs:
-    last_attempt: '2026-10-13T06:04:42.309789+00:00'
+    last_attempt: '2026-10-16T06:03:11+00:00'
     status: OK
     message: ''
-    last_success: '2026-10-13T06:04:42.309789+00:00'
+    last_success: '2026-10-16T06:03:11+00:00'
   world-of-warcraft-retail:
-    last_attempt: '2026-10-13T14:43:31+00:00'
+    last_attempt: '2026-10-16T06:03:11+00:00'
     status: warning
-    message: Official indexed EU announcement and content notes verified; direct Blizzard
-      article requests returned HTTP 403, limiting completeness. Track all Retail
-      expansions, not only Midnight; undated Season 3, Eclipse and The Last Titan
-      remain outside the feed. Promotions and routine tuning are not major updates.
+    message: Official Blizzard news mirror confirms 12.1.5 is live; direct WoW site
+      requests return HTTP 403 and the Blizzard feed exposes no article listing, limiting
+      completeness. The week-of-October-20 progression unlock remains in news because
+      no exact European date or hour was verified; routine tuning is not a major update.
   world-of-warcraft-classic:
-    last_attempt: '2026-10-13T14:43:31+00:00'
+    last_attempt: '2026-10-16T06:03:11+00:00'
     status: warning
-    message: Official indexed Zul’Aman announcement and Classic landing page verified;
-      direct Blizzard article requests returned HTTP 403, limiting completeness. No
-      additional exact upcoming Classic release date verified; Retail and Forever
-      excluded.
+    message: Official Blizzard news mirror verifies the Zul'Aman global launch date
+      and time; direct WoW site requests return HTTP 403 and the Blizzard feed exposes
+      no article listing, limiting completeness. No additional exact upcoming Classic
+      release date verified; Retail and Forever excluded.
   world-of-warcraft-forever:
-    last_attempt: '2026-10-13T14:43:31+00:00'
+    last_attempt: '2026-10-16T06:03:11+00:00'
     status: warning
-    message: Official indexed beta, launch and upgrade announcements verified; direct
-      Blizzard article requests returned HTTP 403, limiting completeness. Beta milestones
-      and global launch have confirmed dates; Server Slam and later major updates
-      lack verified exact dates. Early name reservation is retained in news because
-      it is not a supported calendar category.
+    message: Official Blizzard forum confirms the regional stress-test start, and
+      Blizzard news mirrors verify the beta deadline, global launch, and December
+      9 raid unlock. Direct WoW site requests return HTTP 403 and the Blizzard feed
+      exposes no article listing, limiting completeness. Stress-test end time and
+      raid opening hour remain unannounced; existing data preserved.
