@@ -26,14 +26,16 @@ events:
   title: Rogue Ops 0.5
   type: major_update
   date: '2026-10-22'
-  source_url: https://www.grayzonewarfare.com/news/new-content-rogue-ops-devlog
-  notes: Major Rogue Ops update and transition to alpha, adding Hideout building,
-    crafting, smuggling, seven weapons, 370 weapon parts, three Tier 4 locations,
-    and new tasks. A soft wipe preserves rank, apparel, vendor levels and completed
-    tasks but resets lockers and money. The October 11 devlog reconfirms October 22;
-    no exact launch hour is announced.
+  source_url: https://www.grayzonewarfare.com/news/new-features-rogue-ops-devlog
+  notes: Public Rogue Ops 0.5 release is reconfirmed for October 22 by the October
+    18 final devlog. Adds a three-room upgradeable Hideout, crafting, hacking tools,
+    smuggling and hunting, alongside new weapons, locations, tasks, technical upgrades,
+    and anti-cheat changes. The soft wipe preserves rank, apparel, vendor levels and
+    completed tasks but resets lockers and money. No exact launch hour is confirmed;
+    the Twitch Drops article explicitly says its usual 13:00 UTC stage start may differ
+    for the update release.
   status: confirmed
-  updated_at: '2026-10-13T06:04:42.309789+00:00'
+  updated_at: '2026-10-20T05:56:05+00:00'
 - id: crimson-desert-charting-the-unknown
   game_id: crimson-desert
   title: Charting the Unknown
@@ -152,18 +154,6 @@ events:
   id: world-of-warcraft-forever-beta-final-day
   game_id: world-of-warcraft-forever
   updated_at: '2026-10-13T14:43:31+00:00'
-- logical_key: beta-start
-  title: Beta Begins
-  type: beta
-  status: confirmed
-  source_url: https://worldofwarcraft.blizzard.com/en-us/news/24304160/the-world-of-warcraft-forever-beta-now-live
-  notes: Official beta begins September 17, 2026 and remains available through October
-    21. This retained recent milestone is independent of Classic and Retail; no exact
-    opening hour verified.
-  date: '2026-09-17'
-  id: world-of-warcraft-forever-beta-start
-  game_id: world-of-warcraft-forever
-  updated_at: '2026-10-13T14:43:31+00:00'
 - logical_key: official-release
   title: Official Release
   type: release
@@ -208,14 +198,15 @@ events:
   title: Server Slam Stress Test (Europe)
   type: beta
   status: confirmed
-  start_at: '2026-10-19T19:00:00+02:00'
+  start_at: '2026-10-21T19:00:00+02:00'
   source_timezone: Europe/Prague
-  source_url: https://eu.forums.blizzard.com/en/wow/t/wow-forever-stress-test-19-october/635831
-  notes: Blizzard confirms the EU regional stress test starts October 19 at 19:00
-    CEST. Anyone with a WoW account can join without an active subscription; production
-    realms are used for a few hours and test characters and names are wiped afterwards,
-    then beta testing reopens. No exact end time is announced; the calendar's default
-    one-hour slot is not the test's confirmed duration.
+  source_url: https://news.blizzard.com/en-us/article/24302072/updated-oct-16-join-the-world-of-warcraft-forever-stress-test
+  notes: Blizzard's October 16 correction moves the EU regional stress test from October
+    19 to October 21 at 19:00 CEST. No subscription, Game Time, invitation, or beta
+    access is required. Beta goes offline shortly before the test and is expected
+    back afterwards; stress-test characters, names, and guilds are wiped at the end.
+    No exact end time is announced; the calendar's default one-hour slot is not a
+    confirmed test duration.
   id: world-of-warcraft-forever-server-slam-eu
   game_id: world-of-warcraft-forever
-  updated_at: '2026-10-16T06:03:11+00:00'
+  updated_at: '2026-10-20T05:56:05+00:00'

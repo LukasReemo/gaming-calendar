@@ -10,15 +10,15 @@ games:
       major upcoming date found.
     last_success: '2026-10-07T15:47:52+00:00'
   path-of-exile-2:
-    last_attempt: '2026-10-09T07:21:18.273524+00:00'
+    last_attempt: '2026-10-20T05:56:05+00:00'
     status: OK
     message: ''
-    last_success: '2026-10-09T07:21:18.273524+00:00'
+    last_success: '2026-10-20T05:56:05+00:00'
   gray-zone-warfare:
-    last_attempt: '2026-10-13T06:04:42.309789+00:00'
+    last_attempt: '2026-10-20T05:56:05+00:00'
     status: OK
     message: ''
-    last_success: '2026-10-13T06:04:42.309789+00:00'
+    last_success: '2026-10-20T05:56:05+00:00'
   borderlands-4:
     last_attempt: '2026-10-07T15:47:52+00:00'
     status: warning
@@ -49,12 +49,13 @@ games:
     message: ''
     last_success: '2026-10-16T06:03:11+00:00'
   world-of-warcraft-retail:
-    last_attempt: '2026-10-16T06:03:11+00:00'
+    last_attempt: '2026-10-20T05:56:05+00:00'
     status: warning
-    message: Official Blizzard news mirror confirms 12.1.5 is live; direct WoW site
-      requests return HTTP 403 and the Blizzard feed exposes no article listing, limiting
-      completeness. The week-of-October-20 progression unlock remains in news because
-      no exact European date or hour was verified; routine tuning is not a major update.
+    message: Official Blizzard news mirror verifies the Echoes of the Worldcore PTR
+      overview, but supplies no exact launch date. Direct WoW site requests return
+      HTTP 403 and the Blizzard feed exposes no article listing, limiting completeness.
+      Undated content and week-of-October-20 progression remain in news; existing
+      dated events preserved.
   world-of-warcraft-classic:
     last_attempt: '2026-10-16T06:03:11+00:00'
     status: warning
@@ -63,10 +64,10 @@ games:
       no article listing, limiting completeness. No additional exact upcoming Classic
       release date verified; Retail and Forever excluded.
   world-of-warcraft-forever:
-    last_attempt: '2026-10-16T06:03:11+00:00'
+    last_attempt: '2026-10-20T05:56:05+00:00'
     status: warning
-    message: Official Blizzard forum confirms the regional stress-test start, and
-      Blizzard news mirrors verify the beta deadline, global launch, and December
-      9 raid unlock. Direct WoW site requests return HTTP 403 and the Blizzard feed
-      exposes no article listing, limiting completeness. Stress-test end time and
-      raid opening hour remain unannounced; existing data preserved.
+    message: Official updated Blizzard article moves the EU stress test to October
+      21 at 19:00 CEST, superseding the October 19 forum announcement; beta deadline
+      and later launch milestones reverified. Direct WoW site requests return HTTP
+      403 and the Blizzard feed exposes no article listing, limiting completeness.
+      No exact stress-test end time or raid opening hour verified.

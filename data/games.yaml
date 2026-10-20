@@ -27,11 +27,13 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Grinding Gear Games announced that Path of Exile 2 will leave Early
-    Access and launch free-to-play on December 11, 2026. The full release introduces
-    the Duelist class.
-  latest_news_source_url: https://www.pathofexile.com/forum/view-thread/3999366
-  latest_news_updated_at: '2026-10-09T07:21:18.273524+00:00'
+  latest_news: Path of Exile 2 still launches free-to-play on December 11, 2026, introducing
+    the Duelist. The latest registration announcement says two community reward milestones
+    have been unlocked, and existing Early Access owners must register separately
+    and confirm their email to receive them. Registration remains open until December
+    11.
+  latest_news_source_url: https://www.pathofexile.com/forum/view-thread/4011278
+  latest_news_updated_at: '2026-10-20T05:56:05+00:00'
 - id: gray-zone-warfare
   name: Gray Zone Warfare
   tracking_status: interested
@@ -43,13 +45,14 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Rogue Ops adds seven weapons, 370 weapon parts, three Tier 4 locations,
-    smaller exploration areas, and new tasks alongside Hideout, crafting, and multiple
-    characters. A soft wipe preserves rank, apparel, vendor levels, and completed
-    tasks while resetting lockers and money. Supporter Preview starts October 19,
-    followed by the public update on October 22, 2026.
-  latest_news_source_url: https://www.grayzonewarfare.com/news/new-content-rogue-ops-devlog
-  latest_news_updated_at: '2026-10-13T06:04:42.309789+00:00'
+  latest_news: Rogue Ops remains scheduled for public release on October 22, 2026,
+    with Supporter Preview listed for October 19. The final devlog details three upgradeable
+    Hideout rooms, crafting and hacking tools, smuggling and hunting activities, and
+    an Unreal Engine 5.7 upgrade with performance and anti-cheat improvements. Twitch
+    Drops run October 22-November 6, but their usual 13:00 UTC stage time is not confirmation
+    of the update's launch hour.
+  latest_news_source_url: https://www.grayzonewarfare.com/news/new-features-rogue-ops-devlog
+  latest_news_updated_at: '2026-10-20T05:56:05+00:00'
 - id: borderlands-4
   name: Borderlands 4
   tracking_status: interested
@@ -150,13 +153,14 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Midnight 12.1.5 is live with the nine-chamber Labyrinth of Kindo'jan,
-    the Kith'ix raid, Aqir Invasions, and the Season 2 refresh. During maintenance
-    in the week of October 20, Ascendant Venomstones unlock further upgrades and the
-    crest cap is lifted. Season 3, Eclipse, and The Last Titan still lack a newly
-    verified exact release date.
-  latest_news_source_url: https://news.blizzard.com/en-us/article/24307306/midnight-s-12-1-5-content-update-is-now-live
-  latest_news_updated_at: '2026-10-16T06:03:11+00:00'
+  latest_news: Midnight 12.1.5 is live, with additional Ascendant Venomstone upgrades
+    and the crest-cap lift scheduled during maintenance in the week of October 20.
+    Blizzard has previewed Echoes of the Worldcore on the PTR, including Return to
+    Dornogal, the solo-or-group Talebound PvE mode, Lorewalking stories, Turbulent
+    Timeways, and Omnium Folio additions. No exact launch date for Echoes of the Worldcore
+    was verified.
+  latest_news_source_url: https://news.blizzard.com/en-us/article/24310659/midnight-echoes-of-the-worldcore-overview
+  latest_news_updated_at: '2026-10-20T05:56:05+00:00'
 - id: world-of-warcraft-classic
   name: 'World of Warcraft: Classic'
   display_name: WoW:Classic
@@ -188,10 +192,11 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: The EU Forever Stress Test begins October 19, 2026 at 19:00 CEST, is
-    open to anyone with a WoW account without an active subscription, and wipes test
-    characters afterwards. October 21 remains the beta's last full testing day. Global
-    release is November 4 at 15:00 PST, or November 5 at 00:00 in Prague, with initial
-    raids unlocking December 9 without a verified opening hour.
-  latest_news_source_url: https://eu.forums.blizzard.com/en/wow/t/wow-forever-stress-test-19-october/635831
-  latest_news_updated_at: '2026-10-16T06:03:11+00:00'
+  latest_news: Blizzard moved the EU Forever Stress Test from October 19 to October
+    21, 2026 at 19:00 CEST; it needs no subscription or beta access and wipes stress-test
+    characters afterwards. October 21 remains the beta's last full testing day, while
+    eligible purchasers can reserve names October 27-November 3. Global release remains
+    November 4 at 15:00 PST, or November 5 at 00:00 in Prague, with initial raids
+    dated December 9.
+  latest_news_source_url: https://news.blizzard.com/en-us/article/24302072/updated-oct-16-join-the-world-of-warcraft-forever-stress-test
+  latest_news_updated_at: '2026-10-20T05:56:05+00:00'
