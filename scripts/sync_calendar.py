@@ -21,7 +21,7 @@ else:
 
 ID = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
 DEFAULT_STATE = {"version": 1, "past_event_retention_days": 30, "games": {}}
-GAME_FIELDS = {"id", "name", "display_name", "tracking_status", "tracked_event_types", "latest_news",
+GAME_FIELDS = {"id", "name", "display_name", "tracked_event_types", "latest_news",
                "latest_news_source_url", "latest_news_updated_at"}
 EVENT_FIELDS = {"id", "logical_key", "game_id", "title", "type", "date", "start_at", "end_at",
                 "source_timezone", "status", "source_url", "notes", "updated_at", "importance"}

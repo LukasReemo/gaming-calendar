@@ -2,7 +2,6 @@
   {
     "id": "fictional-game",
     "name": "Fictional Game",
-    "tracking_status": "interested",
     "tracked_event_types": ["release", "expansion", "dlc", "season", "major_update", "beta", "early_access"]
   }
 ]

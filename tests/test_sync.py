@@ -20,7 +20,7 @@ NOW = datetime(2026, 10, 7, 12, tzinfo=timezone.utc)
 
 class SyncTests(unittest.TestCase):
     def setUp(self):
-        self.games = [{"id": "fictional-game", "name": "Fictional Game", "tracking_status": "interested",
+        self.games = [{"id": "fictional-game", "name": "Fictional Game",
                        "tracked_event_types": ["release", "major_update"], "latest_news": "Old news."}]
         self.events = [{"id": "fictional-release", "game_id": "fictional-game", "title": "Release",
                         "type": "release", "date": "2026-11-01", "status": "confirmed",

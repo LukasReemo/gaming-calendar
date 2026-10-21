@@ -10,7 +10,7 @@ from scripts.generate_calendar import ROOT, escape, generate, load_rows
 class CalendarTests(unittest.TestCase):
     def setUp(self):
         self.games = [{"id": "fictional-game", "name": "Fictional Game",
-                       "tracking_status": "interested", "tracked_event_types": ["release"],
+                       "tracked_event_types": ["release"],
                        "latest_news": ""}]
         self.events = [{"id": "fictional-release", "game_id": "fictional-game",
                         "title": "Release", "type": "release", "date": "2030-01-01",

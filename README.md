@@ -51,12 +51,11 @@ For the existing v1 configuration format, add a mapping under `games:` or edit a
 # Fictional example only; do not copy as real game news.
 - id: fictional-game
   name: Fictional Game
-  tracking_status: interested
   tracked_event_types: [release, dlc, major_update]
   latest_news: ""
 ```
 
-IDs must be unique lowercase letters/digits separated by hyphens. Keep IDs permanent even when a name changes. `tracking_status` is personal metadata: `playing`, `interested`, or `waiting`; it does not filter events. `tracked_event_types` controls export for that game. Use an empty list to pause its events. Supported types are `release`, `expansion`, `dlc`, `season`, `major_update`, `beta`, and `early_access`.
+IDs must be unique lowercase letters/digits separated by hyphens. Keep IDs permanent even when a name changes. `tracked_event_types` controls export for that game. Use an empty list to pause its events. Supported types are `release`, `expansion`, `dlc`, `season`, `major_update`, `beta`, and `early_access`.
 
 Optional `display_name` is a nonempty title-only override. Generated event summaries
 use it in place of `name`; descriptions, research, tracking and IDs retain the full

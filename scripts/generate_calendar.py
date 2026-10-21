@@ -193,8 +193,6 @@ def validate(games, events, *, enforce_limit=True):
         required_text(game, "name")
         if "display_name" in game:
             required_text(game, "display_name")
-        if game.get("tracking_status") not in {"playing", "interested", "waiting"}:
-            raise ValueError("Invalid tracking_status")
         tracked = game.get("tracked_event_types")
         if not isinstance(tracked, list) or any(t not in TYPES for t in tracked):
             raise ValueError("Invalid tracked_event_types")

@@ -71,3 +71,12 @@ games:
       and later launch milestones reverified. Direct WoW site requests return HTTP
       403 and the Blizzard feed exposes no article listing, limiting completeness.
       No exact stress-test end time or raid opening hour verified.
+  enshrouded:
+    last_attempt: '2026-10-21T12:53:22+00:00'
+    status: OK
+    message: Official news, major-update archive, launch FAQ and Steam developer announcements
+      checked. Version 1.0 launched October 15, 2026 and is already past; October
+      21 hotfix is routine maintenance, not a major update. No confirmed upcoming
+      event date found, so no past release, speculative date, promotion or minor fix
+      was added.
+    last_success: '2026-10-21T12:53:22+00:00'

@@ -1,7 +1,6 @@
 games:
 - id: diablo-iv
   name: Diablo IV
-  tracking_status: interested
   tracked_event_types:
   - release
   - expansion
@@ -18,7 +17,6 @@ games:
   latest_news_updated_at: '2026-10-16T06:03:11+00:00'
 - id: path-of-exile-2
   name: Path of Exile 2
-  tracking_status: interested
   tracked_event_types:
   - release
   - expansion
@@ -36,7 +34,6 @@ games:
   latest_news_updated_at: '2026-10-20T05:56:05+00:00'
 - id: gray-zone-warfare
   name: Gray Zone Warfare
-  tracking_status: interested
   tracked_event_types:
   - release
   - expansion
@@ -55,7 +52,6 @@ games:
   latest_news_updated_at: '2026-10-20T05:56:05+00:00'
 - id: borderlands-4
   name: Borderlands 4
-  tracking_status: interested
   tracked_event_types:
   - release
   - expansion
@@ -72,7 +68,6 @@ games:
   latest_news_updated_at: '2026-10-05T18:38:49Z'
 - id: crimson-desert
   name: Crimson Desert
-  tracking_status: interested
   tracked_event_types:
   - release
   - expansion
@@ -90,7 +85,6 @@ games:
   latest_news_updated_at: '2026-10-13T06:04:42.309789+00:00'
 - id: arc-raiders
   name: ARC Raiders
-  tracking_status: interested
   tracked_event_types:
   - release
   - expansion
@@ -107,7 +101,6 @@ games:
   latest_news_updated_at: '2026-10-16T06:03:11+00:00'
 - id: marathon
   name: Marathon
-  tracking_status: interested
   tracked_event_types:
   - release
   - expansion
@@ -125,7 +118,6 @@ games:
   latest_news_updated_at: '2026-10-07T15:47:52+00:00'
 - id: wardogs
   name: WARDOGS
-  tracking_status: playing
   tracked_event_types:
   - release
   - expansion
@@ -144,7 +136,6 @@ games:
 - id: world-of-warcraft-retail
   name: 'World of Warcraft: Retail'
   display_name: WoW:Retail
-  tracking_status: interested
   tracked_event_types:
   - release
   - expansion
@@ -164,7 +155,6 @@ games:
 - id: world-of-warcraft-classic
   name: 'World of Warcraft: Classic'
   display_name: WoW:Classic
-  tracking_status: interested
   tracked_event_types:
   - release
   - expansion
@@ -183,7 +173,6 @@ games:
 - id: world-of-warcraft-forever
   name: 'World of Warcraft: Forever'
   display_name: WoW:Forever
-  tracking_status: interested
   tracked_event_types:
   - release
   - expansion
@@ -200,3 +189,20 @@ games:
     dated December 9.
   latest_news_source_url: https://news.blizzard.com/en-us/article/24302072/updated-oct-16-join-the-world-of-warcraft-forever-stress-test
   latest_news_updated_at: '2026-10-20T05:56:05+00:00'
+- id: enshrouded
+  name: Enshrouded
+  tracked_event_types:
+  - release
+  - expansion
+  - dlc
+  - season
+  - major_update
+  - beta
+  - early_access
+  latest_news: Enshrouded 1.0 launched October 15, 2026, completing the map with Cinder's
+    Cradle and adding Sparkworks adventure creation, new progression, and expanded
+    combat options. Hotfix 1.0.0.3 on October 21 fixes missing Early Access rewards,
+    crashes, save migration, and multiplayer loading issues. No upcoming major update
+    or release with a confirmed date was found in the official announcements.
+  latest_news_source_url: https://enshrouded.com/en-US/news
+  latest_news_updated_at: '2026-10-21T12:53:22+00:00'
