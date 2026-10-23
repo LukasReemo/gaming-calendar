@@ -9,12 +9,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Patch 3.2.3 is dated October 14, 2026 and addresses seasonal quest
-    progression, boss encounters, Horadric Cube affix rerolls, and stability issues.
-    Season of Hell's Legacy remains current, while the Amazon class pack is planned
-    for the first half of 2027 without an exact date.
-  latest_news_source_url: https://news.blizzard.com/en-us/article/24295395/diablo-iv-patch-notes
-  latest_news_updated_at: '2026-10-16T06:03:11+00:00'
+  latest_news: The Diablo IV 3.3.0 PTR for Season 16 runs October 27 at 10:00 PDT
+    through November 3 at 10:00 PST. It previews major War Plans changes, reworked
+    Infernal Hordes, Pit and Lair Boss activities, and new Horadric Items. Season
+    16's exact live-launch date remains unannounced.
+  latest_news_source_url: https://news.blizzard.com/en-us/article/24302578/the-3-3-0-ptr-what-you-need-to-know
+  latest_news_updated_at: '2026-10-23T06:00:05+00:00'
 - id: path-of-exile-2
   name: Path of Exile 2
   tracked_event_types:
@@ -42,14 +42,13 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Rogue Ops remains scheduled for public release on October 22, 2026,
-    with Supporter Preview listed for October 19. The final devlog details three upgradeable
-    Hideout rooms, crafting and hacking tools, smuggling and hunting activities, and
-    an Unreal Engine 5.7 upgrade with performance and anti-cheat improvements. Twitch
-    Drops run October 22-November 6, but their usual 13:00 UTC stage time is not confirmation
-    of the update's launch hour.
-  latest_news_source_url: https://www.grayzonewarfare.com/news/new-features-rogue-ops-devlog
-  latest_news_updated_at: '2026-10-20T05:56:05+00:00'
+  latest_news: Rogue Ops 0.5.0.1 is now live and moves Gray Zone Warfare from pre-alpha
+    into alpha. The update adds the Hideout and crafting loop, smuggling and hunting,
+    four-character support, three Tier 4 locations, seven weapons, more than 370 weapon
+    parts, Unreal Engine 5.7 upgrades, and a seasonal soft wipe. MADFINGER says regular
+    patches and hotfixes will follow, but no next major-update date is confirmed.
+  latest_news_source_url: https://www.madfingergames.com/news/rogue-ops-out-now-changelog
+  latest_news_updated_at: '2026-10-23T06:00:05+00:00'
 - id: borderlands-4
   name: Borderlands 4
   tracked_event_types:
@@ -77,12 +76,12 @@ games:
   - beta
   - early_access
   latest_news: Charting the Unknown still launches October 29, 2026 at 22:00 UTC,
-    or 23:00 in Prague. The revised preorder notice confirms availability on PlayStation,
-    Xbox, Steam, and Epic but excludes Mac App Store at launch. The DLC will be unavailable
-    in certain markets following content and age-rating reviews, with affected preorders
-    closed and refunds handled by platform.
-  latest_news_source_url: https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=129
-  latest_news_updated_at: '2026-10-13T06:04:42.309789+00:00'
+    or 23:00 in Prague. The official features overview details new character and ocean
+    storylines, underwater exploration, upgraded housing, claimable castles, business
+    management, and the Garden of Trials. Release-day patch notes are still forthcoming,
+    and no later dated major release was announced.
+  latest_news_source_url: https://crimsondesert.pearlabyss.com/EN-US/News/Notice/Detail?_boardNo=137
+  latest_news_updated_at: '2026-10-23T06:00:05+00:00'
 - id: arc-raiders
   name: ARC Raiders
   tracked_event_types:
@@ -93,12 +92,13 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Update 2.1 launched the PvE matchmaking beta on October 13, with testing
-    scheduled through October 20 at 11:00 CEST. The update also fixes Reward Pass
-    progression, traversal, skills, and stability issues following Frozen Trail. Trials
-    Season 6 remains active and ends January 12, 2027.
-  latest_news_source_url: https://arcraiders.com/news/store-update-2-1-0
-  latest_news_updated_at: '2026-10-16T06:03:11+00:00'
+  latest_news: The PvE matchmaking toggle beta ended as scheduled on October 20 after
+    more than 30 million PvE rounds. Embark says the result was polarizing and expects
+    to share further information in November after reviewing data and feedback. Update
+    2.2 added the Wreck Set and fixes, while Trials Season 6 still ends January 12,
+    2027.
+  latest_news_source_url: https://arcraiders.com/news/pve-test-thanks-for-playing
+  latest_news_updated_at: '2026-10-23T06:00:05+00:00'
 - id: marathon
   name: Marathon
   tracked_event_types:
@@ -109,13 +109,13 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Nightfall Refresh is live with reset progression, revised faction requirements,
-    a free permanent Rewards Pass, and gentler solo PvE combat. Symbiosis arrives
-    December 8 with permanent PvE, an expanded Perimeter, the Bishop shell, Team Deathmatch,
-    and a social space with a firing range. A broader evolution is planned for March
-    2027 without an exact day.
-  latest_news_source_url: https://www.bungie.net/7/en/News/Article/nighfall_refresh_symbiosis_roadmap
-  latest_news_updated_at: '2026-10-07T15:47:52+00:00'
+  latest_news: Update 1.1.9.5 confirms Vault Breaker runs October 20-November 10 and
+    revises its armory and economy, resolving the earlier official date conflict.
+    The CARRI activity is active through the end of Nightfall Refresh, and Sponsored
+    Night Marsh began October 22. The next qualifying major calendar milestone remains
+    Symbiosis on December 8.
+  latest_news_source_url: https://www.bungie.net/7/en/News/Article/marathon_update_1_1_9_5
+  latest_news_updated_at: '2026-10-23T06:00:05+00:00'
 - id: wardogs
   name: WARDOGS
   tracked_event_types:
@@ -144,14 +144,13 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Midnight 12.1.5 is live, with additional Ascendant Venomstone upgrades
-    and the crest-cap lift scheduled during maintenance in the week of October 20.
-    Blizzard has previewed Echoes of the Worldcore on the PTR, including Return to
-    Dornogal, the solo-or-group Talebound PvE mode, Lorewalking stories, Turbulent
-    Timeways, and Omnium Folio additions. No exact launch date for Echoes of the Worldcore
-    was verified.
-  latest_news_source_url: https://news.blizzard.com/en-us/article/24310659/midnight-echoes-of-the-worldcore-overview
-  latest_news_updated_at: '2026-10-20T05:56:05+00:00'
+  latest_news: Midnight 12.1.5 is live with the Kith'ix raid, Labyrinth of Kindo'jan,
+    Season 2 mid-season refresh, campaign, and Aqir Invasions. Blizzard has previewed
+    Echoes of the Worldcore on the PTR, including Return to Dornogal, the Talebound
+    PvE mode, Lorewalking stories, Turbulent Timeways, and Omnium Folio additions.
+    No exact launch date for Echoes of the Worldcore was verified.
+  latest_news_source_url: https://news.blizzard.com/en-us/article/24313102/wow-weekly-highlights-midnight-12-1-5-worldcore-wow-forever-and-more
+  latest_news_updated_at: '2026-10-23T06:00:05+00:00'
 - id: world-of-warcraft-classic
   name: 'World of Warcraft: Classic'
   display_name: WoW:Classic
@@ -164,12 +163,12 @@ games:
   - beta
   - early_access
   latest_news: Burning Crusade Classic Anniversary's Gods of Zul'Aman content phase
-    launches October 22 at 15:00 PDT, which is October 23 at 00:00 in Prague. It adds
-    the Zul'Aman raid and updates raid attunements, Heroic dungeons, Badges of Justice,
-    and epic gems. Mists of Pandaria Classic's Siege of Orgrimmar is already live;
-    no additional upcoming major Classic release date was verified.
+    launched October 22 at 15:00 PDT, which was October 23 at 00:00 in Prague. It
+    adds the Zul'Aman raid and updates raid attunements, Heroic dungeons, Badges of
+    Justice, and epic gems. No additional upcoming major Classic release date was
+    verified; Retail and Forever announcements were excluded.
   latest_news_source_url: https://worldofwarcraft.blizzard.com/en-us/news/24310652/bcca-face-the-gods-of-zulaman-on-october-22
-  latest_news_updated_at: '2026-10-13T14:43:31+00:00'
+  latest_news_updated_at: '2026-10-23T06:00:05+00:00'
 - id: world-of-warcraft-forever
   name: 'World of Warcraft: Forever'
   display_name: WoW:Forever
@@ -181,14 +180,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Blizzard moved the EU Forever Stress Test from October 19 to October
-    21, 2026 at 19:00 CEST; it needs no subscription or beta access and wipes stress-test
-    characters afterwards. October 21 remains the beta's last full testing day, while
-    eligible purchasers can reserve names October 27-November 3. Global release remains
+  latest_news: Eligible purchasers can reserve up to three WoW Forever character names
+    from October 27 at 18:00 CET in Europe through November 3. Global release remains
     November 4 at 15:00 PST, or November 5 at 00:00 in Prague, with initial raids
-    dated December 9.
-  latest_news_source_url: https://news.blizzard.com/en-us/article/24302072/updated-oct-16-join-the-world-of-warcraft-forever-stress-test
-  latest_news_updated_at: '2026-10-20T05:56:05+00:00'
+    dated December 9. No new exact post-launch major-update date was announced.
+  latest_news_source_url: https://news.blizzard.com/en-us/article/24303866/claim-your-world-of-warcraft-forever-character-names
+  latest_news_updated_at: '2026-10-23T06:00:05+00:00'
 - id: enshrouded
   name: Enshrouded
   tracked_event_types:

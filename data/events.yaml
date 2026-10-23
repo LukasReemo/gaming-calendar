@@ -22,20 +22,21 @@ events:
   status: confirmed
   updated_at: '2026-10-05T18:38:49Z'
 - id: gray-zone-warfare-rogue-ops
-  game_id: gray-zone-warfare
+  logical_key: rogue-ops
   title: Rogue Ops 0.5
   type: major_update
   date: '2026-10-22'
-  source_url: https://www.grayzonewarfare.com/news/new-features-rogue-ops-devlog
-  notes: Public Rogue Ops 0.5 release is reconfirmed for October 22 by the October
-    18 final devlog. Adds a three-room upgradeable Hideout, crafting, hacking tools,
-    smuggling and hunting, alongside new weapons, locations, tasks, technical upgrades,
-    and anti-cheat changes. The soft wipe preserves rank, apparel, vendor levels and
-    completed tasks but resets lockers and money. No exact launch hour is confirmed;
-    the Twitch Drops article explicitly says its usual 13:00 UTC stage start may differ
-    for the update release.
+  source_url: https://www.madfingergames.com/news/rogue-ops-out-now-changelog
+  notes: Rogue Ops 0.5.0.1 is now live as Gray Zone Warfare's fourth major update,
+    moving the game from pre-alpha to alpha. It adds the Hideout and crafting loop,
+    smuggling and hunting, four playable characters, three Tier 4 locations, new weapons
+    and parts, extensive AI, health, audio, visual and performance changes, and an
+    Unreal Engine 5.7 upgrade. The seasonal soft wipe preserves completed tasks, rank,
+    apparel, vendor ranks and statistics while resetting equipment, locker contents
+    and money; no exact launch hour was published.
   status: confirmed
-  updated_at: '2026-10-20T05:56:05+00:00'
+  game_id: gray-zone-warfare
+  updated_at: '2026-10-23T06:00:05+00:00'
 - id: crimson-desert-charting-the-unknown
   game_id: crimson-desert
   title: Charting the Unknown
@@ -210,3 +211,19 @@ events:
   id: world-of-warcraft-forever-server-slam-eu
   game_id: world-of-warcraft-forever
   updated_at: '2026-10-20T05:56:05+00:00'
+- logical_key: season-16-ptr-3-3-0
+  title: Season 16 PTR 3.3.0
+  type: beta
+  status: confirmed
+  start_at: '2026-10-27T10:00:00-07:00'
+  end_at: '2026-11-03T10:00:00-08:00'
+  source_timezone: America/Los_Angeles
+  source_url: https://news.blizzard.com/en-us/article/24302578/the-3-3-0-ptr-what-you-need-to-know
+  notes: 'Official PTR window: October 27 at 10:00 PDT through November 3 at 10:00
+    PST. The PC-only test previews Season 16 systems including War Plans Tactics,
+    reworked activities, Tyrael''s Boons and Horadric Items; it does not establish
+    the live season date.'
+  importance: 2
+  id: diablo-iv-season-16-ptr-3-3-0
+  game_id: diablo-iv
+  updated_at: '2026-10-23T06:00:05+00:00'

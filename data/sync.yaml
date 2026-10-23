@@ -2,75 +2,79 @@ version: 1
 past_event_retention_days: 30
 games:
   diablo-iv:
-    last_attempt: '2026-10-16T06:03:11+00:00'
-    status: warning
-    message: Official BlizzCon recap and patch notes verified; Blizzard news feed
-      exposed no article listing and the season page returned HTTP 403, limiting completeness.
-      Patch 3.2.3 is a bug-fix patch, excluded from major-update events; no new confirmed
-      major upcoming date found.
-    last_success: '2026-10-07T15:47:52+00:00'
+    last_attempt: '2026-10-23T06:00:05+00:00'
+    status: OK
+    message: Official Blizzard news and patch sources checked. The newly announced
+      3.3.0 PTR has exact start and end times and is included as a beta event; routine
+      fixes remain news-only.
+    last_success: '2026-10-23T06:00:05+00:00'
   path-of-exile-2:
     last_attempt: '2026-10-20T05:56:05+00:00'
     status: OK
     message: ''
     last_success: '2026-10-20T05:56:05+00:00'
   gray-zone-warfare:
-    last_attempt: '2026-10-20T05:56:05+00:00'
+    last_attempt: '2026-10-23T06:00:05+00:00'
     status: OK
-    message: ''
-    last_success: '2026-10-20T05:56:05+00:00'
+    message: Official MADFINGER launch changelog verifies Rogue Ops is live. Existing
+      event identity and date are retained; release status, final version and content
+      notes are refreshed.
+    last_success: '2026-10-23T06:00:05+00:00'
   borderlands-4:
-    last_attempt: '2026-10-07T15:47:52+00:00'
+    last_attempt: '2026-10-23T06:00:05+00:00'
     status: warning
-    message: Official 2K DLC announcement verified; current Borderlands news and update
-      pages returned HTTP 403 and Steam English announcements were age-gated. No new
-      major dated event could be verified; existing data preserved.
+    message: Official 2K newsroom listings were checked and still show Story Pack
+      2 as the latest major dated Borderlands 4 release. The main Borderlands news/update
+      pages remain inaccessible to the research service, limiting completeness; no
+      new confirmed major date was added and existing data was preserved.
   crimson-desert:
-    last_attempt: '2026-10-13T06:04:42.309789+00:00'
+    last_attempt: '2026-10-23T06:00:05+00:00'
     status: OK
-    message: ''
-    last_success: '2026-10-13T06:04:42.309789+00:00'
+    message: Official announcement index, release-time notice and October 20 features
+      overview checked. The October 29 time is reconfirmed; no date change found.
+    last_success: '2026-10-23T06:00:05+00:00'
   arc-raiders:
-    last_attempt: '2026-10-16T06:03:11+00:00'
+    last_attempt: '2026-10-23T06:00:05+00:00'
     status: OK
-    message: ''
-    last_success: '2026-10-16T06:03:11+00:00'
+    message: Official ARC Raiders news and patch listings checked. The PvE beta's
+      confirmed end is reflected in news; Update 2.2 is routine fixes/cosmetics and
+      was not mislabeled as a major event.
+    last_success: '2026-10-23T06:00:05+00:00'
   marathon:
-    last_attempt: '2026-10-07T15:47:52+00:00'
-    status: warning
-    message: 'New roadmap and Update 1.1.9.2 verified. Vault Breaker dates conflict:
-      patch notes say October 20-November 9, roadmap calendar says October 22-November
-      2; no event added for conflicting dates. Routine activity returns and limited
-      in-game events were not mislabeled as releases or major updates under the existing
-      event-type schema.'
+    last_attempt: '2026-10-23T06:00:05+00:00'
+    status: OK
+    message: Official Update 1.1.9.5 resolves the earlier Vault Breaker conflict with
+      an October 20-November 10 window. Vault Breaker, C.A.R.R.I. and weekend Sponsored
+      Night Marsh are limited activities outside the supported event categories, so
+      they remain news-only; Symbiosis stays dated December 8.
+    last_success: '2026-10-23T06:00:05+00:00'
   wardogs:
     last_attempt: '2026-10-16T06:03:11+00:00'
     status: OK
     message: ''
     last_success: '2026-10-16T06:03:11+00:00'
   world-of-warcraft-retail:
-    last_attempt: '2026-10-20T05:56:05+00:00'
-    status: warning
-    message: Official Blizzard news mirror verifies the Echoes of the Worldcore PTR
-      overview, but supplies no exact launch date. Direct WoW site requests return
-      HTTP 403 and the Blizzard feed exposes no article listing, limiting completeness.
-      Undated content and week-of-October-20 progression remain in news; existing
-      dated events preserved.
+    last_attempt: '2026-10-23T06:00:05+00:00'
+    status: OK
+    message: Official Blizzard news and weekly highlights checked independently for
+      Retail. Echoes of the Worldcore remains undated, so it stays news-only; promotions
+      and routine hotfixes were excluded.
+    last_success: '2026-10-23T06:00:05+00:00'
   world-of-warcraft-classic:
-    last_attempt: '2026-10-16T06:03:11+00:00'
-    status: warning
-    message: Official Blizzard news mirror verifies the Zul'Aman global launch date
-      and time; direct WoW site requests return HTTP 403 and the Blizzard feed exposes
-      no article listing, limiting completeness. No additional exact upcoming Classic
-      release date verified; Retail and Forever excluded.
+    last_attempt: '2026-10-23T06:00:05+00:00'
+    status: OK
+    message: Official Blizzard Classic announcement and news listings checked independently.
+      Gods of Zul'Aman launched at the stored global time; no additional upcoming
+      major Classic date was verified.
+    last_success: '2026-10-23T06:00:05+00:00'
   world-of-warcraft-forever:
-    last_attempt: '2026-10-20T05:56:05+00:00'
-    status: warning
-    message: Official updated Blizzard article moves the EU stress test to October
-      21 at 19:00 CEST, superseding the October 19 forum announcement; beta deadline
-      and later launch milestones reverified. Direct WoW site requests return HTTP
-      403 and the Blizzard feed exposes no article listing, limiting completeness.
-      No exact stress-test end time or raid opening hour verified.
+    last_attempt: '2026-10-23T06:00:05+00:00'
+    status: OK
+    message: Official Blizzard Forever sources checked independently. Early Name Reservation
+      now has an exact European start, but it is news-only because account name reservation
+      does not match a supported calendar category; release and raid milestones remain
+      unchanged.
+    last_success: '2026-10-23T06:00:05+00:00'
   enshrouded:
     last_attempt: '2026-10-21T12:53:22+00:00'
     status: OK
