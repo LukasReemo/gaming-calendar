@@ -227,3 +227,29 @@ events:
   id: diablo-iv-season-16-ptr-3-3-0
   game_id: diablo-iv
   updated_at: '2026-10-23T06:00:05+00:00'
+- logical_key: horrors-of-kairos
+  title: Horrors of Kairos Seasonal Mini-Event begins
+  type: season
+  status: confirmed
+  date: '2026-10-23'
+  source_url: https://borderlands.2k.com/en-GB/borderlands-4/news/horrors-of-kairos/
+  notes: 'Official event window: October 23 through November 6, 2026. During the event,
+    world-boss encounters receive blood-rain weather and can award the Murmur Legendary
+    assault rifle and Skully Legendary grenade. No exact start or end hour is published,
+    so this all-day entry records the confirmed opening date.'
+  id: borderlands-4-horrors-of-kairos
+  game_id: borderlands-4
+  updated_at: '2026-10-27T06:58:15+00:00'
+- logical_key: talebound-ptr-demo
+  title: Talebound PTR Demo begins
+  type: beta
+  status: confirmed
+  date: '2026-10-30'
+  source_url: https://news.blizzard.com/en-us/article/24313107/join-in-the-talebound-demo-on-october-30
+  notes: 'Official PTR demo window: October 30 through November 1, 2026. The demo
+    includes the Red Hollow introduction, three tales, three classes and three difficulty
+    levels, and requires no subscription. No exact opening or closing hour is published,
+    so this all-day entry records the confirmed start date.'
+  id: world-of-warcraft-retail-talebound-ptr-demo
+  game_id: world-of-warcraft-retail
+  updated_at: '2026-10-27T06:58:15+00:00'

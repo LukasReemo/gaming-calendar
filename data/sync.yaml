@@ -21,12 +21,12 @@ games:
       notes are refreshed.
     last_success: '2026-10-23T06:00:05+00:00'
   borderlands-4:
-    last_attempt: '2026-10-23T06:00:05+00:00'
+    last_attempt: '2026-10-27T06:58:15+00:00'
     status: warning
-    message: Official 2K newsroom listings were checked and still show Story Pack
-      2 as the latest major dated Borderlands 4 release. The main Borderlands news/update
-      pages remain inaccessible to the research service, limiting completeness; no
-      new confirmed major date was added and existing data was preserved.
+    message: The official Borderlands 4 search result verifies the Horrors of Kairos
+      seasonal mini-event and its October 23-November 6 window, but direct access
+      to the article still returns HTTP 403 and limits broader completeness. The confirmed
+      event was added from first-party evidence; existing data was preserved.
   crimson-desert:
     last_attempt: '2026-10-23T06:00:05+00:00'
     status: OK
@@ -54,33 +54,30 @@ games:
     message: ''
     last_success: '2026-10-16T06:03:11+00:00'
   world-of-warcraft-retail:
-    last_attempt: '2026-10-23T06:00:05+00:00'
+    last_attempt: '2026-10-27T06:58:15+00:00'
     status: OK
-    message: Official Blizzard news and weekly highlights checked independently for
-      Retail. Echoes of the Worldcore remains undated, so it stays news-only; promotions
-      and routine hotfixes were excluded.
-    last_success: '2026-10-23T06:00:05+00:00'
+    message: Official Blizzard Retail news checked independently. The Talebound PTR
+      demo has a confirmed October 30-November 1 window and is added as a beta start
+      milestone; no exact hours or full Echoes of the Worldcore release date were
+      announced.
+    last_success: '2026-10-27T06:58:15+00:00'
   world-of-warcraft-classic:
-    last_attempt: '2026-10-23T06:00:05+00:00'
+    last_attempt: '2026-10-27T06:58:15+00:00'
     status: OK
-    message: Official Blizzard Classic announcement and news listings checked independently.
-      Gods of Zul'Aman launched at the stored global time; no additional upcoming
-      major Classic date was verified.
-    last_success: '2026-10-23T06:00:05+00:00'
+    message: Official Blizzard Classic news checked independently. Gods of Zul'Aman
+      is now live; no additional upcoming major Classic date was verified.
+    last_success: '2026-10-27T06:58:15+00:00'
   world-of-warcraft-forever:
-    last_attempt: '2026-10-23T06:00:05+00:00'
+    last_attempt: '2026-10-27T06:58:15+00:00'
     status: OK
-    message: Official Blizzard Forever sources checked independently. Early Name Reservation
-      now has an exact European start, but it is news-only because account name reservation
-      does not match a supported calendar category; release and raid milestones remain
-      unchanged.
-    last_success: '2026-10-23T06:00:05+00:00'
+    message: Official Blizzard Forever sources checked independently. Name reservations,
+      launch timing, rulesets and the December 9 raid unlock were reverified; no later
+      exact major-update date was announced.
+    last_success: '2026-10-27T06:58:15+00:00'
   enshrouded:
-    last_attempt: '2026-10-21T12:53:22+00:00'
+    last_attempt: '2026-10-27T06:58:15+00:00'
     status: OK
-    message: Official news, major-update archive, launch FAQ and Steam developer announcements
-      checked. Version 1.0 launched October 15, 2026 and is already past; October
-      21 hotfix is routine maintenance, not a major update. No confirmed upcoming
-      event date found, so no past release, speculative date, promotion or minor fix
-      was added.
-    last_success: '2026-10-21T12:53:22+00:00'
+    message: Official Enshrouded news and hotfix listings checked. Steam Deck verification
+      is reflected in news; promised fixes have no exact date and no upcoming major
+      release date was confirmed.
+    last_success: '2026-10-27T06:58:15+00:00'

@@ -59,12 +59,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: 'The September 10 content release added Story Pack 2: FL4K and the
-    Last Resort, the playable Vault Hunter Loveless the Hacker, and Bounty Pack 5:
-    Amara and the Vile Shadows. The accompanying free Version 1.10 update increased
-    the level cap by ten.'
-  latest_news_source_url: https://newsroom-uk.2k.com/news/borderlandsr-4-story-pack-2-fl4k-and-the-last-resort-launching-on-september-10-alongside-all-new-vault-hunter-and-bounty-pack-5-amara-and-the-vile-shadows
-  latest_news_updated_at: '2026-10-05T18:38:49Z'
+  latest_news: The free Horrors of Kairos seasonal mini-event runs October 23-November
+    6, changing world-boss weather to blood rain and adding the Murmur Legendary assault
+    rifle and Skully Legendary grenade to boss rewards. A SHiFT code also grants two
+    cosmetic rewards. No later major release date was verified.
+  latest_news_source_url: https://borderlands.2k.com/en-GB/borderlands-4/news/horrors-of-kairos/
+  latest_news_updated_at: '2026-10-27T06:58:15+00:00'
 - id: crimson-desert
   name: Crimson Desert
   tracked_event_types:
@@ -144,13 +144,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Midnight 12.1.5 is live with the Kith'ix raid, Labyrinth of Kindo'jan,
-    Season 2 mid-season refresh, campaign, and Aqir Invasions. Blizzard has previewed
-    Echoes of the Worldcore on the PTR, including Return to Dornogal, the Talebound
-    PvE mode, Lorewalking stories, Turbulent Timeways, and Omnium Folio additions.
-    No exact launch date for Echoes of the Worldcore was verified.
-  latest_news_source_url: https://news.blizzard.com/en-us/article/24313102/wow-weekly-highlights-midnight-12-1-5-worldcore-wow-forever-and-more
-  latest_news_updated_at: '2026-10-23T06:00:05+00:00'
+  latest_news: The Talebound PTR demo runs October 30-November 1 without requiring
+    a subscription. It includes the Red Hollow introduction, three tales, the Slayer,
+    Inquisitor and Witch classes, and Normal, Veteran and Heroic difficulties. The
+    full Echoes of the Worldcore update still has no confirmed launch date.
+  latest_news_source_url: https://news.blizzard.com/en-us/article/24313107/join-in-the-talebound-demo-on-october-30
+  latest_news_updated_at: '2026-10-27T06:58:15+00:00'
 - id: world-of-warcraft-classic
   name: 'World of Warcraft: Classic'
   display_name: WoW:Classic
@@ -162,13 +161,13 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Burning Crusade Classic Anniversary's Gods of Zul'Aman content phase
-    launched October 22 at 15:00 PDT, which was October 23 at 00:00 in Prague. It
-    adds the Zul'Aman raid and updates raid attunements, Heroic dungeons, Badges of
-    Justice, and epic gems. No additional upcoming major Classic release date was
-    verified; Retail and Forever announcements were excluded.
-  latest_news_source_url: https://worldofwarcraft.blizzard.com/en-us/news/24310652/bcca-face-the-gods-of-zulaman-on-october-22
-  latest_news_updated_at: '2026-10-23T06:00:05+00:00'
+  latest_news: Burning Crusade Classic Anniversary's Gods of Zul'Aman is now live
+    with a 10-player raid, three-day reset and timed Amani War Bear challenge. The
+    phase also removes several attunements, reduces Heroic-key reputation requirements,
+    expands Badge of Justice sources and updates epic gems. No additional upcoming
+    major Classic release date was verified.
+  latest_news_source_url: https://news.blizzard.com/en-us/article/24310652/bcca-the-gods-of-zul-aman-now-live
+  latest_news_updated_at: '2026-10-27T06:58:15+00:00'
 - id: world-of-warcraft-forever
   name: 'World of Warcraft: Forever'
   display_name: WoW:Forever
@@ -180,12 +179,13 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Eligible purchasers can reserve up to three WoW Forever character names
-    from October 27 at 18:00 CET in Europe through November 3. Global release remains
-    November 4 at 15:00 PST, or November 5 at 00:00 in Prague, with initial raids
-    dated December 9. No new exact post-launch major-update date was announced.
-  latest_news_source_url: https://news.blizzard.com/en-us/article/24303866/claim-your-world-of-warcraft-forever-character-names
-  latest_news_updated_at: '2026-10-23T06:00:05+00:00'
+  latest_news: Early Name Reservation opens October 27 at 18:00 CET in Europe and
+    runs through November 3 for up to three characters. Global release remains November
+    4 at 15:00 PST, or November 5 at 00:00 in Prague, with Normal, PvP, Roleplaying
+    and Roleplay-PvP rulesets at launch. Barrow Deeps, Hyjal Summit and Onyxia's Lair
+    unlock December 9.
+  latest_news_source_url: https://news.blizzard.com/en-us/article/24313106/dive-into-wow-forever-the-gods-of-zulaman-hallows-end-and-more-in-wow-weekly
+  latest_news_updated_at: '2026-10-27T06:58:15+00:00'
 - id: enshrouded
   name: Enshrouded
   tracked_event_types:
@@ -196,10 +196,10 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Enshrouded 1.0 launched October 15, 2026, completing the map with Cinder's
-    Cradle and adding Sparkworks adventure creation, new progression, and expanded
-    combat options. Hotfix 1.0.0.3 on October 21 fixes missing Early Access rewards,
-    crashes, save migration, and multiplayer loading issues. No upcoming major update
-    or release with a confirmed date was found in the official announcements.
-  latest_news_source_url: https://enshrouded.com/en-US/news
-  latest_news_updated_at: '2026-10-21T12:53:22+00:00'
+  latest_news: Enshrouded 1.0 launched October 15, completing the map with Cinder's
+    Cradle and adding Sparkworks adventure creation, new progression and expanded
+    combat options. Keen Games announced on October 23 that Enshrouded 1.0 is Steam
+    Deck Verified and said more fixes and improvements would follow the next week.
+    No upcoming major update or release has a confirmed date.
+  latest_news_source_url: https://enshrouded.com/en-US/news/enshrouded-is-steam-deck-verified
+  latest_news_updated_at: '2026-10-27T06:58:15+00:00'
