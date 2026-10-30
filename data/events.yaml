@@ -38,18 +38,19 @@ events:
   game_id: gray-zone-warfare
   updated_at: '2026-10-23T06:00:05+00:00'
 - id: crimson-desert-charting-the-unknown
-  game_id: crimson-desert
   title: Charting the Unknown
   type: dlc
+  status: confirmed
   start_at: '2026-10-29T22:00:00Z'
   source_timezone: UTC
-  source_url: https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=134
-  notes: 'Revised release date replaces the original October 15 announcement after
-    a two-week delay. Official release time: October 29, 2026 at 22:00 UTC, or 23:00
-    Europe/Prague (CET). The publisher notice incorrectly labels the European timezone
-    CEST for this date.'
-  status: confirmed
-  updated_at: '2026-10-06T14:00:00Z'
+  source_url: https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=140
+  notes: Version 2.04.00 confirms the DLC is live at the previously announced October
+    29, 2026 22:00 UTC release time, or 23:00 Europe/Prague. The final patch adds
+    new character story quests, ocean and underwater exploration, ships and maritime
+    trading, expanded housing, claimable castles, business management, and broad gameplay,
+    map and graphics improvements.
+  game_id: crimson-desert
+  updated_at: '2026-10-30T07:00:04+00:00'
 - id: arc-raiders-frozen-trail
   game_id: arc-raiders
   title: Frozen Trail
@@ -253,3 +254,16 @@ events:
   id: world-of-warcraft-retail-talebound-ptr-demo
   game_id: world-of-warcraft-retail
   updated_at: '2026-10-27T06:58:15+00:00'
+- logical_key: housing-guild-neighborhoods-ptr-test
+  title: Housing Guild Neighborhoods PTR Test begins
+  type: beta
+  status: confirmed
+  date: '2026-10-30'
+  source_url: https://news.blizzard.com/en-us/article/24241096/updated-10-30-midnight-prologue-the-warning-content-update-and-housing-early-access
+  notes: 'Official limited-time PTR window: October 30 through October 31, 2026. The
+    test focuses on guild neighborhoods and resets existing houses and neighborhoods;
+    a Midnight license is not required. Blizzard supplies no exact opening or closing
+    hour, so this all-day entry records the confirmed start date.'
+  id: world-of-warcraft-retail-housing-guild-neighborhoods-ptr-test
+  game_id: world-of-warcraft-retail
+  updated_at: '2026-10-30T07:00:04+00:00'

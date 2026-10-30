@@ -75,13 +75,13 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Charting the Unknown still launches October 29, 2026 at 22:00 UTC,
-    or 23:00 in Prague. The official features overview details new character and ocean
-    storylines, underwater exploration, upgraded housing, claimable castles, business
-    management, and the Garden of Trials. Release-day patch notes are still forthcoming,
-    and no later dated major release was announced.
-  latest_news_source_url: https://crimsondesert.pearlabyss.com/EN-US/News/Notice/Detail?_boardNo=137
-  latest_news_updated_at: '2026-10-23T06:00:05+00:00'
+  latest_news: Charting the Unknown launched October 29 at 22:00 UTC, or 23:00 in
+    Prague, with version 2.04.00 available across Steam, PlayStation, Xbox and Epic.
+    It adds character quests, ocean and underwater exploration, ships and maritime
+    trading, expanded housing, claimable castles, business management, and broad gameplay
+    improvements. No later dated major release was announced.
+  latest_news_source_url: https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=140
+  latest_news_updated_at: '2026-10-30T07:00:04+00:00'
 - id: arc-raiders
   name: ARC Raiders
   tracked_event_types:
@@ -92,13 +92,13 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: The PvE matchmaking toggle beta ended as scheduled on October 20 after
-    more than 30 million PvE rounds. Embark says the result was polarizing and expects
-    to share further information in November after reviewing data and feedback. Update
-    2.2 added the Wreck Set and fixes, while Trials Season 6 still ends January 12,
-    2027.
-  latest_news_source_url: https://arcraiders.com/news/pve-test-thanks-for-playing
-  latest_news_updated_at: '2026-10-23T06:00:05+00:00'
+  latest_news: Live Update 2.3 launched October 27 with the Souls Offering player
+    project, the Noxious Set, balance changes and extensive fixes. Embark is returning
+    to fixes every three weeks while continuing weekly store updates. The PvE test
+    results remain under review for a November follow-up, and Trials Season 6 still
+    ends January 12, 2027.
+  latest_news_source_url: https://arcraiders.com/news
+  latest_news_updated_at: '2026-10-30T07:00:04+00:00'
 - id: marathon
   name: Marathon
   tracked_event_types:
@@ -144,12 +144,13 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: The Talebound PTR demo runs October 30-November 1 without requiring
-    a subscription. It includes the Red Hollow introduction, three tales, the Slayer,
-    Inquisitor and Witch classes, and Normal, Veteran and Heroic difficulties. The
-    full Echoes of the Worldcore update still has no confirmed launch date.
-  latest_news_source_url: https://news.blizzard.com/en-us/article/24313107/join-in-the-talebound-demo-on-october-30
-  latest_news_updated_at: '2026-10-27T06:58:15+00:00'
+  latest_news: A Housing PTR test runs October 30-31 and focuses on guild neighborhoods
+    after resetting existing houses and neighborhoods; a Midnight license is not required.
+    The Talebound PTR demo separately runs October 30-November 1 with three tales,
+    classes and difficulty levels. Echoes of the Worldcore still has no confirmed
+    live-launch date.
+  latest_news_source_url: https://news.blizzard.com/en-us/article/24241096/updated-10-30-midnight-prologue-the-warning-content-update-and-housing-early-access
+  latest_news_updated_at: '2026-10-30T07:00:04+00:00'
 - id: world-of-warcraft-classic
   name: 'World of Warcraft: Classic'
   display_name: WoW:Classic

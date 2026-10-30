@@ -28,18 +28,20 @@ games:
       to the article still returns HTTP 403 and limits broader completeness. The confirmed
       event was added from first-party evidence; existing data was preserved.
   crimson-desert:
-    last_attempt: '2026-10-23T06:00:05+00:00'
+    last_attempt: '2026-10-30T07:00:04+00:00'
     status: OK
-    message: Official announcement index, release-time notice and October 20 features
-      overview checked. The October 29 time is reconfirmed; no date change found.
-    last_success: '2026-10-23T06:00:05+00:00'
+    message: Official release patch notes confirm Charting the Unknown is live across
+      Steam, PlayStation, Xbox and Epic at the stored global release time. The existing
+      event identity and exact time are retained and its notes are refreshed from
+      the final patch.
+    last_success: '2026-10-30T07:00:04+00:00'
   arc-raiders:
-    last_attempt: '2026-10-23T06:00:05+00:00'
+    last_attempt: '2026-10-30T07:00:04+00:00'
     status: OK
-    message: Official ARC Raiders news and patch listings checked. The PvE beta's
-      confirmed end is reflected in news; Update 2.2 is routine fixes/cosmetics and
-      was not mislabeled as a major event.
-    last_success: '2026-10-23T06:00:05+00:00'
+    message: Official ARC Raiders news and Live Update 2.3 notes checked. Souls Offering
+      is a player project and the remaining changes are fixes and store content, so
+      no major calendar event was added; the confirmed Trials end remains unchanged.
+    last_success: '2026-10-30T07:00:04+00:00'
   marathon:
     last_attempt: '2026-10-23T06:00:05+00:00'
     status: OK
@@ -54,13 +56,12 @@ games:
     message: ''
     last_success: '2026-10-16T06:03:11+00:00'
   world-of-warcraft-retail:
-    last_attempt: '2026-10-27T06:58:15+00:00'
+    last_attempt: '2026-10-30T07:00:04+00:00'
     status: OK
-    message: Official Blizzard Retail news checked independently. The Talebound PTR
-      demo has a confirmed October 30-November 1 window and is added as a beta start
-      milestone; no exact hours or full Echoes of the Worldcore release date were
-      announced.
-    last_success: '2026-10-27T06:58:15+00:00'
+    message: Official Blizzard Retail sources checked independently. A second Housing
+      PTR test has a confirmed October 30-31 window and is added as a beta start milestone;
+      no exact hours or full Echoes of the Worldcore release date were announced.
+    last_success: '2026-10-30T07:00:04+00:00'
   world-of-warcraft-classic:
     last_attempt: '2026-10-27T06:58:15+00:00'
     status: OK
