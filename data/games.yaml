@@ -76,12 +76,11 @@ games:
   - beta
   - early_access
   latest_news: Charting the Unknown launched October 29 at 22:00 UTC, or 23:00 in
-    Prague, with version 2.04.00 available across Steam, PlayStation, Xbox and Epic.
-    It adds character quests, ocean and underwater exploration, ships and maritime
-    trading, expanded housing, claimable castles, business management, and broad gameplay
-    improvements. No later dated major release was announced.
-  latest_news_source_url: https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=140
-  latest_news_updated_at: '2026-10-30T07:00:04+00:00'
+    Prague, with version 2.04.00. Hotfix 2.04.05 on November 1 fixes progression blockers
+    affecting Ravok, Damiane's End and Beginning quest, witch proposals, and Kliff's
+    Beyond the Margins quest. No later dated major release was announced.
+  latest_news_source_url: https://crimsondesert.pearlabyss.com/EN-US/News/Notice/Detail?_boardNo=149
+  latest_news_updated_at: '2026-11-03T06:56:22+00:00'
 - id: arc-raiders
   name: ARC Raiders
   tracked_event_types:
@@ -109,13 +108,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Update 1.1.9.5 confirms Vault Breaker runs October 20-November 10 and
-    revises its armory and economy, resolving the earlier official date conflict.
-    The CARRI activity is active through the end of Nightfall Refresh, and Sponsored
-    Night Marsh began October 22. The next qualifying major calendar milestone remains
-    Symbiosis on December 8.
-  latest_news_source_url: https://www.bungie.net/7/en/News/Article/marathon_update_1_1_9_5
-  latest_news_updated_at: '2026-10-23T06:00:05+00:00'
+  latest_news: Update 1.1.9.6 activated Sponsored Perimeter for the weekend beginning
+    October 29 and fixed contract bonus reputation and a Night Marsh dropship issue.
+    Vault Breaker remains confirmed through November 10. The next qualifying major
+    calendar milestone remains Symbiosis on December 8.
+  latest_news_source_url: https://www.bungie.net/7/en/News/Article/marathon_update_1_1_9_6
+  latest_news_updated_at: '2026-11-03T06:56:22+00:00'
 - id: wardogs
   name: WARDOGS
   tracked_event_types:
@@ -144,13 +142,13 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: A Housing PTR test runs October 30-31 and focuses on guild neighborhoods
-    after resetting existing houses and neighborhoods; a Midnight license is not required.
-    The Talebound PTR demo separately runs October 30-November 1 with three tales,
-    classes and difficulty levels. Echoes of the Worldcore still has no confirmed
-    live-launch date.
-  latest_news_source_url: https://news.blizzard.com/en-us/article/24241096/updated-10-30-midnight-prologue-the-warning-content-update-and-housing-early-access
-  latest_news_updated_at: '2026-10-30T07:00:04+00:00'
+  latest_news: WoW's 21st Anniversary Celebration runs November 16-December 7 at the
+    Caverns of Time, with a 20 percent XP and reputation bonus, event currencies,
+    activities, and the Loyal Watchman ensemble. Quests and activity completions are
+    tracked Warband-wide. Echoes of the Worldcore still has no confirmed live-launch
+    date.
+  latest_news_source_url: https://news.blizzard.com/en-us/article/24242432/join-the-world-of-warcraft-21st-anniversary-celebration
+  latest_news_updated_at: '2026-11-03T06:56:22+00:00'
 - id: world-of-warcraft-classic
   name: 'World of Warcraft: Classic'
   display_name: WoW:Classic
@@ -162,13 +160,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Burning Crusade Classic Anniversary's Gods of Zul'Aman is now live
-    with a 10-player raid, three-day reset and timed Amani War Bear challenge. The
-    phase also removes several attunements, reduces Heroic-key reputation requirements,
-    expands Badge of Justice sources and updates epic gems. No additional upcoming
-    major Classic release date was verified.
-  latest_news_source_url: https://news.blizzard.com/en-us/article/24310652/bcca-the-gods-of-zul-aman-now-live
-  latest_news_updated_at: '2026-10-27T06:58:15+00:00'
+  latest_news: Mists of Pandaria Classic's Joyous Journeys runs November 18-December
+    9 with a 50 percent experience bonus through level 90. Gods of Zul'Aman remains
+    live in Burning Crusade Classic Anniversary. No additional upcoming major Classic
+    release date was verified.
+  latest_news_source_url: https://news.blizzard.com/en-us/article/24242432/join-the-world-of-warcraft-21st-anniversary-celebration
+  latest_news_updated_at: '2026-11-03T06:56:22+00:00'
 - id: world-of-warcraft-forever
   name: 'World of Warcraft: Forever'
   display_name: WoW:Forever
@@ -180,13 +177,13 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Early Name Reservation opens October 27 at 18:00 CET in Europe and
-    runs through November 3 for up to three characters. Global release remains November
-    4 at 15:00 PST, or November 5 at 00:00 in Prague, with Normal, PvP, Roleplaying
-    and Roleplay-PvP rulesets at launch. Barrow Deeps, Hyjal Summit and Onyxia's Lair
-    unlock December 9.
-  latest_news_source_url: https://news.blizzard.com/en-us/article/24313106/dive-into-wow-forever-the-gods-of-zulaman-hallows-end-and-more-in-wow-weekly
-  latest_news_updated_at: '2026-10-27T06:58:15+00:00'
+  latest_news: 'World of Warcraft: Forever launches globally November 4 at 15:00 PST,
+    or November 5 at 00:00 in Prague. Launch includes four rulesets, new and reimagined
+    zones, more than 1,000 quests, nine new dungeons, the Skyborne race, the Legacy
+    System, and a level-60 journey. Barrow Deeps, Hyjal Summit and Onyxia''s Lair
+    unlock December 9.'
+  latest_news_source_url: https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-goes-live-globally-november-4
+  latest_news_updated_at: '2026-11-03T06:56:22+00:00'
 - id: enshrouded
   name: Enshrouded
   tracked_event_types:
@@ -197,10 +194,10 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Enshrouded 1.0 launched October 15, completing the map with Cinder's
-    Cradle and adding Sparkworks adventure creation, new progression and expanded
-    combat options. Keen Games announced on October 23 that Enshrouded 1.0 is Steam
-    Deck Verified and said more fixes and improvements would follow the next week.
-    No upcoming major update or release has a confirmed date.
-  latest_news_source_url: https://enshrouded.com/en-US/news/enshrouded-is-steam-deck-verified
-  latest_news_updated_at: '2026-10-27T06:58:15+00:00'
+  latest_news: Patch 1.0.1.0 launched November 2 with improvements to boss behavior,
+    combat targeting, enemy loot, balance, controls and numerous fixes. It also adds
+    a sprint toggle and reduces cases where defeated Fell enemies have no loot, with
+    another loot fix planned for a later update. No upcoming major update or release
+    has a confirmed date.
+  latest_news_source_url: https://enshrouded.com/en-US/news/changelog-for-patch-1
+  latest_news_updated_at: '2026-11-03T06:56:22+00:00'

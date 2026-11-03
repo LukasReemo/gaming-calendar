@@ -156,19 +156,21 @@ events:
   id: world-of-warcraft-forever-beta-final-day
   game_id: world-of-warcraft-forever
   updated_at: '2026-10-13T14:43:31+00:00'
-- logical_key: official-release
+- id: world-of-warcraft-forever-official-release
+  logical_key: official-release
   title: Official Release
   type: release
   status: confirmed
-  source_url: https://worldofwarcraft.blizzard.com/en-us/news/24303862/world-of-warcraft-forever-whats-next-panel-recap
-  notes: Official global launch is November 4, 2026 at 15:00 PST, equivalent to November
-    5 at 00:00 Europe/Prague. Access is included with a WoW subscription or game time;
-    this is the independent Forever release.
   start_at: '2026-11-04T15:00:00-08:00'
   source_timezone: America/Los_Angeles
-  id: world-of-warcraft-forever-official-release
+  source_url: https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-goes-live-globally-november-4
+  notes: Official global launch is November 4, 2026 at 15:00 PST, November 4 at 23:00
+    UTC, and November 5 at 00:00 Europe/Prague. Launch includes four rulesets, new
+    and reimagined zones, more than 1,000 quests, nine new dungeons, the Skyborne
+    race, the Legacy System and the level-60 journey; access is included with a WoW
+    subscription or game time.
   game_id: world-of-warcraft-forever
-  updated_at: '2026-10-13T14:43:31+00:00'
+  updated_at: '2026-11-03T06:56:22+00:00'
 - logical_key: patch-12-1-5
   title: Midnight 12.1.5 Content Update (Europe)
   type: major_update
@@ -267,3 +269,31 @@ events:
   id: world-of-warcraft-retail-housing-guild-neighborhoods-ptr-test
   game_id: world-of-warcraft-retail
   updated_at: '2026-10-30T07:00:04+00:00'
+- logical_key: mop-classic-joyous-journeys-november-2026
+  title: 'Mists of Pandaria Classic: Joyous Journeys begins'
+  type: season
+  status: confirmed
+  date: '2026-11-18'
+  source_url: https://news.blizzard.com/en-us/article/24242432/join-the-world-of-warcraft-21st-anniversary-celebration
+  notes: 'Official event window: November 18 through December 9, 2026. The Joyous
+    Journeys buff grants 50 percent increased experience through level 90 in Mists
+    of Pandaria Classic and is enabled by default, with an innkeeper toggle. Blizzard
+    supplies no exact opening or closing hour, so this all-day entry records the confirmed
+    start date.'
+  id: world-of-warcraft-classic-mop-classic-joyous-journeys-november-2026
+  game_id: world-of-warcraft-classic
+  updated_at: '2026-11-03T06:56:22+00:00'
+- logical_key: 21st-anniversary-celebration
+  title: 21st Anniversary Celebration begins
+  type: season
+  status: confirmed
+  date: '2026-11-16'
+  source_url: https://news.blizzard.com/en-us/article/24242432/join-the-world-of-warcraft-21st-anniversary-celebration
+  notes: 'Official event window: November 16 through December 7, 2026, at the Caverns
+    of Time in Tanaris. The celebration grants 20 percent bonus experience and reputation
+    and offers Warband-wide activities, event currencies and the Loyal Watchman ensemble.
+    Blizzard supplies no exact opening or closing hour, so this all-day entry records
+    the confirmed start date.'
+  id: world-of-warcraft-retail-21st-anniversary-celebration
+  game_id: world-of-warcraft-retail
+  updated_at: '2026-11-03T06:56:22+00:00'

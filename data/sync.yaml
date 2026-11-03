@@ -28,13 +28,12 @@ games:
       to the article still returns HTTP 403 and limits broader completeness. The confirmed
       event was added from first-party evidence; existing data was preserved.
   crimson-desert:
-    last_attempt: '2026-10-30T07:00:04+00:00'
+    last_attempt: '2026-11-03T06:56:22+00:00'
     status: OK
-    message: Official release patch notes confirm Charting the Unknown is live across
-      Steam, PlayStation, Xbox and Epic at the stored global release time. The existing
-      event identity and exact time are retained and its notes are refreshed from
-      the final patch.
-    last_success: '2026-10-30T07:00:04+00:00'
+    message: Official launch and hotfix sources checked. Version 2.04.05 is routine
+      post-release maintenance without a new major calendar date; the confirmed Charting
+      the Unknown event remains unchanged.
+    last_success: '2026-11-03T06:56:22+00:00'
   arc-raiders:
     last_attempt: '2026-10-30T07:00:04+00:00'
     status: OK
@@ -43,42 +42,45 @@ games:
       no major calendar event was added; the confirmed Trials end remains unchanged.
     last_success: '2026-10-30T07:00:04+00:00'
   marathon:
-    last_attempt: '2026-10-23T06:00:05+00:00'
+    last_attempt: '2026-11-03T06:56:22+00:00'
     status: OK
-    message: Official Update 1.1.9.5 resolves the earlier Vault Breaker conflict with
-      an October 20-November 10 window. Vault Breaker, C.A.R.R.I. and weekend Sponsored
-      Night Marsh are limited activities outside the supported event categories, so
-      they remain news-only; Symbiosis stays dated December 8.
-    last_success: '2026-10-23T06:00:05+00:00'
+    message: Official Marathon Update 1.1.9.6 and roadmap sources checked. The update's
+      Sponsored Perimeter weekend and bug fixes are limited live activities or routine
+      maintenance, so they remain news-only; Symbiosis stays dated December 8.
+    last_success: '2026-11-03T06:56:22+00:00'
   wardogs:
     last_attempt: '2026-10-16T06:03:11+00:00'
     status: OK
     message: ''
     last_success: '2026-10-16T06:03:11+00:00'
   world-of-warcraft-retail:
-    last_attempt: '2026-10-30T07:00:04+00:00'
+    last_attempt: '2026-11-03T06:56:22+00:00'
     status: OK
-    message: Official Blizzard Retail sources checked independently. A second Housing
-      PTR test has a confirmed October 30-31 window and is added as a beta start milestone;
-      no exact hours or full Echoes of the Worldcore release date were announced.
-    last_success: '2026-10-30T07:00:04+00:00'
+    message: Official Blizzard Retail sources checked independently. The 21st Anniversary
+      Celebration has a confirmed November 16-December 7 window and is added as a
+      seasonal start milestone; no exact hours or Echoes of the Worldcore release
+      date were announced.
+    last_success: '2026-11-03T06:56:22+00:00'
   world-of-warcraft-classic:
-    last_attempt: '2026-10-27T06:58:15+00:00'
+    last_attempt: '2026-11-03T06:56:22+00:00'
     status: OK
-    message: Official Blizzard Classic news checked independently. Gods of Zul'Aman
-      is now live; no additional upcoming major Classic date was verified.
-    last_success: '2026-10-27T06:58:15+00:00'
+    message: Official Blizzard Classic sources checked independently. Mists of Pandaria
+      Classic's Joyous Journeys has a confirmed November 18-December 9 window and
+      is added as a seasonal start milestone; no exact hours or other upcoming major
+      Classic date were verified.
+    last_success: '2026-11-03T06:56:22+00:00'
   world-of-warcraft-forever:
-    last_attempt: '2026-10-27T06:58:15+00:00'
+    last_attempt: '2026-11-03T06:56:22+00:00'
     status: OK
-    message: Official Blizzard Forever sources checked independently. Name reservations,
-      launch timing, rulesets and the December 9 raid unlock were reverified; no later
-      exact major-update date was announced.
-    last_success: '2026-10-27T06:58:15+00:00'
+    message: Official Blizzard Forever launch guide checked independently. The global
+      November 4 at 15:00 PST launch, November 5 at 00:00 in Prague, and December
+      9 raid unlock are reconfirmed; the stored release identity and exact time are
+      retained.
+    last_success: '2026-11-03T06:56:22+00:00'
   enshrouded:
-    last_attempt: '2026-10-27T06:58:15+00:00'
+    last_attempt: '2026-11-03T06:56:22+00:00'
     status: OK
-    message: Official Enshrouded news and hotfix listings checked. Steam Deck verification
-      is reflected in news; promised fixes have no exact date and no upcoming major
-      release date was confirmed.
-    last_success: '2026-10-27T06:58:15+00:00'
+    message: Official Enshrouded news and Patch 1.0.1.0 checked. The November 2 patch
+      is broad post-launch maintenance without a new major release date, so it is
+      reflected in news only.
+    last_success: '2026-11-03T06:56:22+00:00'
