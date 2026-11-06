@@ -9,12 +9,11 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: The Diablo IV 3.3.0 PTR for Season 16 runs October 27 at 10:00 PDT
-    through November 3 at 10:00 PST. It previews major War Plans changes, reworked
-    Infernal Hordes, Pit and Lair Boss activities, and new Horadric Items. Season
-    16's exact live-launch date remains unannounced.
+  latest_news: The Diablo IV 3.3.0 PTR for Season 16 ended November 3 after testing
+    War Plans Tactics, reworked Infernal Hordes, Pit and Lair Boss activities, and
+    new Horadric Items. Blizzard still has not announced Season 16's live-launch date.
   latest_news_source_url: https://news.blizzard.com/en-us/article/24302578/the-3-3-0-ptr-what-you-need-to-know
-  latest_news_updated_at: '2026-10-23T06:00:05+00:00'
+  latest_news_updated_at: '2026-11-06T07:05:40+00:00'
 - id: path-of-exile-2
   name: Path of Exile 2
   tracked_event_types:
@@ -76,11 +75,10 @@ games:
   - beta
   - early_access
   latest_news: Charting the Unknown launched October 29 at 22:00 UTC, or 23:00 in
-    Prague, with version 2.04.00. Hotfix 2.04.05 on November 1 fixes progression blockers
-    affecting Ravok, Damiane's End and Beginning quest, witch proposals, and Kliff's
-    Beyond the Margins quest. No later dated major release was announced.
-  latest_news_source_url: https://crimsondesert.pearlabyss.com/EN-US/News/Notice/Detail?_boardNo=149
-  latest_news_updated_at: '2026-11-03T06:56:22+00:00'
+    Prague. Hotfix 2.04.07 began rolling out November 5, fixing disappearing Nibrak
+    Cloth Armor; no later dated major release was announced.
+  latest_news_source_url: https://crimsondesert.pearlabyss.com/en-us/News/Notice/Detail?_boardNo=151
+  latest_news_updated_at: '2026-11-06T07:05:40+00:00'
 - id: arc-raiders
   name: ARC Raiders
   tracked_event_types:
@@ -91,13 +89,11 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Live Update 2.3 launched October 27 with the Souls Offering player
-    project, the Noxious Set, balance changes and extensive fixes. Embark is returning
-    to fixes every three weeks while continuing weekly store updates. The PvE test
-    results remain under review for a November follow-up, and Trials Season 6 still
-    ends January 12, 2027.
-  latest_news_source_url: https://arcraiders.com/news
-  latest_news_updated_at: '2026-10-30T07:00:04+00:00'
+  latest_news: Hotfix 2.4.1 launched November 5 with Seed Vault, Ballistic Gondola,
+    collision and Xbox crash fixes, plus Ukrainian language support. Trials Season
+    6 still ends January 12, 2027, and no new major calendar milestone was announced.
+  latest_news_source_url: https://arcraiders.com/news/hotfix-2-4-1
+  latest_news_updated_at: '2026-11-06T07:05:40+00:00'
 - id: marathon
   name: Marathon
   tracked_event_types:
@@ -177,13 +173,11 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: 'World of Warcraft: Forever launches globally November 4 at 15:00 PST,
-    or November 5 at 00:00 in Prague. Launch includes four rulesets, new and reimagined
-    zones, more than 1,000 quests, nine new dungeons, the Skyborne race, the Legacy
-    System, and a level-60 journey. Barrow Deeps, Hyjal Summit and Onyxia''s Lair
-    unlock December 9.'
-  latest_news_source_url: https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-goes-live-globally-november-4
-  latest_news_updated_at: '2026-11-03T06:56:22+00:00'
+  latest_news: 'World of Warcraft: Forever is now live worldwide following its November
+    4 at 15:00 PST launch, equivalent to November 5 at 00:00 in Prague. Initial raids
+    Barrow Deeps, Hyjal Summit and Onyxia''s Lair remain scheduled for December 9.'
+  latest_news_source_url: https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-now-live
+  latest_news_updated_at: '2026-11-06T07:05:40+00:00'
 - id: enshrouded
   name: Enshrouded
   tracked_event_types:
@@ -194,10 +188,8 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Patch 1.0.1.0 launched November 2 with improvements to boss behavior,
-    combat targeting, enemy loot, balance, controls and numerous fixes. It also adds
-    a sprint toggle and reduces cases where defeated Fell enemies have no loot, with
-    another loot fix planned for a later update. No upcoming major update or release
-    has a confirmed date.
-  latest_news_source_url: https://enshrouded.com/en-US/news/changelog-for-patch-1
-  latest_news_updated_at: '2026-11-03T06:56:22+00:00'
+  latest_news: Hotfix 1.0.1.2 launched November 4, preserving pinned recipes and fixing
+    rare water, deprecated-item, blueprint and login crashes. No upcoming major update
+    or release has a confirmed date.
+  latest_news_source_url: https://enshrouded.com/en-us/news/changelog-for-hotfix-5-v1012
+  latest_news_updated_at: '2026-11-06T07:05:40+00:00'

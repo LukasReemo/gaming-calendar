@@ -64,19 +64,6 @@ events:
     free-play promotions are not separate calendar events.
   status: confirmed
   updated_at: '2026-10-06T14:06:31Z'
-- id: marathon-nightfall-refresh
-  game_id: marathon
-  title: Nightfall Refresh
-  type: major_update
-  date: '2026-10-06'
-  source_url: https://www.bungie.net/7/en/News/Article/marathon_update_1_1_9_2
-  notes: Nightfall Refresh is live with a progression and economy reset, a free NuCaloric
-    Rewards Pass, reduced faction reputation requirements, solo PvE tuning, quality-of-life
-    improvements, and balance changes. This is a refresh within Nightfall rather than
-    a new season. Official patch notes confirm the release but do not supply an exact
-    launch hour.
-  status: confirmed
-  updated_at: '2026-10-07T15:47:52+00:00'
 - id: marathon-symbiosis
   game_id: marathon
   title: Symbiosis

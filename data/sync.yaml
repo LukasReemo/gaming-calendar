@@ -2,12 +2,12 @@ version: 1
 past_event_retention_days: 30
 games:
   diablo-iv:
-    last_attempt: '2026-10-23T06:00:05+00:00'
+    last_attempt: '2026-11-06T07:05:40+00:00'
     status: OK
-    message: Official Blizzard news and patch sources checked. The newly announced
-      3.3.0 PTR has exact start and end times and is included as a beta event; routine
-      fixes remain news-only.
-    last_success: '2026-10-23T06:00:05+00:00'
+    message: Official Blizzard news and patch sources checked. The 3.3.0 PTR ended
+      November 3; routine live fixes remain news-only and Season 16 still has no confirmed
+      live-launch date.
+    last_success: '2026-11-06T07:05:40+00:00'
   path-of-exile-2:
     last_attempt: '2026-10-20T05:56:05+00:00'
     status: OK
@@ -28,26 +28,26 @@ games:
       to the article still returns HTTP 403 and limits broader completeness. The confirmed
       event was added from first-party evidence; existing data was preserved.
   crimson-desert:
-    last_attempt: '2026-11-03T06:56:22+00:00'
+    last_attempt: '2026-11-06T07:05:40+00:00'
     status: OK
-    message: Official launch and hotfix sources checked. Version 2.04.05 is routine
-      post-release maintenance without a new major calendar date; the confirmed Charting
-      the Unknown event remains unchanged.
-    last_success: '2026-11-03T06:56:22+00:00'
+    message: Official Crimson Desert announcements and hotfix notes checked. Version
+      2.04.07 is routine post-release maintenance without a new major calendar date;
+      Charting the Unknown remains unchanged.
+    last_success: '2026-11-06T07:05:40+00:00'
   arc-raiders:
-    last_attempt: '2026-10-30T07:00:04+00:00'
+    last_attempt: '2026-11-06T07:05:40+00:00'
     status: OK
-    message: Official ARC Raiders news and Live Update 2.3 notes checked. Souls Offering
-      is a player project and the remaining changes are fixes and store content, so
-      no major calendar event was added; the confirmed Trials end remains unchanged.
-    last_success: '2026-10-30T07:00:04+00:00'
+    message: Official ARC Raiders news and Hotfix 2.4.1 checked. The November updates
+      are store content and fixes rather than qualifying major milestones; the confirmed
+      Trials end remains unchanged.
+    last_success: '2026-11-06T07:05:40+00:00'
   marathon:
-    last_attempt: '2026-11-03T06:56:22+00:00'
+    last_attempt: '2026-11-06T07:05:40+00:00'
     status: OK
     message: Official Marathon Update 1.1.9.6 and roadmap sources checked. The update's
       Sponsored Perimeter weekend and bug fixes are limited live activities or routine
       maintenance, so they remain news-only; Symbiosis stays dated December 8.
-    last_success: '2026-11-03T06:56:22+00:00'
+    last_success: '2026-11-06T07:05:40+00:00'
   wardogs:
     last_attempt: '2026-10-16T06:03:11+00:00'
     status: OK
@@ -70,17 +70,16 @@ games:
       Classic date were verified.
     last_success: '2026-11-03T06:56:22+00:00'
   world-of-warcraft-forever:
-    last_attempt: '2026-11-03T06:56:22+00:00'
+    last_attempt: '2026-11-06T07:05:40+00:00'
     status: OK
-    message: Official Blizzard Forever launch guide checked independently. The global
-      November 4 at 15:00 PST launch, November 5 at 00:00 in Prague, and December
-      9 raid unlock are reconfirmed; the stored release identity and exact time are
-      retained.
-    last_success: '2026-11-03T06:56:22+00:00'
+    message: Official Blizzard Forever launch and hotfix sources checked independently.
+      Forever is now live; the stored release identity and exact launch time remain
+      unchanged, and the initial raids remain confirmed for December 9.
+    last_success: '2026-11-06T07:05:40+00:00'
   enshrouded:
-    last_attempt: '2026-11-03T06:56:22+00:00'
+    last_attempt: '2026-11-06T07:05:40+00:00'
     status: OK
-    message: Official Enshrouded news and Patch 1.0.1.0 checked. The November 2 patch
-      is broad post-launch maintenance without a new major release date, so it is
-      reflected in news only.
-    last_success: '2026-11-03T06:56:22+00:00'
+    message: Official Enshrouded news and Hotfix 1.0.1.2 checked. The November 4 hotfix
+      contains crash and persistence fixes without a new major release date, so it
+      is reflected in news only.
+    last_success: '2026-11-06T07:05:40+00:00'
