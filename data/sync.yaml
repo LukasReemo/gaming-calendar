@@ -83,3 +83,8 @@ games:
       contains crash and persistence fixes without a new major release date, so it
       is reflected in news only.
     last_success: '2026-11-06T07:05:40+00:00'
+  deep-rock-galactic-rogue-core:
+    last_attempt: '2026-11-06T18:36:15.319530+00:00'
+    status: OK
+    message: ''
+    last_success: '2026-11-06T18:36:15.319530+00:00'

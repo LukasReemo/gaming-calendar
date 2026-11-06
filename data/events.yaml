@@ -284,3 +284,14 @@ events:
   id: world-of-warcraft-retail-21st-anniversary-celebration
   game_id: world-of-warcraft-retail
   updated_at: '2026-11-03T06:56:22+00:00'
+- logical_key: update-three
+  title: Update 3
+  type: major_update
+  date: '2026-11-04'
+  status: confirmed
+  source_url: https://steamcommunity.com/app/2605790/announcements/
+  notes: Adds Balgorath, new weapons and traversal equipment, upgrade rerolls, progression
+    changes and host-crash recovery; no exact launch time verified.
+  id: deep-rock-galactic-rogue-core-update-three
+  game_id: deep-rock-galactic-rogue-core
+  updated_at: '2026-11-06T18:36:15.319530+00:00'

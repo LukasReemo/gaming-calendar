@@ -193,3 +193,19 @@ games:
     or release has a confirmed date.
   latest_news_source_url: https://enshrouded.com/en-us/news/changelog-for-hotfix-5-v1012
   latest_news_updated_at: '2026-11-06T07:05:40+00:00'
+- id: deep-rock-galactic-rogue-core
+  name: 'Deep Rock Galactic: Rogue Core'
+  tracked_event_types:
+  - release
+  - expansion
+  - dlc
+  - season
+  - major_update
+  - beta
+  - early_access
+  latest_news: Update 3 launched November 4 with the Balgorath boss, new equipment,
+    upgrade rerolls, progression changes and host-crash recovery. The November 5 patch
+    adds performance improvements and fixes elemental upgrade availability. No upcoming
+    major update or full-release date was confirmed.
+  latest_news_source_url: https://steamcommunity.com/app/2605790/announcements/
+  latest_news_updated_at: '2026-11-06T18:36:15.319530+00:00'
