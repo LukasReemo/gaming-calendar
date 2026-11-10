@@ -28,19 +28,19 @@ games:
       to the article still returns HTTP 403 and limits broader completeness. The confirmed
       event was added from first-party evidence; existing data was preserved.
   crimson-desert:
-    last_attempt: '2026-11-06T07:05:40+00:00'
+    last_attempt: '2026-11-10T06:59:59+00:00'
     status: OK
-    message: Official Crimson Desert announcements and hotfix notes checked. Version
-      2.04.07 is routine post-release maintenance without a new major calendar date;
+    message: Official Crimson Desert announcements and Patch 2.04.08 checked. The
+      November 6 patch is post-release maintenance without a new major calendar date;
       Charting the Unknown remains unchanged.
-    last_success: '2026-11-06T07:05:40+00:00'
+    last_success: '2026-11-10T06:59:59+00:00'
   arc-raiders:
-    last_attempt: '2026-11-06T07:05:40+00:00'
+    last_attempt: '2026-11-10T06:59:59+00:00'
     status: OK
     message: Official ARC Raiders news and Hotfix 2.4.1 checked. The November updates
       are store content and fixes rather than qualifying major milestones; the confirmed
       Trials end remains unchanged.
-    last_success: '2026-11-06T07:05:40+00:00'
+    last_success: '2026-11-10T06:59:59+00:00'
   marathon:
     last_attempt: '2026-11-06T07:05:40+00:00'
     status: OK
@@ -49,10 +49,12 @@ games:
       maintenance, so they remain news-only; Symbiosis stays dated December 8.
     last_success: '2026-11-06T07:05:40+00:00'
   wardogs:
-    last_attempt: '2026-10-16T06:03:11+00:00'
+    last_attempt: '2026-11-10T06:59:59+00:00'
     status: OK
-    message: ''
-    last_success: '2026-10-16T06:03:11+00:00'
+    message: Official WARDOGS Steam announcements checked. Season 03 is confirmed
+      for November 12 without an exact launch hour and is added as an all-day seasonal
+      milestone.
+    last_success: '2026-11-10T06:59:59+00:00'
   world-of-warcraft-retail:
     last_attempt: '2026-11-03T06:56:22+00:00'
     status: OK

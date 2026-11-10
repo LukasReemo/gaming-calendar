@@ -74,11 +74,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Charting the Unknown launched October 29 at 22:00 UTC, or 23:00 in
-    Prague. Hotfix 2.04.07 began rolling out November 5, fixing disappearing Nibrak
-    Cloth Armor; no later dated major release was announced.
-  latest_news_source_url: https://crimsondesert.pearlabyss.com/en-us/News/Notice/Detail?_boardNo=151
-  latest_news_updated_at: '2026-11-06T07:05:40+00:00'
+  latest_news: Patch 2.04.08 launched November 6 with performance improvements and
+    fixes for ship steering, crashes, Leviakan progression and rewards, housing, equipment
+    enhancement levels, fishing help and other issues. No later dated major release
+    was announced.
+  latest_news_source_url: https://crimsondesert.pearlabyss.com/en-us/News/Notice/Detail?_boardNo=152
+  latest_news_updated_at: '2026-11-10T06:59:59+00:00'
 - id: arc-raiders
   name: ARC Raiders
   tracked_event_types:
@@ -120,13 +121,11 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Season 02 is live with Update 0.2.0, adding four weapons, four vehicles,
-    buildables, rain weather, and broad combat and controller changes. Role-track
-    level 20 now requires 55 percent less XP, alongside revised unlocks, Lonestar
-    bonuses, and a discount for losing teams. The Wager Vendor is explicitly unavailable
-    at launch and will open later in the season without a confirmed date.
+  latest_news: WARDOGS Season 03 launches November 12 with the new Sabatulo urban
+    map, longer seasons and a renewed anti-cheat focus. Full patch notes, maintenance
+    timing and an exact launch hour have not yet been published.
   latest_news_source_url: https://steamcommunity.com/app/1867240/announcements/
-  latest_news_updated_at: '2026-10-16T06:03:11+00:00'
+  latest_news_updated_at: '2026-11-10T06:59:59+00:00'
 - id: world-of-warcraft-retail
   name: 'World of Warcraft: Retail'
   display_name: WoW:Retail
