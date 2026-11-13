@@ -282,16 +282,17 @@ events:
   id: deep-rock-galactic-rogue-core-update-three
   game_id: deep-rock-galactic-rogue-core
   updated_at: '2026-11-06T18:36:15.319530+00:00'
-- logical_key: season-03
+- id: wardogs-season-03
+  logical_key: season-03
   title: Season 03
   type: season
   status: confirmed
   date: '2026-11-12'
-  source_url: https://steamcommunity.com/app/1867240/announcements/
-  notes: The official November 6 Road to Season 3 announcement confirms Season 03
-    for November 12 and introduces the Sabatulo urban map, longer seasons and anti-cheat
-    changes. No exact launch hour or maintenance window is published, so this entry
-    uses the confirmed all-day date.
-  id: wardogs-season-03
+  source_url: https://store.steampowered.com/news/app/1867240/view/688648135317127221
+  notes: Season 03 is now live as Update 0.3.0 with the Sabatulo urban map, Limited
+    Mode, multi-track unlocks, catch-up mechanics, slower progression and an approximately
+    three-month season cadence. The announced November 12 maintenance window of 13:00-15:00
+    UTC was an estimate rather than a guaranteed launch time, so the confirmed release
+    date remains all-day.
   game_id: wardogs
-  updated_at: '2026-11-10T06:59:59+00:00'
+  updated_at: '2026-11-13T07:02:00+00:00'

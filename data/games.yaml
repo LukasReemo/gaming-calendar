@@ -105,12 +105,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Update 1.1.9.6 activated Sponsored Perimeter for the weekend beginning
-    October 29 and fixed contract bonus reputation and a Night Marsh dropship issue.
-    Vault Breaker remains confirmed through November 10. The next qualifying major
-    calendar milestone remains Symbiosis on December 8.
-  latest_news_source_url: https://www.bungie.net/7/en/News/Article/marathon_update_1_1_9_6
-  latest_news_updated_at: '2026-11-03T06:56:22+00:00'
+  latest_news: 'Update 1.1.9.7 brought back Ordnance Heist for November 10-24, added
+    sponsored Night Marsh from November 12 and sponsored Survival: Perimeter through
+    November 17, and shipped fixes. These limited activities remain news-only. The
+    next qualifying major calendar milestone remains Symbiosis on December 8.'
+  latest_news_source_url: https://www.bungie.net/7/en/News/Article/marathon_update_1_1_9_7
+  latest_news_updated_at: '2026-11-13T07:02:00+00:00'
 - id: wardogs
   name: WARDOGS
   tracked_event_types:
@@ -121,11 +121,13 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: WARDOGS Season 03 launches November 12 with the new Sabatulo urban
-    map, longer seasons and a renewed anti-cheat focus. Full patch notes, maintenance
-    timing and an exact launch hour have not yet been published.
-  latest_news_source_url: https://steamcommunity.com/app/1867240/announcements/
-  latest_news_updated_at: '2026-11-10T06:59:59+00:00'
+  latest_news: WARDOGS Season 03 is now live as Update 0.3.0 with the Sabatulo city
+    map, Limited Mode, multi-track unlocks, catch-up mechanics, slower progression
+    and an approximately three-month season cadence. The November 12 maintenance window
+    was estimated rather than a guaranteed launch time, so no exact event hour is
+    recorded.
+  latest_news_source_url: https://store.steampowered.com/news/app/1867240/view/688648135317127221
+  latest_news_updated_at: '2026-11-13T07:02:00+00:00'
 - id: world-of-warcraft-retail
   name: 'World of Warcraft: Retail'
   display_name: WoW:Retail
@@ -172,11 +174,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: 'World of Warcraft: Forever is now live worldwide following its November
-    4 at 15:00 PST launch, equivalent to November 5 at 00:00 in Prague. Initial raids
-    Barrow Deeps, Hyjal Summit and Onyxia''s Lair remain scheduled for December 9.'
-  latest_news_source_url: https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-now-live
-  latest_news_updated_at: '2026-11-06T07:05:40+00:00'
+  latest_news: 'World of Warcraft: Forever is live worldwide and received another
+    official hotfix rollup on November 11 covering classes, items, quests and world
+    issues. Initial raids Barrow Deeps, Hyjal Summit and Onyxia''s Lair remain scheduled
+    for December 9.'
+  latest_news_source_url: https://worldofwarcraft.blizzard.com/en-us/news/24315281/wow-forever-hotfixes-november-11-2026
+  latest_news_updated_at: '2026-11-13T07:02:00+00:00'
 - id: enshrouded
   name: Enshrouded
   tracked_event_types:

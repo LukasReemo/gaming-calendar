@@ -9,84 +9,84 @@ games:
       live-launch date.
     last_success: '2026-11-06T07:05:40+00:00'
   path-of-exile-2:
-    last_attempt: '2026-10-20T05:56:05+00:00'
+    last_attempt: '2026-11-13T07:02:00+00:00'
     status: OK
-    message: ''
-    last_success: '2026-10-20T05:56:05+00:00'
+    message: Official Path of Exile sources checked. Full Release 1.0 remains confirmed
+      for December 11 without a verified exact launch hour; no later qualifying dated
+      milestone was announced.
+    last_success: '2026-11-13T07:02:00+00:00'
   gray-zone-warfare:
-    last_attempt: '2026-10-23T06:00:05+00:00'
+    last_attempt: '2026-11-13T07:02:00+00:00'
     status: OK
-    message: Official MADFINGER launch changelog verifies Rogue Ops is live. Existing
-      event identity and date are retained; release status, final version and content
-      notes are refreshed.
-    last_success: '2026-10-23T06:00:05+00:00'
+    message: Official MADFINGER news checked. Rogue Ops remains the latest major release;
+      the studio promises regular patches and hotfixes but has not announced another
+      major-update date.
+    last_success: '2026-11-13T07:02:00+00:00'
   borderlands-4:
-    last_attempt: '2026-10-27T06:58:15+00:00'
+    last_attempt: '2026-11-13T07:02:00+00:00'
     status: warning
-    message: The official Borderlands 4 search result verifies the Horrors of Kairos
-      seasonal mini-event and its October 23-November 6 window, but direct access
-      to the article still returns HTTP 403 and limits broader completeness. The confirmed
-      event was added from first-party evidence; existing data was preserved.
+    message: The official Borderlands 4 news pages remain inaccessible for complete
+      direct review. No new qualifying dated milestone was independently verified,
+      so existing confirmed data is preserved.
   crimson-desert:
-    last_attempt: '2026-11-10T06:59:59+00:00'
+    last_attempt: '2026-11-13T07:02:00+00:00'
     status: OK
     message: Official Crimson Desert announcements and Patch 2.04.08 checked. The
-      November 6 patch is post-release maintenance without a new major calendar date;
-      Charting the Unknown remains unchanged.
-    last_success: '2026-11-10T06:59:59+00:00'
+      November 6 patch remains the latest maintenance release and adds no new major
+      calendar date.
+    last_success: '2026-11-13T07:02:00+00:00'
   arc-raiders:
-    last_attempt: '2026-11-10T06:59:59+00:00'
+    last_attempt: '2026-11-13T07:02:00+00:00'
     status: OK
-    message: Official ARC Raiders news and Hotfix 2.4.1 checked. The November updates
-      are store content and fixes rather than qualifying major milestones; the confirmed
-      Trials end remains unchanged.
-    last_success: '2026-11-10T06:59:59+00:00'
+    message: Official ARC Raiders news checked through Store Update 2.5.0. The November
+      10 release is cosmetic store content rather than a qualifying major milestone;
+      the confirmed Trials end remains unchanged.
+    last_success: '2026-11-13T07:02:00+00:00'
   marathon:
-    last_attempt: '2026-11-06T07:05:40+00:00'
+    last_attempt: '2026-11-13T07:02:00+00:00'
     status: OK
-    message: Official Marathon Update 1.1.9.6 and roadmap sources checked. The update's
-      Sponsored Perimeter weekend and bug fixes are limited live activities or routine
-      maintenance, so they remain news-only; Symbiosis stays dated December 8.
-    last_success: '2026-11-06T07:05:40+00:00'
+    message: Official Marathon Update 1.1.9.7 and roadmap sources checked. Ordnance
+      Heist and the sponsored activities are limited live activities, so they remain
+      news-only; Symbiosis stays dated December 8.
+    last_success: '2026-11-13T07:02:00+00:00'
   wardogs:
-    last_attempt: '2026-11-10T06:59:59+00:00'
+    last_attempt: '2026-11-13T07:02:00+00:00'
     status: OK
-    message: Official WARDOGS Steam announcements checked. Season 03 is confirmed
-      for November 12 without an exact launch hour and is added as an all-day seasonal
-      milestone.
-    last_success: '2026-11-10T06:59:59+00:00'
+    message: Official WARDOGS Steam announcements checked. Season 03 is now live as
+      Update 0.3.0; its stable identity and November 12 all-day date are retained
+      while final launch details are refreshed.
+    last_success: '2026-11-13T07:02:00+00:00'
   world-of-warcraft-retail:
-    last_attempt: '2026-11-03T06:56:22+00:00'
+    last_attempt: '2026-11-13T07:02:00+00:00'
     status: OK
     message: Official Blizzard Retail sources checked independently. The 21st Anniversary
-      Celebration has a confirmed November 16-December 7 window and is added as a
-      seasonal start milestone; no exact hours or Echoes of the Worldcore release
-      date were announced.
-    last_success: '2026-11-03T06:56:22+00:00'
+      Celebration remains confirmed for November 16-December 7; Echoes of the Worldcore
+      remains on PTR without a live date.
+    last_success: '2026-11-13T07:02:00+00:00'
   world-of-warcraft-classic:
-    last_attempt: '2026-11-03T06:56:22+00:00'
+    last_attempt: '2026-11-13T07:02:00+00:00'
     status: OK
-    message: Official Blizzard Classic sources checked independently. Mists of Pandaria
-      Classic's Joyous Journeys has a confirmed November 18-December 9 window and
-      is added as a seasonal start milestone; no exact hours or other upcoming major
-      Classic date were verified.
-    last_success: '2026-11-03T06:56:22+00:00'
+    message: Official Blizzard Classic sources checked independently. Joyous Journeys
+      remains confirmed for November 18-December 9; the November 6 hotfix rollup adds
+      no new qualifying major date.
+    last_success: '2026-11-13T07:02:00+00:00'
   world-of-warcraft-forever:
-    last_attempt: '2026-11-06T07:05:40+00:00'
+    last_attempt: '2026-11-13T07:02:00+00:00'
     status: OK
-    message: Official Blizzard Forever launch and hotfix sources checked independently.
-      Forever is now live; the stored release identity and exact launch time remain
-      unchanged, and the initial raids remain confirmed for December 9.
-    last_success: '2026-11-06T07:05:40+00:00'
+    message: Official Blizzard Forever launch, roadmap and November 11 hotfix sources
+      checked independently. Forever remains live and the initial raids remain confirmed
+      for December 9; routine fixes are news-only.
+    last_success: '2026-11-13T07:02:00+00:00'
   enshrouded:
-    last_attempt: '2026-11-06T07:05:40+00:00'
+    last_attempt: '2026-11-13T07:02:00+00:00'
     status: OK
-    message: Official Enshrouded news and Hotfix 1.0.1.2 checked. The November 4 hotfix
-      contains crash and persistence fixes without a new major release date, so it
-      is reflected in news only.
-    last_success: '2026-11-06T07:05:40+00:00'
+    message: Official Enshrouded news checked. Hotfix 1.0.1.2 remains the latest release
+      and no upcoming major update has a confirmed date.
+    last_success: '2026-11-13T07:02:00+00:00'
   deep-rock-galactic-rogue-core:
-    last_attempt: '2026-11-06T18:36:15.319530+00:00'
+    last_attempt: '2026-11-13T07:02:00+00:00'
     status: OK
-    message: ''
-    last_success: '2026-11-06T18:36:15.319530+00:00'
+    message: Official Rogue Core Steam announcements checked. Update 3 and its November
+      5 patch remain the latest releases; no later major update or full-release date
+      was confirmed.
+    last_success: '2026-11-13T07:02:00+00:00'
