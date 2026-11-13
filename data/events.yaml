@@ -296,3 +296,14 @@ events:
     date remains all-day.
   game_id: wardogs
   updated_at: '2026-11-13T07:02:00+00:00'
+- logical_key: world-pets
+  title: World Pets
+  type: major_update
+  date: '2026-12-01'
+  status: confirmed
+  source_url: https://fallout.bethesda.net/en-US/news/inside-the-vault-world-pets-console-public-test-server-available-now
+  notes: Bring camp pets along as travel companions and take on bounty hunts in Skyline
+    Valley.
+  id: fallout-76-world-pets
+  game_id: fallout-76
+  updated_at: '2026-11-13T07:55:54+00:00'

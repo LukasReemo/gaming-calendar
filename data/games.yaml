@@ -211,3 +211,18 @@ games:
     major update or full-release date was confirmed.
   latest_news_source_url: https://steamcommunity.com/app/2605790/announcements/
   latest_news_updated_at: '2026-11-06T18:36:15.319530+00:00'
+- id: fallout-76
+  name: Fallout 76
+  tracked_event_types:
+  - release
+  - expansion
+  - dlc
+  - season
+  - major_update
+  - beta
+  - early_access
+  latest_news: Bethesda plans to release World Pets on December 1, letting players
+    bring their camp pets into the wasteland and take on bounties in Skyline Valley.
+    Hideouts are in early testing and planned for spring 2027.
+  latest_news_source_url: https://fallout.bethesda.net/en-US/news/inside-the-vault-world-pets-console-public-test-server-available-now
+  latest_news_updated_at: '2026-11-13T07:55:54+00:00'
