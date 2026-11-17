@@ -29,12 +29,12 @@ games:
       direct review. No new qualifying dated milestone was independently verified,
       so existing confirmed data is preserved.
   crimson-desert:
-    last_attempt: '2026-11-13T07:02:00+00:00'
+    last_attempt: '2026-11-17T06:56:40+00:00'
     status: OK
-    message: Official Crimson Desert announcements and Patch 2.04.08 checked. The
-      November 6 patch remains the latest maintenance release and adds no new major
-      calendar date.
-    last_success: '2026-11-13T07:02:00+00:00'
+    message: Official Crimson Desert announcements and Patch 2.05.00 checked. The
+      November 13 patch adds Charting the Unknown to Apple Mac and ships broad fixes,
+      but no new qualifying calendar date.
+    last_success: '2026-11-17T06:56:40+00:00'
   arc-raiders:
     last_attempt: '2026-11-13T07:02:00+00:00'
     status: OK
@@ -50,33 +50,33 @@ games:
       news-only; Symbiosis stays dated December 8.
     last_success: '2026-11-13T07:02:00+00:00'
   wardogs:
-    last_attempt: '2026-11-13T07:02:00+00:00'
+    last_attempt: '2026-11-17T06:56:40+00:00'
     status: OK
     message: Official WARDOGS Steam announcements checked. Season 03 is now live as
       Update 0.3.0; its stable identity and November 12 all-day date are retained
       while final launch details are refreshed.
-    last_success: '2026-11-13T07:02:00+00:00'
+    last_success: '2026-11-17T06:56:40+00:00'
   world-of-warcraft-retail:
-    last_attempt: '2026-11-13T07:02:00+00:00'
+    last_attempt: '2026-11-17T06:56:40+00:00'
     status: OK
     message: Official Blizzard Retail sources checked independently. The 21st Anniversary
-      Celebration remains confirmed for November 16-December 7; Echoes of the Worldcore
-      remains on PTR without a live date.
-    last_success: '2026-11-13T07:02:00+00:00'
+      Celebration remains live through December 7; Echoes of the Worldcore remains
+      on PTR without a live date.
+    last_success: '2026-11-17T06:56:40+00:00'
   world-of-warcraft-classic:
-    last_attempt: '2026-11-13T07:02:00+00:00'
+    last_attempt: '2026-11-17T06:56:40+00:00'
     status: OK
     message: Official Blizzard Classic sources checked independently. Joyous Journeys
-      remains confirmed for November 18-December 9; the November 6 hotfix rollup adds
-      no new qualifying major date.
-    last_success: '2026-11-13T07:02:00+00:00'
+      remains confirmed for November 18-December 9; no additional qualifying Classic
+      date was announced.
+    last_success: '2026-11-17T06:56:40+00:00'
   world-of-warcraft-forever:
-    last_attempt: '2026-11-13T07:02:00+00:00'
+    last_attempt: '2026-11-17T06:56:40+00:00'
     status: OK
-    message: Official Blizzard Forever launch, roadmap and November 11 hotfix sources
-      checked independently. Forever remains live and the initial raids remain confirmed
-      for December 9; routine fixes are news-only.
-    last_success: '2026-11-13T07:02:00+00:00'
+    message: Official Blizzard Forever roadmap and hotfix sources checked independently.
+      The November 16 hotfix rollup adds routine fixes only; initial raids remain
+      confirmed for December 9.
+    last_success: '2026-11-17T06:56:40+00:00'
   enshrouded:
     last_attempt: '2026-11-13T07:02:00+00:00'
     status: OK
@@ -84,14 +84,16 @@ games:
       and no upcoming major update has a confirmed date.
     last_success: '2026-11-13T07:02:00+00:00'
   deep-rock-galactic-rogue-core:
-    last_attempt: '2026-11-13T07:02:00+00:00'
+    last_attempt: '2026-11-17T06:56:40+00:00'
     status: OK
-    message: Official Rogue Core Steam announcements checked. Update 3 and its November
-      5 patch remain the latest releases; no later major update or full-release date
-      was confirmed.
-    last_success: '2026-11-13T07:02:00+00:00'
+    message: Official Rogue Core Steam announcements checked. Patch 03.02 and the
+      six-month roadmap recap are current; Update 4 is in development without a confirmed
+      date.
+    last_success: '2026-11-17T06:56:40+00:00'
   fallout-76:
-    last_attempt: '2026-11-13T07:55:54+00:00'
+    last_attempt: '2026-11-17T06:56:40+00:00'
     status: OK
-    message: ''
-    last_success: '2026-11-13T07:55:54+00:00'
+    message: Official Bethesda Fallout 76 sources checked. World Pets remains confirmed
+      for December 1; the November 13 PTS update changes testing details but does
+      not change that release date.
+    last_success: '2026-11-17T06:56:40+00:00'

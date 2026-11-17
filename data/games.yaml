@@ -74,12 +74,11 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Patch 2.04.08 launched November 6 with performance improvements and
-    fixes for ship steering, crashes, Leviakan progression and rewards, housing, equipment
-    enhancement levels, fishing help and other issues. No later dated major release
-    was announced.
-  latest_news_source_url: https://crimsondesert.pearlabyss.com/en-us/News/Notice/Detail?_boardNo=152
-  latest_news_updated_at: '2026-11-10T06:59:59+00:00'
+  latest_news: Patch 2.05.00 launched November 13, adding Charting the Unknown to
+    Apple Mac and delivering broad content, housing, combat, performance and stability
+    fixes across platforms. No later dated major release was announced.
+  latest_news_source_url: https://crimsondesert.pearlabyss.com/EN-US/News/Notice/Detail?_boardNo=157
+  latest_news_updated_at: '2026-11-17T06:56:40+00:00'
 - id: arc-raiders
   name: ARC Raiders
   tracked_event_types:
@@ -175,11 +174,11 @@ games:
   - beta
   - early_access
   latest_news: 'World of Warcraft: Forever is live worldwide and received another
-    official hotfix rollup on November 11 covering classes, items, quests and world
-    issues. Initial raids Barrow Deeps, Hyjal Summit and Onyxia''s Lair remain scheduled
-    for December 9.'
-  latest_news_source_url: https://worldofwarcraft.blizzard.com/en-us/news/24315281/wow-forever-hotfixes-november-11-2026
-  latest_news_updated_at: '2026-11-13T07:02:00+00:00'
+    official hotfix rollup on November 16 covering classes, dungeons, items, quests
+    and world issues. Initial raids Barrow Deeps, Hyjal Summit and Onyxia''s Lair
+    remain scheduled for December 9.'
+  latest_news_source_url: https://worldofwarcraft.blizzard.com/en-us/news/24315281/wow-forever-hotfixes-november-13-2026
+  latest_news_updated_at: '2026-11-17T06:56:40+00:00'
 - id: enshrouded
   name: Enshrouded
   tracked_event_types:
@@ -205,12 +204,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Update 3 launched November 4 with the Balgorath boss, new equipment,
-    upgrade rerolls, progression changes and host-crash recovery. The November 5 patch
-    adds performance improvements and fixes elemental upgrade availability. No upcoming
-    major update or full-release date was confirmed.
-  latest_news_source_url: https://steamcommunity.com/app/2605790/announcements/
-  latest_news_updated_at: '2026-11-06T18:36:15.319530+00:00'
+  latest_news: Update 3 Patch 03.02 launched November 11 with solo Save and Quit,
+    performance improvements, balance changes and many fixes. Ghost Ship's November
+    12 six-month recap published an updated roadmap and says work is shifting to Update
+    4, but it provides no confirmed release date.
+  latest_news_source_url: https://store.steampowered.com/news/app/2605790/view/690886614188034199
+  latest_news_updated_at: '2026-11-17T06:56:40+00:00'
 - id: fallout-76
   name: Fallout 76
   tracked_event_types:
@@ -223,6 +222,7 @@ games:
   - early_access
   latest_news: Bethesda plans to release World Pets on December 1, letting players
     bring their camp pets into the wasteland and take on bounties in Skyline Valley.
-    Hideouts are in early testing and planned for spring 2027.
-  latest_news_source_url: https://fallout.bethesda.net/en-US/news/inside-the-vault-world-pets-console-public-test-server-available-now
-  latest_news_updated_at: '2026-11-13T07:55:54+00:00'
+    A November 13 PTS update added pet-leveling consumables and temporarily deactivated
+    Hideouts testing; Hideouts remain planned for spring 2027.
+  latest_news_source_url: https://fallout.bethesda.net/en-US/news/inside-the-vault-world-pets-and-hideouts-public-test-server
+  latest_news_updated_at: '2026-11-17T06:56:40+00:00'

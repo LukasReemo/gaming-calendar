@@ -63,21 +63,6 @@ events:
     March 2027 evolution remains undated.
   status: confirmed
   updated_at: '2026-10-07T15:47:52+00:00'
-- logical_key: season-02
-  title: Season 02
-  type: season
-  date: '2026-10-15'
-  status: confirmed
-  source_url: https://store.steampowered.com/news/app/1867240/view/670630562731396445
-  notes: Season 02 is live as Update 0.2.0, with four weapons, four vehicles, three
-    buildables, rain weather, and reworked progression and balance. The October 14
-    patch notes scheduled maintenance for October 15 from 08:00 to 09:30 UTC; the
-    end was an estimate, not a guaranteed launch time, so the announced release date
-    remains all-day. The Wager Vendor will open later in Season 02, without a separate
-    confirmed date.
-  id: wardogs-season-02
-  game_id: wardogs
-  updated_at: '2026-10-16T06:03:11+00:00'
 - logical_key: pve-toggle-beta
   title: PvE Toggle Beta Test
   type: beta
@@ -145,20 +130,6 @@ events:
     subscription or game time.
   game_id: world-of-warcraft-forever
   updated_at: '2026-11-03T06:56:22+00:00'
-- logical_key: patch-12-1-5
-  title: Midnight 12.1.5 Content Update (Europe)
-  type: major_update
-  status: confirmed
-  source_url: https://news.blizzard.com/en-us/article/24307306/midnight-s-12-1-5-content-update-is-now-live
-  notes: The European rollout was announced for October 14, 2026 with weekly maintenance;
-    Blizzard now confirms 12.1.5 is live. Includes the Kith'ix single-boss raid, nine-chamber
-    Labyrinth of Kindo'jan, Season 2 refresh, campaign, and Aqir Invasions. The content-update
-    milestone retains its European date and stable identity; no exact maintenance-completion
-    hour is verified.
-  date: '2026-10-14'
-  id: world-of-warcraft-retail-patch-12-1-5
-  game_id: world-of-warcraft-retail
-  updated_at: '2026-10-16T06:03:11+00:00'
 - logical_key: initial-raids-unlock
   title: Initial Raids Unlock
   type: major_update
