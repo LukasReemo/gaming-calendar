@@ -2,12 +2,12 @@ version: 1
 past_event_retention_days: 30
 games:
   diablo-iv:
-    last_attempt: '2026-11-06T07:05:40+00:00'
+    last_attempt: '2026-11-20T07:02:19+00:00'
     status: OK
-    message: Official Blizzard news and patch sources checked. The 3.3.0 PTR ended
-      November 3; routine live fixes remain news-only and Season 16 still has no confirmed
-      live-launch date.
-    last_success: '2026-11-06T07:05:40+00:00'
+    message: Official Blizzard Diablo IV news and patch sources checked. A November
+      24 Developer Update livestream will reveal Season 16 details, but Blizzard still
+      has not published the season's live-launch date.
+    last_success: '2026-11-20T07:02:19+00:00'
   path-of-exile-2:
     last_attempt: '2026-11-13T07:02:00+00:00'
     status: OK
@@ -16,12 +16,12 @@ games:
       milestone was announced.
     last_success: '2026-11-13T07:02:00+00:00'
   gray-zone-warfare:
-    last_attempt: '2026-11-13T07:02:00+00:00'
+    last_attempt: '2026-11-20T07:02:19+00:00'
     status: OK
     message: Official MADFINGER news checked. Rogue Ops remains the latest major release;
       the studio promises regular patches and hotfixes but has not announced another
       major-update date.
-    last_success: '2026-11-13T07:02:00+00:00'
+    last_success: '2026-11-20T07:02:19+00:00'
   borderlands-4:
     last_attempt: '2026-11-13T07:02:00+00:00'
     status: warning
@@ -29,19 +29,20 @@ games:
       direct review. No new qualifying dated milestone was independently verified,
       so existing confirmed data is preserved.
   crimson-desert:
-    last_attempt: '2026-11-17T06:56:40+00:00'
+    last_attempt: '2026-11-20T07:02:19+00:00'
     status: OK
-    message: Official Crimson Desert announcements and Patch 2.05.00 checked. The
-      November 13 patch adds Charting the Unknown to Apple Mac and ships broad fixes,
-      but no new qualifying calendar date.
-    last_success: '2026-11-17T06:56:40+00:00'
+    message: Official Crimson Desert announcements checked through hotfix 2.05.01.
+      The November 19 hotfix adjusts inventory examination and ships fixes, but no
+      new qualifying calendar date was announced.
+    last_success: '2026-11-20T07:02:19+00:00'
   arc-raiders:
-    last_attempt: '2026-11-13T07:02:00+00:00'
+    last_attempt: '2026-11-20T07:02:19+00:00'
     status: OK
-    message: Official ARC Raiders news checked through Store Update 2.5.0. The November
-      10 release is cosmetic store content rather than a qualifying major milestone;
-      the confirmed Trials end remains unchanged.
-    last_success: '2026-11-13T07:02:00+00:00'
+    message: Official ARC Raiders news checked through Live Update 2.6.0. The November
+      17 release contains fixes, a stencil set and Cold Snap's return; its reference
+      to a project arriving next week lacks an exact date, so no calendar event was
+      added.
+    last_success: '2026-11-20T07:02:19+00:00'
   marathon:
     last_attempt: '2026-11-13T07:02:00+00:00'
     status: OK
@@ -50,19 +51,20 @@ games:
       news-only; Symbiosis stays dated December 8.
     last_success: '2026-11-13T07:02:00+00:00'
   wardogs:
-    last_attempt: '2026-11-17T06:56:40+00:00'
+    last_attempt: '2026-11-20T07:02:19+00:00'
     status: OK
-    message: Official WARDOGS Steam announcements checked. Season 03 is now live as
-      Update 0.3.0; its stable identity and November 12 all-day date are retained
-      while final launch details are refreshed.
-    last_success: '2026-11-17T06:56:40+00:00'
+    message: Official WARDOGS Steam announcements checked. Minor Balance Patch 0.31
+      changes prices and unlock levels after Season 03 but announces no new qualifying
+      dated milestone.
+    last_success: '2026-11-20T07:02:19+00:00'
   world-of-warcraft-retail:
-    last_attempt: '2026-11-17T06:56:40+00:00'
+    last_attempt: '2026-11-20T07:02:19+00:00'
     status: OK
-    message: Official Blizzard Retail sources checked independently. The 21st Anniversary
-      Celebration remains live through December 7; Echoes of the Worldcore remains
-      on PTR without a live date.
-    last_success: '2026-11-17T06:56:40+00:00'
+    message: Official Blizzard Retail sources checked independently. Echoes of the
+      Worldcore is confirmed for December 1 with regional maintenance, and Blizzard
+      corrected the anniversary milestone to the 22nd Anniversary running November
+      17-December 8.
+    last_success: '2026-11-20T07:02:19+00:00'
   world-of-warcraft-classic:
     last_attempt: '2026-11-17T06:56:40+00:00'
     status: OK
@@ -71,12 +73,12 @@ games:
       date was announced.
     last_success: '2026-11-17T06:56:40+00:00'
   world-of-warcraft-forever:
-    last_attempt: '2026-11-17T06:56:40+00:00'
+    last_attempt: '2026-11-20T07:02:19+00:00'
     status: OK
     message: Official Blizzard Forever roadmap and hotfix sources checked independently.
-      The November 16 hotfix rollup adds routine fixes only; initial raids remain
+      The November 17 hotfix rollup contains routine fixes only; initial raids remain
       confirmed for December 9.
-    last_success: '2026-11-17T06:56:40+00:00'
+    last_success: '2026-11-20T07:02:19+00:00'
   enshrouded:
     last_attempt: '2026-11-13T07:02:00+00:00'
     status: OK

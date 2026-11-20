@@ -9,11 +9,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: The Diablo IV 3.3.0 PTR for Season 16 ended November 3 after testing
-    War Plans Tactics, reworked Infernal Hordes, Pit and Lair Boss activities, and
-    new Horadric Items. Blizzard still has not announced Season 16's live-launch date.
-  latest_news_source_url: https://news.blizzard.com/en-us/article/24302578/the-3-3-0-ptr-what-you-need-to-know
-  latest_news_updated_at: '2026-11-06T07:05:40+00:00'
+  latest_news: Blizzard will reveal Diablo IV's next season in a Developer Update
+    livestream on November 24 at 11:00 a.m. Pacific Time, covering the seasonal quest
+    and a revamped two-boss Seasonal Lair fight. The stream is news-only; Season 16
+    still has no confirmed live-launch date.
+  latest_news_source_url: https://news.blizzard.com/en-us/article/24315746/join-our-next-developer-update-livestream
+  latest_news_updated_at: '2026-11-20T07:02:19+00:00'
 - id: path-of-exile-2
   name: Path of Exile 2
   tracked_event_types:
@@ -74,11 +75,11 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Patch 2.05.00 launched November 13, adding Charting the Unknown to
-    Apple Mac and delivering broad content, housing, combat, performance and stability
-    fixes across platforms. No later dated major release was announced.
-  latest_news_source_url: https://crimsondesert.pearlabyss.com/EN-US/News/Notice/Detail?_boardNo=157
-  latest_news_updated_at: '2026-11-17T06:56:40+00:00'
+  latest_news: Hotfix 2.05.01 launched November 19 with an inventory-examination adjustment
+    and additional fixes. Charting the Unknown remains the latest major content release,
+    and no later dated major milestone was announced.
+  latest_news_source_url: https://crimsondesert.pearlabyss.com/EN-US/News/Notice/Detail?_boardNo=158
+  latest_news_updated_at: '2026-11-20T07:02:19+00:00'
 - id: arc-raiders
   name: ARC Raiders
   tracked_event_types:
@@ -89,11 +90,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Hotfix 2.4.1 launched November 5 with Seed Vault, Ballistic Gondola,
-    collision and Xbox crash fixes, plus Ukrainian language support. Trials Season
-    6 still ends January 12, 2027, and no new major calendar milestone was announced.
-  latest_news_source_url: https://arcraiders.com/news/hotfix-2-4-1
-  latest_news_updated_at: '2026-11-06T07:05:40+00:00'
+  latest_news: Live Update 2.6.0 launched November 17 with fixes and improvements,
+    a new Stencil set, and the return of Cold Snap. Embark says a new project is arriving
+    next week but gives no exact date, so it is not yet eligible for the calendar;
+    Trials Season 6 still ends January 12, 2027.
+  latest_news_source_url: https://arcraiders.com/news/live-update-2-6-0
+  latest_news_updated_at: '2026-11-20T07:02:19+00:00'
 - id: marathon
   name: Marathon
   tracked_event_types:
@@ -120,13 +122,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: WARDOGS Season 03 is now live as Update 0.3.0 with the Sabatulo city
-    map, Limited Mode, multi-track unlocks, catch-up mechanics, slower progression
-    and an approximately three-month season cadence. The November 12 maintenance window
-    was estimated rather than a guaranteed launch time, so no exact event hour is
-    recorded.
-  latest_news_source_url: https://store.steampowered.com/news/app/1867240/view/688648135317127221
-  latest_news_updated_at: '2026-11-13T07:02:00+00:00'
+  latest_news: WARDOGS released Minor Balance Patch 0.31 on November 19, reducing
+    several weapon and item prices and moving four vehicle unlocks earlier in Season
+    03. The team says broader balance work is still in progress without a confirmed
+    release date.
+  latest_news_source_url: https://store.steampowered.com/news/app/1867240/view/679641571029680706
+  latest_news_updated_at: '2026-11-20T07:02:19+00:00'
 - id: world-of-warcraft-retail
   name: 'World of Warcraft: Retail'
   display_name: WoW:Retail
@@ -138,13 +139,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: WoW's 21st Anniversary Celebration runs November 16-December 7 at the
-    Caverns of Time, with a 20 percent XP and reputation bonus, event currencies,
-    activities, and the Loyal Watchman ensemble. Quests and activity completions are
-    tracked Warband-wide. Echoes of the Worldcore still has no confirmed live-launch
-    date.
-  latest_news_source_url: https://news.blizzard.com/en-us/article/24242432/join-the-world-of-warcraft-21st-anniversary-celebration
-  latest_news_updated_at: '2026-11-03T06:56:22+00:00'
+  latest_news: 'Midnight: Echoes of the Worldcore arrives December 1 with regional
+    maintenance, adding the Return to Dornogal campaign, Talebound, new Lorewalking
+    quests, Turbulent Timeways, and Omnium Folio additions. WoW''s 22nd Anniversary
+    Celebration runs November 17-December 8 at the Caverns of Time.'
+  latest_news_source_url: https://news.blizzard.com/en-us/article/24317679/midnight-echoes-of-the-worldcore-arrives-on-december-1
+  latest_news_updated_at: '2026-11-20T07:02:19+00:00'
 - id: world-of-warcraft-classic
   name: 'World of Warcraft: Classic'
   display_name: WoW:Classic
@@ -174,11 +174,11 @@ games:
   - beta
   - early_access
   latest_news: 'World of Warcraft: Forever is live worldwide and received another
-    official hotfix rollup on November 16 covering classes, dungeons, items, quests
-    and world issues. Initial raids Barrow Deeps, Hyjal Summit and Onyxia''s Lair
-    remain scheduled for December 9.'
-  latest_news_source_url: https://worldofwarcraft.blizzard.com/en-us/news/24315281/wow-forever-hotfixes-november-13-2026
-  latest_news_updated_at: '2026-11-17T06:56:40+00:00'
+    official hotfix rollup on November 17 covering classes, dungeons, quests and world
+    issues. Initial raids Barrow Deeps, Hyjal Summit and Onyxia''s Lair remain scheduled
+    for December 9.'
+  latest_news_source_url: https://worldofwarcraft.blizzard.com/en-us/news/24315281/wow-forever-hotfixes-november-17-2026
+  latest_news_updated_at: '2026-11-20T07:02:19+00:00'
 - id: enshrouded
   name: Enshrouded
   tracked_event_types:

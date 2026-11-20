@@ -10,17 +10,6 @@ events:
     verified, so this all-day entry uses the announced date.
   status: confirmed
   updated_at: '2026-10-09T07:21:18.273524+00:00'
-- id: gray-zone-warfare-rogue-ops-supporter-preview
-  game_id: gray-zone-warfare
-  title: Rogue Ops 0.5 Supporter Preview
-  type: early_access
-  date: '2026-10-19'
-  source_url: https://www.grayzonewarfare.com/news/update-05-teaser
-  notes: Early preview of the major Rogue Ops update, available to Supporter Edition
-    owners only. This is a preview milestone, not the public update release or a new
-    base-game launch. Launch time has not been announced in this source.
-  status: confirmed
-  updated_at: '2026-10-05T18:38:49Z'
 - id: gray-zone-warfare-rogue-ops
   logical_key: rogue-ops
   title: Rogue Ops 0.5
@@ -63,21 +52,6 @@ events:
     March 2027 evolution remains undated.
   status: confirmed
   updated_at: '2026-10-07T15:47:52+00:00'
-- logical_key: pve-toggle-beta
-  title: PvE Toggle Beta Test
-  type: beta
-  status: confirmed
-  start_at: '2026-10-13T11:00:00+02:00'
-  end_at: '2026-10-20T11:00:00+02:00'
-  source_timezone: Europe/Prague
-  source_url: https://arcraiders.com/news/pve-toggle-what-to-know
-  notes: 'Official test window: October 13 at 11:00 CEST through October 20 at 11:00
-    CEST. Optional PvE matchmaking removes player-to-player damage, lowers loot value,
-    and excludes Night Raid, Locked Gate, Hidden Bunker, Frigate, and Redirection.
-    This is a temporary beta, not confirmation of permanent PvE.'
-  id: arc-raiders-pve-toggle-beta
-  game_id: arc-raiders
-  updated_at: '2026-10-13T06:04:42.309789+00:00'
 - logical_key: trials-season-6-end
   title: 'Trials Season 6: Frozen Trials ends'
   type: season
@@ -228,20 +202,20 @@ events:
   id: world-of-warcraft-classic-mop-classic-joyous-journeys-november-2026
   game_id: world-of-warcraft-classic
   updated_at: '2026-11-03T06:56:22+00:00'
-- logical_key: 21st-anniversary-celebration
-  title: 21st Anniversary Celebration begins
+- id: world-of-warcraft-retail-21st-anniversary-celebration
+  logical_key: 21st-anniversary-celebration
+  title: 22nd Anniversary Celebration begins
   type: season
+  date: '2026-11-17'
   status: confirmed
-  date: '2026-11-16'
-  source_url: https://news.blizzard.com/en-us/article/24242432/join-the-world-of-warcraft-21st-anniversary-celebration
-  notes: 'Official event window: November 16 through December 7, 2026, at the Caverns
-    of Time in Tanaris. The celebration grants 20 percent bonus experience and reputation
-    and offers Warband-wide activities, event currencies and the Loyal Watchman ensemble.
-    Blizzard supplies no exact opening or closing hour, so this all-day entry records
-    the confirmed start date.'
-  id: world-of-warcraft-retail-21st-anniversary-celebration
+  source_url: https://news.blizzard.com/en-us/article/24316098/join-the-world-of-warcraft-22nd-anniversary-celebration
+  notes: 'Official event window: November 17 through December 8, 2026, at the Caverns
+    of Time in Tanaris. The celebration grants up to 20 percent bonus experience and
+    reputation and offers Warband-wide activities, event currencies and the Loyal
+    Watchman ensemble. Blizzard supplies no exact opening or closing hour, so this
+    all-day entry records the confirmed start date.'
   game_id: world-of-warcraft-retail
-  updated_at: '2026-11-03T06:56:22+00:00'
+  updated_at: '2026-11-20T07:02:19+00:00'
 - logical_key: update-three
   title: Update 3
   type: major_update
@@ -278,3 +252,16 @@ events:
   id: fallout-76-world-pets
   game_id: fallout-76
   updated_at: '2026-11-13T07:55:54+00:00'
+- logical_key: echoes-of-the-worldcore
+  title: 'Midnight: Echoes of the Worldcore'
+  type: major_update
+  date: '2026-12-01'
+  status: confirmed
+  source_url: https://news.blizzard.com/en-us/article/24317679/midnight-echoes-of-the-worldcore-arrives-on-december-1
+  notes: Adds the Return to Dornogal story campaign, Talebound, new Lorewalking quests,
+    Turbulent Timeways and Omnium Folio additions. Blizzard confirms December 1 with
+    regional maintenance but gives no exact launch hour, so this entry uses the announced
+    all-day date.
+  id: world-of-warcraft-retail-echoes-of-the-worldcore
+  game_id: world-of-warcraft-retail
+  updated_at: '2026-11-20T07:02:19+00:00'
