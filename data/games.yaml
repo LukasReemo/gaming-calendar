@@ -59,12 +59,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: The free Horrors of Kairos seasonal mini-event runs October 23-November
-    6, changing world-boss weather to blood rain and adding the Murmur Legendary assault
-    rifle and Skully Legendary grenade to boss rewards. A SHiFT code also grants two
-    cosmetic rewards. No later major release date was verified.
-  latest_news_source_url: https://borderlands.2k.com/en-GB/borderlands-4/news/horrors-of-kairos/
-  latest_news_updated_at: '2026-10-27T06:58:15+00:00'
+  latest_news: Gearbox says Borderlands 4's Year 1 roadmap is complete after two Story
+    Packs, five Bounty Packs, two Vault Hunters, and additional features and activities.
+    More content is in development for next year without a confirmed release date,
+    while weekly activities and community challenges will continue.
+  latest_news_source_url: https://steamcommunity.com/app/1285190/announcements/
+  latest_news_updated_at: '2026-11-24T06:58:20+00:00'
 - id: crimson-desert
   name: Crimson Desert
   tracked_event_types:
@@ -78,8 +78,8 @@ games:
   latest_news: Hotfix 2.05.01 launched November 19 with an inventory-examination adjustment
     and additional fixes. Charting the Unknown remains the latest major content release,
     and no later dated major milestone was announced.
-  latest_news_source_url: https://crimsondesert.pearlabyss.com/EN-US/News/Notice/Detail?_boardNo=158
-  latest_news_updated_at: '2026-11-20T07:02:19+00:00'
+  latest_news_source_url: https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=161
+  latest_news_updated_at: '2026-11-24T06:58:20+00:00'
 - id: arc-raiders
   name: ARC Raiders
   tracked_event_types:
@@ -174,11 +174,11 @@ games:
   - beta
   - early_access
   latest_news: 'World of Warcraft: Forever is live worldwide and received another
-    official hotfix rollup on November 17 covering classes, dungeons, quests and world
-    issues. Initial raids Barrow Deeps, Hyjal Summit and Onyxia''s Lair remain scheduled
-    for December 9.'
-  latest_news_source_url: https://worldofwarcraft.blizzard.com/en-us/news/24315281/wow-forever-hotfixes-november-17-2026
-  latest_news_updated_at: '2026-11-20T07:02:19+00:00'
+    official hotfix rollup on November 23 covering classes, dungeons, professions,
+    quests, items, and world issues. Initial raids Barrow Deeps, Hyjal Summit and
+    Onyxia''s Lair remain scheduled for December 9.'
+  latest_news_source_url: https://worldofwarcraft.blizzard.com/en-us/news/24315281/wow-forever-hotfixes-november-23-2026
+  latest_news_updated_at: '2026-11-24T06:58:20+00:00'
 - id: enshrouded
   name: Enshrouded
   tracked_event_types:
@@ -204,12 +204,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Update 3 Patch 03.02 launched November 11 with solo Save and Quit,
-    performance improvements, balance changes and many fixes. Ghost Ship's November
-    12 six-month recap published an updated roadmap and says work is shifting to Update
-    4, but it provides no confirmed release date.
-  latest_news_source_url: https://store.steampowered.com/news/app/2605790/view/690886614188034199
-  latest_news_updated_at: '2026-11-17T06:56:40+00:00'
+  latest_news: Rogue Core Patch 03.04 launched November 19 with fixes for Balgorath
+    synchronization, missing or misplaced gears, locked-room state, looping weapon
+    audio, and Expenite pickup text. Ghost Ship says the team is now fully focused
+    on Update 4, which still has no confirmed release date.
+  latest_news_source_url: https://steamcommunity.com/app/2605790/announcements/
+  latest_news_updated_at: '2026-11-24T06:58:20+00:00'
 - id: fallout-76
   name: Fallout 76
   tracked_event_types:
