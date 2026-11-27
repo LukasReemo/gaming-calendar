@@ -195,3 +195,30 @@ events:
   id: world-of-warcraft-retail-echoes-of-the-worldcore
   game_id: world-of-warcraft-retail
   updated_at: '2026-11-20T07:02:19+00:00'
+- logical_key: red-chest-rarity-boost-end
+  title: Red Chest Rarity Boost ends
+  type: season
+  start_at: '2026-12-01T09:00:00-08:00'
+  source_timezone: America/Los_Angeles
+  status: confirmed
+  source_url: https://steamcommunity.com/app/1285190/announcements/
+  notes: Gearbox confirms the limited boost ends December 1, 2026 at 9:00 a.m. Pacific
+    Time, equivalent to 18:00 Europe/Prague. During the boost, Red Chests have an
+    increased chance to drop higher-rarity loot; the opening time was described only
+    as already live and is not guessed.
+  id: borderlands-4-red-chest-rarity-boost-end
+  game_id: borderlands-4
+  updated_at: '2026-11-27T07:00:03+00:00'
+- logical_key: season-16-tyraels-gambit
+  title: 'Season 16: Season of Tyrael''s Gambit'
+  type: season
+  start_at: '2026-12-01T09:30:00-08:00'
+  source_timezone: America/Los_Angeles
+  status: confirmed
+  source_url: https://news.blizzard.com/en-us/article/24316979/advance-the-war-against-death-in-season-of-tyraels-gambit
+  notes: Official launch is December 1, 2026 at 9:30 a.m. Pacific Time, equivalent
+    to 18:30 Europe/Prague. Season 16 adds a dual Reaper encounter, revamped War Plans,
+    Tyrael's Boons, Horadric Items and persistent features from Season of Hell's Legacy.
+  id: diablo-iv-season-16-tyraels-gambit
+  game_id: diablo-iv
+  updated_at: '2026-11-27T07:00:03+00:00'

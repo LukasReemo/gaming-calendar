@@ -2,12 +2,12 @@ version: 1
 past_event_retention_days: 30
 games:
   diablo-iv:
-    last_attempt: '2026-11-20T07:02:19+00:00'
+    last_attempt: '2026-11-27T07:00:03+00:00'
     status: OK
-    message: Official Blizzard Diablo IV news and patch sources checked. A November
-      24 Developer Update livestream will reveal Season 16 details, but Blizzard still
-      has not published the season's live-launch date.
-    last_success: '2026-11-20T07:02:19+00:00'
+    message: Official Blizzard Diablo IV sources checked after the Developer Update.
+      Season 16, Season of Tyrael's Gambit, is confirmed for December 1 at 9:30 a.m.
+      Pacific Time.
+    last_success: '2026-11-27T07:00:03+00:00'
   path-of-exile-2:
     last_attempt: '2026-11-13T07:02:00+00:00'
     status: OK
@@ -23,41 +23,40 @@ games:
       major-update date.
     last_success: '2026-11-24T06:58:20+00:00'
   borderlands-4:
-    last_attempt: '2026-11-24T06:58:20+00:00'
+    last_attempt: '2026-11-27T07:00:03+00:00'
     status: warning
-    message: Official Gearbox Steam announcements were checked, but the Borderlands
-      4 first-party news pages remain inaccessible for complete direct review. The
-      Year 1 roadmap is complete and further content is planned without confirmed
-      dates, so existing calendar data is preserved.
+    message: Official Gearbox Steam announcements were checked, but the main Borderlands
+      4 news pages remain inaccessible for complete direct review. The current Red
+      Chest rarity boost has a confirmed December 1 end time; broader next-year content
+      remains undated.
   crimson-desert:
-    last_attempt: '2026-11-24T06:58:20+00:00'
+    last_attempt: '2026-11-27T07:00:03+00:00'
     status: OK
-    message: Official Crimson Desert announcements checked through hotfix 2.05.01.
-      The November 19 hotfix adjusts inventory examination and ships fixes, but no
-      new qualifying calendar date was announced.
-    last_success: '2026-11-24T06:58:20+00:00'
+    message: Official Crimson Desert announcements checked through Patch 2.06.00.
+      The November 26 patch contains content-system improvements and fixes but no
+      new qualifying future calendar date.
+    last_success: '2026-11-27T07:00:03+00:00'
   arc-raiders:
-    last_attempt: '2026-11-20T07:02:19+00:00'
+    last_attempt: '2026-11-27T07:00:03+00:00'
     status: OK
-    message: Official ARC Raiders news checked through Live Update 2.6.0. The November
-      17 release contains fixes, a stencil set and Cold Snap's return; its reference
-      to a project arriving next week lacks an exact date, so no calendar event was
-      added.
-    last_success: '2026-11-20T07:02:19+00:00'
+    message: Official ARC Raiders news checked through Store Update 2.7.0. Flickering
+      Flames and its Raider Project are already live; no additional qualifying future
+      date was announced.
+    last_success: '2026-11-27T07:00:03+00:00'
   marathon:
-    last_attempt: '2026-11-13T07:02:00+00:00'
+    last_attempt: '2026-11-27T07:00:03+00:00'
     status: OK
-    message: Official Marathon Update 1.1.9.7 and roadmap sources checked. Ordnance
-      Heist and the sponsored activities are limited live activities, so they remain
-      news-only; Symbiosis stays dated December 8.
-    last_success: '2026-11-13T07:02:00+00:00'
+    message: Official Marathon Update 1.1.9.7 and roadmap sources checked. The limited
+      November activities have ended; Symbiosis remains the next qualifying milestone
+      on December 8.
+    last_success: '2026-11-27T07:00:03+00:00'
   wardogs:
-    last_attempt: '2026-11-20T07:02:19+00:00'
+    last_attempt: '2026-11-27T07:00:03+00:00'
     status: OK
-    message: Official WARDOGS Steam announcements checked. Minor Balance Patch 0.31
-      changes prices and unlock levels after Season 03 but announces no new qualifying
-      dated milestone.
-    last_success: '2026-11-20T07:02:19+00:00'
+    message: Official WARDOGS Steam announcements checked through Minor Patch 0.32.
+      The November 25 patch contains player-facing fixes but no new qualifying dated
+      milestone.
+    last_success: '2026-11-27T07:00:03+00:00'
   world-of-warcraft-retail:
     last_attempt: '2026-11-20T07:02:19+00:00'
     status: OK
@@ -74,12 +73,12 @@ games:
       date was announced.
     last_success: '2026-11-24T06:58:20+00:00'
   world-of-warcraft-forever:
-    last_attempt: '2026-11-24T06:58:20+00:00'
+    last_attempt: '2026-11-27T07:00:03+00:00'
     status: OK
     message: Official Blizzard Forever roadmap and hotfix sources checked independently.
-      The November 23 hotfix rollup contains routine fixes only; initial raids remain
-      confirmed for December 9.
-    last_success: '2026-11-24T06:58:20+00:00'
+      The November 25 hotfix rollup contains class changes and routine fixes; initial
+      raids remain confirmed for December 9.
+    last_success: '2026-11-27T07:00:03+00:00'
   enshrouded:
     last_attempt: '2026-11-13T07:02:00+00:00'
     status: OK

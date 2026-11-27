@@ -9,12 +9,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Blizzard will reveal Diablo IV's next season in a Developer Update
-    livestream on November 24 at 11:00 a.m. Pacific Time, covering the seasonal quest
-    and a revamped two-boss Seasonal Lair fight. The stream is news-only; Season 16
-    still has no confirmed live-launch date.
-  latest_news_source_url: https://news.blizzard.com/en-us/article/24315746/join-our-next-developer-update-livestream
-  latest_news_updated_at: '2026-11-20T07:02:19+00:00'
+  latest_news: Diablo IV Season 16, Season of Tyrael's Gambit, launches December 1
+    at 9:30 a.m. Pacific Time. It adds a dual Reaper boss encounter, revamped War
+    Plans, Tyrael's Boons, Horadric Items, persistent Helltide changes, and selected
+    permanent features from Season of Hell's Legacy.
+  latest_news_source_url: https://news.blizzard.com/en-us/article/24316979/advance-the-war-against-death-in-season-of-tyraels-gambit
+  latest_news_updated_at: '2026-11-27T07:00:03+00:00'
 - id: path-of-exile-2
   name: Path of Exile 2
   tracked_event_types:
@@ -59,12 +59,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Gearbox says Borderlands 4's Year 1 roadmap is complete after two Story
-    Packs, five Bounty Packs, two Vault Hunters, and additional features and activities.
-    More content is in development for next year without a confirmed release date,
-    while weekly activities and community challenges will continue.
+  latest_news: Borderlands 4's limited Red Chest rarity boost runs through December
+    1 at 9:00 a.m. Pacific Time, increasing the chance for higher-rarity loot from
+    Red Chests. Gearbox is also developing more content for next year but has not
+    announced release dates.
   latest_news_source_url: https://steamcommunity.com/app/1285190/announcements/
-  latest_news_updated_at: '2026-11-24T06:58:20+00:00'
+  latest_news_updated_at: '2026-11-27T07:00:03+00:00'
 - id: crimson-desert
   name: Crimson Desert
   tracked_event_types:
@@ -75,11 +75,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Hotfix 2.05.01 launched November 19 with an inventory-examination adjustment
-    and additional fixes. Charting the Unknown remains the latest major content release,
-    and no later dated major milestone was announced.
-  latest_news_source_url: https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=161
-  latest_news_updated_at: '2026-11-24T06:58:20+00:00'
+  latest_news: Crimson Desert Patch 2.06.00 launched November 26 with storage, housing
+    and management improvements, cooking-tool enhancement, difficulty and control
+    adjustments, a frame-generation sharpness option, and numerous fixes. No later
+    dated major milestone was announced.
+  latest_news_source_url: https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=163
+  latest_news_updated_at: '2026-11-27T07:00:03+00:00'
 - id: arc-raiders
   name: ARC Raiders
   tracked_event_types:
@@ -90,12 +91,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: Live Update 2.6.0 launched November 17 with fixes and improvements,
-    a new Stencil set, and the return of Cold Snap. Embark says a new project is arriving
-    next week but gives no exact date, so it is not yet eligible for the calendar;
-    Trials Season 6 still ends January 12, 2027.
-  latest_news_source_url: https://arcraiders.com/news/live-update-2-6-0
-  latest_news_updated_at: '2026-11-20T07:02:19+00:00'
+  latest_news: ARC Raiders Store Update 2.7.0 launched November 24, adding the Flickering
+    Flames Raider Project and the Nessuno Set without requiring a restart. Trials
+    Season 6 still ends January 12, 2027, and no additional future milestone has a
+    confirmed date.
+  latest_news_source_url: https://arcraiders.com/news/store-update-2-7-0
+  latest_news_updated_at: '2026-11-27T07:00:03+00:00'
 - id: marathon
   name: Marathon
   tracked_event_types:
@@ -106,12 +107,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: 'Update 1.1.9.7 brought back Ordnance Heist for November 10-24, added
-    sponsored Night Marsh from November 12 and sponsored Survival: Perimeter through
-    November 17, and shipped fixes. These limited activities remain news-only. The
-    next qualifying major calendar milestone remains Symbiosis on December 8.'
-  latest_news_source_url: https://www.bungie.net/7/en/News/Article/marathon_update_1_1_9_7
-  latest_news_updated_at: '2026-11-13T07:02:00+00:00'
+  latest_news: Marathon Update 1.1.9.7's limited November activities have ended. The
+    next qualifying major calendar milestone remains Symbiosis on December 8, bringing
+    permanent PvE, an expanded Perimeter, the Bishop shell, a social space, Team Deathmatch,
+    and onboarding improvements.
+  latest_news_source_url: https://www.bungie.net/7/en/News/Article/nighfall_refresh_symbiosis_roadmap
+  latest_news_updated_at: '2026-11-27T07:00:03+00:00'
 - id: wardogs
   name: WARDOGS
   tracked_event_types:
@@ -122,12 +123,11 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: WARDOGS released Minor Balance Patch 0.31 on November 19, reducing
-    several weapon and item prices and moving four vehicle unlocks earlier in Season
-    03. The team says broader balance work is still in progress without a confirmed
-    release date.
-  latest_news_source_url: https://store.steampowered.com/news/app/1867240/view/679641571029680706
-  latest_news_updated_at: '2026-11-20T07:02:19+00:00'
+  latest_news: WARDOGS Minor Patch 0.32 launched November 25, improving Sabatulo load
+    times, highlighting the Community Server bonus, updating the CQ-2X scope reticle,
+    and fixing Gold Exchange pricing updates. No later major release date is confirmed.
+  latest_news_source_url: https://store.steampowered.com/news/app/1867240/view/679641571029681749
+  latest_news_updated_at: '2026-11-27T07:00:03+00:00'
 - id: world-of-warcraft-retail
   name: 'World of Warcraft: Retail'
   display_name: WoW:Retail
@@ -173,12 +173,12 @@ games:
   - major_update
   - beta
   - early_access
-  latest_news: 'World of Warcraft: Forever is live worldwide and received another
-    official hotfix rollup on November 23 covering classes, dungeons, professions,
-    quests, items, and world issues. Initial raids Barrow Deeps, Hyjal Summit and
-    Onyxia''s Lair remain scheduled for December 9.'
-  latest_news_source_url: https://worldofwarcraft.blizzard.com/en-us/news/24315281/wow-forever-hotfixes-november-23-2026
-  latest_news_updated_at: '2026-11-24T06:58:20+00:00'
+  latest_news: 'World of Warcraft: Forever received an official November 25 hotfix
+    rollup with class changes and fixes across dungeons, items, professions, riding,
+    quests, and other systems. Initial raids Barrow Deeps, Hyjal Summit and Onyxia''s
+    Lair remain scheduled for December 9.'
+  latest_news_source_url: https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-25-2026
+  latest_news_updated_at: '2026-11-27T07:00:03+00:00'
 - id: enshrouded
   name: Enshrouded
   tracked_event_types:
